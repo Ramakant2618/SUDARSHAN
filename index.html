@@ -1,0 +1,1061 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sudarshan – AI Government Scheme Discovery Platform</title>
+  <meta name="description" content="AI-Powered Government Scheme Discovery & Citizen Assistance Platform for Indian citizens. Discover central and state welfare programs in 10 languages.">
+  <meta name="keywords" content="government schemes, central schemes, madhya pradesh schemes, up schemes, scholarships, farmers, women, ayushman bharat, sudarshan">
+  
+  <!-- Open Graph / Meta -->
+  <meta property="og:title" content="Sudarshan – AI Government Scheme Discovery Platform">
+  <meta property="og:description" content="One intelligent platform to discover, understand, and apply for Indian welfare schemes.">
+  <meta property="og:type" content="website">
+
+  <!-- Favicon -->
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><circle cx=%2250%22 cy=%2250%22 r=%2245%22 fill=%22%232563eb%22/><path d=%22M50 20 L58 40 L80 42 L64 56 L69 78 L50 66 L31 78 L36 56 L20 42 L42 40 Z%22 fill=%22%23ffffff%22/></svg>">
+
+  <!-- Google Fonts: Inter & Noto Sans Devanagari -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Noto+Sans+Devanagari:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- Font Awesome Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <!-- Tailwind CSS CDN -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      darkMode: ['class', '[data-theme="dark"]'],
+      theme: {
+        extend: {
+          colors: {
+            sudarshan: {
+              50: '#eff6ff',
+              100: '#dbeafe',
+              500: '#3b82f6',
+              600: '#2563eb',
+              700: '#1d4ed8',
+              800: '#1e40af',
+              900: '#1e3a8a'
+            }
+          }
+        }
+      }
+    }
+  </script>
+
+  <!-- Custom Theme CSS -->
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body class="bg-slate-50 dark:bg-slate-950 text-slate-800 dark:text-slate-100 flex flex-col min-h-screen">
+
+  <!-- Top Independent Informational Disclaimer Banner -->
+  <aside class="bg-amber-50 dark:bg-amber-950/60 border-b border-amber-200 dark:border-amber-900/60 px-4 py-2 text-xs text-amber-900 dark:text-amber-200" aria-label="Legal Disclaimer">
+    <div class="max-w-7xl mx-auto flex items-center justify-between gap-3">
+      <div class="flex items-center gap-2">
+        <i class="fa-solid fa-triangle-exclamation text-amber-600 dark:text-amber-400 flex-shrink-0"></i>
+        <p data-i18n="brand.disclaimer">
+          Sudarshan is an independent informational platform and is not affiliated with or endorsed by any Government department. Users should verify eligibility, documents and application details on the concerned official government portal.
+        </p>
+      </div>
+      <span class="hidden md:inline-flex items-center gap-1 font-semibold text-[11px] bg-amber-200 dark:bg-amber-900 text-amber-900 dark:text-amber-200 px-2 py-0.5 rounded">
+        <i class="fa-solid fa-shield-halved"></i> Independent Civic-Tech
+      </span>
+    </div>
+  </aside>
+
+  <!-- Sticky Main Navbar -->
+  <header class="navbar-custom sticky top-0 z-40 bg-white/90 dark:bg-slate-900/90 backdrop-blur border-b border-slate-200 dark:border-slate-800">
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 h-16 flex items-center justify-between gap-4">
+      
+      <!-- Brand Logo -->
+      <a href="/" class="flex items-center gap-3 group">
+        <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-blue-600 to-indigo-600 text-white flex items-center justify-center shadow-md group-hover:scale-105 transition-transform">
+          <i class="fa-solid fa-sun text-lg"></i>
+        </div>
+        <div>
+          <div class="flex items-center gap-1.5">
+            <span class="text-xl font-extrabold tracking-tight brand-gradient">SUDARSHAN</span>
+            <span class="text-[10px] font-bold bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 px-1.5 py-0.5 rounded">AI 2.0</span>
+          </div>
+          <p class="text-[10px] text-slate-500 dark:text-slate-400 hidden sm:block truncate max-w-[280px]" data-i18n="brand.tagline">
+            AI-Powered Government Scheme Discovery & Citizen Assistance
+          </p>
+        </div>
+      </a>
+
+      <!-- Desktop Navigation Links -->
+      <nav class="hidden lg:flex items-center gap-6 text-sm font-medium text-slate-600 dark:text-slate-300">
+        <a href="#hero" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors" data-i18n="nav.home">Home</a>
+        <a href="#schemes-section" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors" data-i18n="nav.schemes">Schemes</a>
+        <a href="#states-section" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors" data-i18n="nav.states">States & UTs</a>
+        <a href="#eligibility-section" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors" data-i18n="nav.eligibility">Check Eligibility</a>
+        <a href="#dashboard-section" class="hover:text-blue-600 dark:hover:text-blue-400 transition-colors" data-i18n="nav.dashboard">Dashboard</a>
+      </nav>
+
+      <!-- Right Controls: Theme Toggle, Language Switcher, Auth -->
+      <div class="flex items-center gap-2 sm:gap-3">
+        
+        <!-- Theme Selector [☀ Light] [🌙 Dark] [💻 System] -->
+        <div class="hidden sm:flex items-center p-1 bg-slate-100 dark:bg-slate-800 rounded-lg border border-slate-200 dark:border-slate-700" role="group" aria-label="Theme selector">
+          <button data-theme-choice="light" class="theme-pill-btn active" title="Light mode">
+            <span>☀</span> <span data-i18n="theme.light">Light</span>
+          </button>
+          <button data-theme-choice="dark" class="theme-pill-btn" title="Dark mode">
+            <span>🌙</span> <span data-i18n="theme.dark">Dark</span>
+          </button>
+          <button data-theme-choice="system" class="theme-pill-btn" title="System preference">
+            <span>💻</span> <span data-i18n="theme.system">System</span>
+          </button>
+        </div>
+
+        <!-- Language Selector Dropdown (10 Indian Languages) -->
+        <div class="relative group">
+          <button class="px-3 py-1.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-800 text-xs font-semibold text-slate-700 dark:text-slate-200 hover:border-blue-500 flex items-center gap-1.5 shadow-sm">
+            <i class="fa-solid fa-language text-blue-600 text-sm"></i>
+            <span id="current-lang-label">English</span>
+            <i class="fa-solid fa-chevron-down text-[10px] text-slate-400"></i>
+          </button>
+          <!-- Dropdown Menu -->
+          <div class="absolute right-0 mt-1 w-44 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg shadow-xl py-1 hidden group-hover:block z-50">
+            <a href="#" data-lang-code="en" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">English <span>EN</span></a>
+            <a href="#" data-lang-code="hi" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between font-medium">हिन्दी <span>HI</span></a>
+            <a href="#" data-lang-code="mr" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">मराठी <span>MR</span></a>
+            <a href="#" data-lang-code="gu" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">ગુજરાતી <span>GU</span></a>
+            <a href="#" data-lang-code="bn" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">বাংলা <span>BN</span></a>
+            <a href="#" data-lang-code="ta" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">தமிழ் <span>TA</span></a>
+            <a href="#" data-lang-code="te" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">తెలుగు <span>TE</span></a>
+            <a href="#" data-lang-code="kn" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">ಕನ್ನಡ <span>KN</span></a>
+            <a href="#" data-lang-code="ml" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">മലയാളം <span>ML</span></a>
+            <a href="#" data-lang-code="pa" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700 flex justify-between">ਪੰਜਾਬੀ <span>PA</span></a>
+          </div>
+        </div>
+
+        <!-- Auth Buttons -->
+        <button id="nav-login-btn" onclick="AuthManager.openAuthModal()" class="px-3.5 py-1.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold shadow-sm transition-colors flex items-center gap-1.5">
+          <i class="fa-solid fa-arrow-right-to-bracket text-xs"></i>
+          <span data-i18n="nav.login">Login</span>
+        </button>
+
+        <div id="nav-user-dropdown" class="hidden relative group">
+          <button class="px-3 py-1.5 rounded-lg bg-slate-100 dark:bg-slate-800 text-xs font-semibold text-slate-700 dark:text-slate-200 border border-slate-200 dark:border-slate-700 flex items-center gap-2">
+            <i class="fa-solid fa-user-circle text-blue-600 text-sm"></i>
+            <span id="nav-user-name">Citizen</span>
+            <i class="fa-solid fa-chevron-down text-[10px]"></i>
+          </button>
+          <div class="absolute right-0 mt-1 w-36 bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg shadow-xl py-1 hidden group-hover:block z-50">
+            <a href="#dashboard-section" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700" data-i18n="nav.dashboard">Dashboard</a>
+            <a href="#eligibility-section" class="block px-3 py-1.5 text-xs text-slate-700 dark:text-slate-200 hover:bg-blue-50 dark:hover:bg-slate-700" data-i18n="nav.profile">Profile</a>
+            <button onclick="AuthManager.logout()" class="w-full text-left px-3 py-1.5 text-xs text-rose-600 hover:bg-rose-50 dark:hover:bg-rose-950/40" data-i18n="nav.logout">Logout</button>
+          </div>
+        </div>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button id="mobile-menu-btn" class="lg:hidden p-2 rounded-lg text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars text-lg"></i>
+        </button>
+      </div>
+
+    </div>
+
+    <!-- Mobile Drawer Menu -->
+    <div id="mobile-menu" class="hidden lg:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-900 px-4 pt-3 pb-4 space-y-2 text-sm font-medium">
+      <a href="#hero" class="block py-2 text-slate-700 dark:text-slate-200 hover:text-blue-600" data-i18n="nav.home">Home</a>
+      <a href="#schemes-section" class="block py-2 text-slate-700 dark:text-slate-200 hover:text-blue-600" data-i18n="nav.schemes">Schemes</a>
+      <a href="#states-section" class="block py-2 text-slate-700 dark:text-slate-200 hover:text-blue-600" data-i18n="nav.states">States & UTs</a>
+      <a href="#eligibility-section" class="block py-2 text-slate-700 dark:text-slate-200 hover:text-blue-600" data-i18n="nav.eligibility">Check Eligibility</a>
+      <a href="#dashboard-section" class="block py-2 text-slate-700 dark:text-slate-200 hover:text-blue-600" data-i18n="nav.dashboard">Dashboard</a>
+      <div class="pt-2 border-t border-slate-200 dark:border-slate-800 flex items-center gap-2">
+        <span class="text-xs text-slate-500">Theme:</span>
+        <button data-theme-choice="light" class="theme-pill-btn">☀ Light</button>
+        <button data-theme-choice="dark" class="theme-pill-btn">🌙 Dark</button>
+        <button data-theme-choice="system" class="theme-pill-btn">💻 System</button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero Section with AI Search and Voice Assistant -->
+  <section id="hero" class="hero-gradient py-12 md:py-20 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto text-center space-y-6">
+      
+      <!-- Badges -->
+      <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-950/60 border border-blue-200 dark:border-blue-800 text-blue-700 dark:text-blue-300 text-xs font-semibold shadow-sm">
+        <i class="fa-solid fa-sparkles text-amber-500"></i>
+        <span>AI-Powered Citizen Assistance Engine</span>
+      </div>
+
+      <!-- Main Headline -->
+      <h1 class="text-3xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight" data-i18n="hero.title">
+        Find Government Schemes You May Be Eligible For
+      </h1>
+
+      <p class="text-base sm:text-lg text-slate-600 dark:text-slate-300 max-w-2xl mx-auto" data-i18n="hero.subtitle">
+        One intelligent platform to discover, understand and access Indian government welfare schemes with natural language AI.
+      </p>
+
+      <!-- AI Search Box Container -->
+      <div class="pt-4 max-w-3xl mx-auto">
+        <form id="search-form" class="ai-search-wrapper flex items-center p-2 bg-white dark:bg-slate-900 shadow-xl rounded-2xl">
+          <div class="pl-3 text-slate-400">
+            <i class="fa-solid fa-magnifying-glass text-lg"></i>
+          </div>
+          <input 
+            type="text" 
+            id="main-search-input" 
+            class="w-full px-3 py-3 bg-transparent text-slate-900 dark:text-white text-sm sm:text-base focus:outline-none placeholder-slate-400"
+            data-i18n-placeholder="search.placeholder"
+            placeholder="Search schemes by keyword, state, age, category or describe your situation..."
+            aria-label="Search schemes"
+          />
+          
+          <!-- Voice Assistant Button (Generic AI Icon, no Google branding) -->
+          <button 
+            type="button" 
+            id="voice-search-btn" 
+            class="p-3 text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-slate-800 rounded-xl transition-colors flex-shrink-0"
+            title="Voice Assistant"
+            aria-label="Voice Search"
+          >
+            <i class="fa-solid fa-microphone-lines text-lg"></i>
+          </button>
+
+          <!-- Search Submit Button -->
+          <button 
+            type="submit" 
+            class="px-5 py-3 rounded-xl bg-blue-600 hover:bg-blue-700 text-white font-semibold text-sm transition-colors flex-shrink-0 shadow-md flex items-center gap-1.5"
+          >
+            <span data-i18n="search.button">Search</span>
+            <i class="fa-solid fa-arrow-right text-xs"></i>
+          </button>
+        </form>
+
+        <!-- Natural Query Suggestions -->
+        <div class="flex flex-wrap items-center justify-center gap-2 mt-4 text-xs">
+          <span class="text-slate-500 dark:text-slate-400 font-medium">Try asking:</span>
+          <button onclick="App.performNaturalSearch('I am a 20 year old student from Madhya Pradesh. Which scholarships can I apply for?')" class="px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 transition-colors">
+            "20 yr student MP scholarships"
+          </button>
+          <button onclick="App.performNaturalSearch('Madhya Pradesh farmer schemes')" class="px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 transition-colors">
+            "MP farmer schemes"
+          </button>
+          <button onclick="App.performNaturalSearch('Women schemes in Maharashtra')" class="px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 transition-colors">
+            "Women schemes Maharashtra"
+          </button>
+          <button onclick="App.performNaturalSearch('PM Surya Ghar solar rooftop subsidy')" class="px-2.5 py-1 rounded-full bg-slate-100 dark:bg-slate-800 hover:bg-blue-50 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 transition-colors">
+            "Solar rooftop subsidy"
+          </button>
+        </div>
+      </div>
+
+      <!-- Quick Category Chips -->
+      <div class="pt-6">
+        <div class="text-xs font-semibold text-slate-500 dark:text-slate-400 uppercase tracking-wider mb-3">Popular Categories</div>
+        <div id="quick-categories-chips" class="flex flex-wrap justify-center gap-2">
+          <!-- Populated dynamically via JS -->
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Trust Metrics & Key Statistics Banner -->
+  <section class="bg-white dark:bg-slate-900 border-b border-slate-200 dark:border-slate-800 py-6 px-4">
+    <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-4 text-center">
+      <div class="p-3">
+        <div class="text-2xl sm:text-3xl font-extrabold text-blue-600 dark:text-blue-400">50+</div>
+        <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Verified Schemes</div>
+      </div>
+      <div class="p-3">
+        <div class="text-2xl sm:text-3xl font-extrabold text-indigo-600 dark:text-indigo-400">36</div>
+        <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">States & Union Territories</div>
+      </div>
+      <div class="p-3">
+        <div class="text-2xl sm:text-3xl font-extrabold text-emerald-600 dark:text-emerald-400">10</div>
+        <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Supported Indian Languages</div>
+      </div>
+      <div class="p-3">
+        <div class="text-2xl sm:text-3xl font-extrabold text-amber-500">100%</div>
+        <div class="text-xs text-slate-500 dark:text-slate-400 font-medium">Free & Non-Governmental</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Main Schemes Section -->
+  <section id="schemes-section" class="py-12 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto w-full">
+    
+    <!-- Section Heading & Scope Tabs -->
+    <div class="flex flex-col md:flex-row md:items-center justify-between gap-4 mb-8">
+      <div>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white" data-i18n="nav.schemes">
+          Government Schemes
+        </h2>
+        <p id="schemes-count" class="text-sm text-slate-500 dark:text-slate-400 mt-1">
+          Loading available schemes...
+        </p>
+      </div>
+
+      <!-- Scope Filter Tabs (All / Central / State) -->
+      <div class="flex items-center gap-1 bg-slate-100 dark:bg-slate-800 p-1 rounded-xl self-start md:self-auto border border-slate-200 dark:border-slate-700">
+        <button data-scope-tab="All" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold bg-white dark:bg-slate-900 text-blue-600 dark:text-blue-400 shadow-sm transition-all active">
+          All Schemes
+        </button>
+        <button data-scope-tab="Central" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-300 hover:text-blue-600 transition-all">
+          Central Schemes
+        </button>
+        <button data-scope-tab="State" class="px-3.5 py-1.5 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-300 hover:text-blue-600 transition-all">
+          State Schemes
+        </button>
+      </div>
+    </div>
+
+    <!-- Filter Controls Toolbar -->
+    <div class="bg-white dark:bg-slate-900 p-4 rounded-xl border border-slate-200 dark:border-slate-800 shadow-sm mb-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3">
+        
+        <!-- State Filter -->
+        <div>
+          <label class="block text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-1" data-i18n="search.stateFilter">State / UT</label>
+          <select id="filter-state" class="w-full text-xs font-medium bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-2 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-blue-500">
+            <option value="All">All States & Central</option>
+          </select>
+        </div>
+
+        <!-- Category Filter -->
+        <div>
+          <label class="block text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-1" data-i18n="search.categoryFilter">Category</label>
+          <select id="filter-category" class="w-full text-xs font-medium bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-2 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-blue-500">
+            <option value="All">All Categories</option>
+          </select>
+        </div>
+
+        <!-- Gender Filter -->
+        <div>
+          <label class="block text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-1" data-i18n="search.genderFilter">Gender</label>
+          <select id="filter-gender" class="w-full text-xs font-medium bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-2 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-blue-500">
+            <option value="All">All Genders</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+          </select>
+        </div>
+
+        <!-- Sort By -->
+        <div>
+          <label class="block text-[11px] font-bold text-slate-500 uppercase tracking-wider mb-1" data-i18n="search.sort">Sort By</label>
+          <select id="filter-sort" class="w-full text-xs font-medium bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 rounded-lg p-2 text-slate-800 dark:text-slate-200 focus:outline-none focus:border-blue-500">
+            <option value="relevance">Relevance</option>
+            <option value="az">Scheme Name (A-Z)</option>
+            <option value="recent">Recently Verified</option>
+          </select>
+        </div>
+
+        <!-- Clear Button -->
+        <div class="flex items-end">
+          <button id="clear-filters-btn" class="w-full py-2 px-3 text-xs font-semibold rounded-lg bg-slate-100 dark:bg-slate-800 text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors flex items-center justify-center gap-1.5">
+            <i class="fa-solid fa-rotate-left"></i>
+            <span data-i18n="search.clear">Clear Filters</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Active search query and AI insight badge -->
+      <div class="mt-3 flex flex-wrap items-center gap-2">
+        <span id="active-query-badge" class="hidden text-xs bg-blue-100 dark:bg-blue-950 text-blue-700 dark:text-blue-300 px-2.5 py-0.5 rounded-full font-medium"></span>
+        <div id="ai-search-banner" class="hidden text-xs text-indigo-700 dark:text-indigo-300 bg-indigo-50 dark:bg-indigo-950/60 border border-indigo-200 dark:border-indigo-800 px-3 py-1 rounded-lg"></div>
+      </div>
+    </div>
+
+    <!-- Schemes Cards Grid -->
+    <div id="schemes-grid" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Skeleton Loaders -->
+      <div class="sudarshan-card p-5 animate-pulse space-y-4">
+        <div class="h-4 bg-slate-200 dark:bg-slate-800 rounded w-1/3"></div>
+        <div class="h-6 bg-slate-200 dark:bg-slate-800 rounded w-3/4"></div>
+        <div class="h-12 bg-slate-200 dark:bg-slate-800 rounded"></div>
+      </div>
+      <div class="sudarshan-card p-5 animate-pulse space-y-4">
+        <div class="h-4 bg-slate-200 dark:bg-slate-800 rounded w-1/3"></div>
+        <div class="h-6 bg-slate-200 dark:bg-slate-800 rounded w-3/4"></div>
+        <div class="h-12 bg-slate-200 dark:bg-slate-800 rounded"></div>
+      </div>
+      <div class="sudarshan-card p-5 animate-pulse space-y-4">
+        <div class="h-4 bg-slate-200 dark:bg-slate-800 rounded w-1/3"></div>
+        <div class="h-6 bg-slate-200 dark:bg-slate-800 rounded w-3/4"></div>
+        <div class="h-12 bg-slate-200 dark:bg-slate-800 rounded"></div>
+      </div>
+    </div>
+
+    <!-- Empty State -->
+    <div id="schemes-empty" class="hidden py-16 text-center space-y-3 bg-white dark:bg-slate-900 rounded-xl border border-slate-200 dark:border-slate-800 p-8">
+      <div class="w-16 h-16 rounded-full bg-slate-100 dark:bg-slate-800 flex items-center justify-center mx-auto text-slate-400 text-2xl">
+        <i class="fa-solid fa-magnifying-glass"></i>
+      </div>
+      <h3 class="text-lg font-bold text-slate-800 dark:text-slate-200">No Matching Schemes Found</h3>
+      <p class="text-sm text-slate-500 max-w-md mx-auto" data-i18n="search.noResults">
+        Try loosening filters or asking in a different way.
+      </p>
+      <button onclick="App.clearAllFilters()" class="mt-2 px-4 py-2 text-xs font-semibold rounded-lg bg-blue-600 text-white hover:bg-blue-700">
+        Reset All Filters
+      </button>
+    </div>
+
+  </section>
+
+  <!-- States & Union Territories Directory -->
+  <section id="states-section" class="py-12 bg-slate-100/60 dark:bg-slate-900/40 border-y border-slate-200 dark:border-slate-800 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto">
+      <div class="flex items-center justify-between mb-6">
+        <div>
+          <h2 class="text-2xl font-bold text-slate-900 dark:text-white" data-i18n="nav.states">
+            Indian States & Union Territories
+          </h2>
+          <p class="text-xs text-slate-500 mt-1">Explore verified welfare programs by individual State/UT directory</p>
+        </div>
+      </div>
+      
+      <div id="state-directory-grid" class="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-3">
+        <!-- Populated dynamically via JS -->
+      </div>
+    </div>
+  </section>
+
+  <!-- How Sudarshan Works -->
+  <section class="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+    <div class="text-center max-w-3xl mx-auto mb-12">
+      <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white" data-i18n="howItWorks.title">How Sudarshan Works</h2>
+      <p class="text-sm text-slate-500 dark:text-slate-400 mt-2" data-i18n="howItWorks.subtitle">
+        Empowering every Indian citizen in 5 simple transparent steps
+      </p>
+    </div>
+
+    <div class="grid grid-cols-1 md:grid-cols-5 gap-4">
+      <div class="sudarshan-card p-5 text-center space-y-3">
+        <div class="w-12 h-12 rounded-xl bg-blue-100 dark:bg-blue-950 text-blue-600 dark:text-blue-400 flex items-center justify-center mx-auto text-xl">
+          <i class="fa-solid fa-user-pen"></i>
+        </div>
+        <h4 class="font-bold text-sm text-slate-800 dark:text-slate-100" data-i18n="howItWorks.step1.title">1. Tell Us About Yourself</h4>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed" data-i18n="howItWorks.step1.desc">
+          Enter basic details or query naturally in Hindi, English or regional languages.
+        </p>
+      </div>
+
+      <div class="sudarshan-card p-5 text-center space-y-3">
+        <div class="w-12 h-12 rounded-xl bg-indigo-100 dark:bg-indigo-950 text-indigo-600 dark:text-indigo-400 flex items-center justify-center mx-auto text-xl">
+          <i class="fa-solid fa-wand-magic-sparkles"></i>
+        </div>
+        <h4 class="font-bold text-sm text-slate-800 dark:text-slate-100" data-i18n="howItWorks.step2.title">2. Find Matching Schemes</h4>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed" data-i18n="howItWorks.step2.desc">
+          Our smart semantic engine analyzes central and state databases for tailored programs.
+        </p>
+      </div>
+
+      <div class="sudarshan-card p-5 text-center space-y-3">
+        <div class="w-12 h-12 rounded-xl bg-emerald-100 dark:bg-emerald-950 text-emerald-600 dark:text-emerald-400 flex items-center justify-center mx-auto text-xl">
+          <i class="fa-solid fa-clipboard-check"></i>
+        </div>
+        <h4 class="font-bold text-sm text-slate-800 dark:text-slate-100" data-i18n="howItWorks.step3.title">3. Check Eligibility</h4>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed" data-i18n="howItWorks.step3.desc">
+          Review transparent criteria evaluations showing matched rules and missing details.
+        </p>
+      </div>
+
+      <div class="sudarshan-card p-5 text-center space-y-3">
+        <div class="w-12 h-12 rounded-xl bg-amber-100 dark:bg-amber-950 text-amber-600 dark:text-amber-400 flex items-center justify-center mx-auto text-xl">
+          <i class="fa-solid fa-file-invoice"></i>
+        </div>
+        <h4 class="font-bold text-sm text-slate-800 dark:text-slate-100" data-i18n="howItWorks.step4.title">4. View Documents</h4>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed" data-i18n="howItWorks.step4.desc">
+          Get a structured checklist of all certificates and IDs required beforehand.
+        </p>
+      </div>
+
+      <div class="sudarshan-card p-5 text-center space-y-3">
+        <div class="w-12 h-12 rounded-xl bg-rose-100 dark:bg-rose-950 text-rose-600 dark:text-rose-400 flex items-center justify-center mx-auto text-xl">
+          <i class="fa-solid fa-arrow-up-right-from-square"></i>
+        </div>
+        <h4 class="font-bold text-sm text-slate-800 dark:text-slate-100" data-i18n="howItWorks.step5.title">5. Apply on Official Portal</h4>
+        <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed" data-i18n="howItWorks.step5.desc">
+          Proceed safely to verified government URLs with complete guidance.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Interactive Citizen Profile & Transparent Eligibility Checker -->
+  <section id="eligibility-section" class="py-12 bg-white dark:bg-slate-900 border-t border-slate-200 dark:border-slate-800 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-4xl mx-auto">
+      <div class="text-center mb-8">
+        <div class="inline-flex items-center gap-1.5 px-3 py-1 rounded-full bg-blue-50 dark:bg-blue-950 text-blue-700 dark:text-blue-300 text-xs font-semibold mb-2">
+          <i class="fa-solid fa-user-check"></i>
+          <span>Rule-Based Transparent Engine</span>
+        </div>
+        <h2 class="text-2xl sm:text-3xl font-bold text-slate-900 dark:text-white" data-i18n="profile.title">
+          Citizen Profile & Eligibility Engine
+        </h2>
+        <p class="text-sm text-slate-500 dark:text-slate-400 max-w-xl mx-auto mt-1" data-i18n="profile.subtitle">
+          Complete your profile to unlock accurate, transparent eligibility evaluations.
+        </p>
+      </div>
+
+      <form id="citizen-profile-form" onsubmit="event.preventDefault();" class="sudarshan-card p-6 space-y-6">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
+          
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.name">Full Name</label>
+            <input type="text" id="prof-name" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500" placeholder="e.g. Ramakant Sharma">
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.age">Age (Years)</label>
+            <input type="number" id="prof-age" min="1" max="110" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500" placeholder="e.g. 21">
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.gender">Gender</label>
+            <select id="prof-gender" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500">
+              <option value="">Select Gender</option>
+              <option value="Female">Female</option>
+              <option value="Male">Male</option>
+              <option value="Other">Other</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.state">State / UT</label>
+            <select id="prof-state" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500">
+              <option value="">Select State</option>
+              <option value="Madhya Pradesh">Madhya Pradesh</option>
+              <option value="Uttar Pradesh">Uttar Pradesh</option>
+              <option value="Maharashtra">Maharashtra</option>
+              <option value="Rajasthan">Rajasthan</option>
+              <option value="Bihar">Bihar</option>
+              <option value="Delhi">Delhi</option>
+              <option value="Haryana">Haryana</option>
+              <option value="Karnataka">Karnataka</option>
+              <option value="West Bengal">West Bengal</option>
+              <option value="Gujarat">Gujarat</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.district">District</label>
+            <input type="text" id="prof-district" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500" placeholder="e.g. Bhopal">
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.occupation">Occupation</label>
+            <select id="prof-occupation" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500">
+              <option value="">Select Occupation</option>
+              <option value="Student">Student</option>
+              <option value="Farmer">Farmer / Agriculture</option>
+              <option value="Unemployed">Unemployed / Jobseeker</option>
+              <option value="Self Employed">Self Employed / Artisan</option>
+              <option value="Homemaker">Homemaker</option>
+              <option value="Salaried">Salaried Employee</option>
+              <option value="Senior Citizen">Senior Citizen / Retired</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.education">Highest Education</label>
+            <select id="prof-education" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500">
+              <option value="">Select Education</option>
+              <option value="Below 10th">Below 10th</option>
+              <option value="10th Pass">10th Pass</option>
+              <option value="12th Pass">12th Pass</option>
+              <option value="Diploma">Diploma / ITI</option>
+              <option value="Graduate">Graduate</option>
+              <option value="Postgraduate">Postgraduate</option>
+            </select>
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.income">Annual Family Income (₹)</label>
+            <input type="number" id="prof-income" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500" placeholder="e.g. 150000">
+          </div>
+
+          <div>
+            <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="profile.category">Social Category</label>
+            <select id="prof-category" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500">
+              <option value="">Select Category</option>
+              <option value="General">General</option>
+              <option value="OBC">OBC</option>
+              <option value="SC">SC (Scheduled Caste)</option>
+              <option value="ST">ST (Scheduled Tribe)</option>
+              <option value="EWS">EWS</option>
+            </select>
+          </div>
+
+        </div>
+
+        <p class="text-[11px] text-slate-500 dark:text-slate-400 italic" data-i18n="profile.privacyNote">
+          Privacy note: Profile information is stored locally in your browser and used only to personalize scheme discovery.
+        </p>
+
+        <div class="flex items-center gap-3 pt-2">
+          <button type="button" id="save-profile-btn" class="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-sm flex items-center gap-1.5 transition-colors">
+            <i class="fa-solid fa-floppy-disk"></i>
+            <span data-i18n="profile.save">Save Profile</span>
+          </button>
+          <button type="button" id="clear-profile-btn" class="px-4 py-2.5 rounded-lg bg-slate-100 dark:bg-slate-800 hover:bg-slate-200 dark:hover:bg-slate-700 text-slate-600 dark:text-slate-300 font-semibold text-xs transition-colors">
+            <span data-i18n="profile.clear">Clear Profile</span>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+  <!-- Citizen Dashboard -->
+  <section id="dashboard-section" class="py-12 bg-slate-100/60 dark:bg-slate-900/40 border-t border-slate-200 dark:border-slate-800 px-4 sm:px-6 lg:px-8">
+    <div class="max-w-7xl mx-auto space-y-8">
+      
+      <!-- Dashboard Header & Profile Meter -->
+      <div class="sudarshan-card p-6 flex flex-col md:flex-row md:items-center justify-between gap-6">
+        <div>
+          <h2 class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white" data-i18n="dashboard.welcome">
+            Welcome to Citizen Dashboard
+          </h2>
+          <p class="text-xs text-slate-500 dark:text-slate-400 mt-1" data-i18n="dashboard.subtitle">
+            Here is your personalized scheme intelligence overview.
+          </p>
+        </div>
+
+        <!-- Dynamic Profile Completion Meter -->
+        <div class="w-full md:w-64 bg-slate-50 dark:bg-slate-800 p-3.5 rounded-xl border border-slate-200 dark:border-slate-700">
+          <div class="flex items-center justify-between text-xs font-semibold mb-1.5">
+            <span data-i18n="dashboard.profileCompletion">Profile Completion</span>
+            <span id="profile-completion-text" class="text-blue-600 dark:text-blue-400 font-bold">0%</span>
+          </div>
+          <div class="w-full bg-slate-200 dark:bg-slate-700 h-2 rounded-full overflow-hidden">
+            <div id="profile-completion-meter" class="bg-gradient-to-r from-blue-500 to-indigo-600 h-2 rounded-full transition-all duration-500" style="width: 0%"></div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Dashboard 3 Columns: Recommendations, Bookmarked, Recently Viewed -->
+      <div class="grid grid-cols-1 lg:grid-cols-3 gap-6">
+        
+        <!-- Column 1: Personalized Recommendations -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-sparkles text-amber-500"></i>
+            <h3 class="font-bold text-sm text-slate-900 dark:text-white" data-i18n="dashboard.recommended">Recommended For You</h3>
+          </div>
+          <div id="dashboard-recommended-schemes" class="space-y-3">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- Column 2: Saved / Bookmarked Schemes -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-bookmark text-blue-500"></i>
+            <h3 class="font-bold text-sm text-slate-900 dark:text-white" data-i18n="dashboard.savedSchemes">Your Bookmarked Schemes</h3>
+          </div>
+          <div id="dashboard-saved-schemes" class="space-y-3">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+        <!-- Column 3: Recently Viewed Schemes -->
+        <div class="space-y-4">
+          <div class="flex items-center gap-2">
+            <i class="fa-solid fa-clock-rotate-left text-indigo-500"></i>
+            <h3 class="font-bold text-sm text-slate-900 dark:text-white" data-i18n="dashboard.recentlyViewed">Recently Viewed</h3>
+          </div>
+          <div id="dashboard-recent-schemes" class="space-y-3">
+            <!-- Populated via JS -->
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+  <!-- Footer with Legal Non-Affiliation Disclaimer -->
+  <footer class="bg-white dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800 pt-12 pb-8 px-4 sm:px-6 lg:px-8 mt-auto">
+    <div class="max-w-7xl mx-auto space-y-8">
+      
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        
+        <!-- About Col -->
+        <div class="space-y-3">
+          <div class="flex items-center gap-2">
+            <div class="w-8 h-8 rounded-lg bg-blue-600 text-white flex items-center justify-center font-bold">S</div>
+            <span class="font-extrabold text-lg brand-gradient">SUDARSHAN</span>
+          </div>
+          <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed" data-i18n="footer.aboutText">
+            Sudarshan is an AI-powered national civic-tech platform designed to simplify government welfare scheme discovery for citizens across India.
+          </p>
+        </div>
+
+        <!-- Quick Links -->
+        <div class="space-y-2 text-xs">
+          <h4 class="font-bold text-slate-800 dark:text-slate-200 uppercase tracking-wider mb-2" data-i18n="footer.quickLinks">Quick Links</h4>
+          <div><a href="#hero" class="text-slate-500 hover:text-blue-600">Home</a></div>
+          <div><a href="#schemes-section" class="text-slate-500 hover:text-blue-600">Explore Schemes</a></div>
+          <div><a href="#states-section" class="text-slate-500 hover:text-blue-600">State Directory</a></div>
+          <div><a href="#eligibility-section" class="text-slate-500 hover:text-blue-600">Check Eligibility</a></div>
+          <div><a href="#dashboard-section" class="text-slate-500 hover:text-blue-600">Citizen Dashboard</a></div>
+        </div>
+
+        <!-- Verified Official Portals -->
+        <div class="space-y-2 text-xs">
+          <h4 class="font-bold text-slate-800 dark:text-slate-200 uppercase tracking-wider mb-2" data-i18n="footer.importantPortals">Important Official Portals</h4>
+          <div><a href="https://www.myscheme.gov.in" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-blue-600">myScheme Portal ↗</a></div>
+          <div><a href="https://www.india.gov.in" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-blue-600">National Portal of India ↗</a></div>
+          <div><a href="https://scholarships.gov.in" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-blue-600">National Scholarship Portal ↗</a></div>
+          <div><a href="https://pmkisan.gov.in" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-blue-600">PM-KISAN Portal ↗</a></div>
+          <div><a href="https://www.digilocker.gov.in" target="_blank" rel="noopener noreferrer" class="text-slate-500 hover:text-blue-600">DigiLocker ↗</a></div>
+        </div>
+
+        <!-- Hackathon & Verification Info -->
+        <div class="space-y-3 text-xs">
+          <h4 class="font-bold text-slate-800 dark:text-slate-200 uppercase tracking-wider mb-2">Hackathon Edition</h4>
+          <p class="text-slate-500 leading-relaxed">
+            Built as a comprehensive AI civic-tech prototype demonstrating natural language discovery, 10-language UI localization, and transparent eligibility matching.
+          </p>
+          <div class="p-2.5 rounded-lg bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-[11px] text-slate-500">
+            <i class="fa-solid fa-code text-blue-500 mr-1"></i> Mode: Production-ready Node.js API + Responsive SPA
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Legal Disclaimer Banner -->
+      <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-800 text-xs text-slate-500 dark:text-slate-400 space-y-1">
+        <p class="font-semibold text-slate-700 dark:text-slate-300">
+          Independent Informational Platform — Not an Official Government Website
+        </p>
+        <p data-i18n="brand.disclaimer">
+          Sudarshan is an independent informational platform and is not affiliated with or endorsed by any Government department. Users should verify eligibility, documents and application details on the concerned official government portal.
+        </p>
+      </div>
+
+      <div class="flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-slate-400 border-t border-slate-100 dark:border-slate-800 pt-6">
+        <div>© 2026 SUDARSHAN. <span data-i18n="footer.allRights">All rights reserved.</span></div>
+        <div data-i18n="footer.hackathon">Created for National Level Hackathon</div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- ============================================================== -->
+  <!-- MODALS -->
+  <!-- ============================================================== -->
+
+  <!-- 1. Scheme Details Modal -->
+  <div id="scheme-modal" class="fixed inset-0 z-50 modal-backdrop hidden items-center justify-center p-4 overflow-y-auto" role="dialog" aria-modal="true" aria-labelledby="modal-scheme-title">
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl max-w-3xl w-full max-h-[90vh] flex flex-col overflow-hidden animate-in fade-in zoom-in-95 duration-200">
+      
+      <!-- Modal Header -->
+      <div class="p-5 border-b border-slate-200 dark:border-slate-800 flex items-start justify-between gap-4 bg-slate-50 dark:bg-slate-900/80">
+        <div>
+          <div class="flex flex-wrap items-center gap-2 mb-2">
+            <span id="modal-scope-badge" class="text-xs px-2.5 py-0.5 rounded-full font-semibold bg-blue-100 text-blue-800 dark:bg-blue-950 dark:text-blue-300"></span>
+            <span id="modal-category-badge" class="text-xs px-2.5 py-0.5 rounded-full font-medium bg-slate-200 text-slate-700 dark:bg-slate-800 dark:text-slate-300"></span>
+          </div>
+          <h3 id="modal-scheme-title" class="text-xl sm:text-2xl font-bold text-slate-900 dark:text-white leading-snug"></h3>
+          <p id="modal-scheme-subtitle" class="text-xs text-slate-500 mt-0.5"></p>
+        </div>
+        <button data-close-modal="scheme-modal" class="p-2 rounded-lg text-slate-400 hover:text-slate-600 dark:hover:text-slate-200 hover:bg-slate-100 dark:hover:bg-slate-800" aria-label="Close modal">
+          <i class="fa-solid fa-xmark text-lg"></i>
+        </button>
+      </div>
+
+      <!-- Action Toolbar (Read Aloud, Print, Share, Save) -->
+      <div class="px-5 py-2.5 bg-slate-100/60 dark:bg-slate-800/40 border-b border-slate-200 dark:border-slate-800 flex flex-wrap items-center justify-between gap-2 text-xs">
+        
+        <!-- Read Aloud Speech Synthesizer -->
+        <div class="flex items-center gap-1.5">
+          <span class="font-semibold text-slate-600 dark:text-slate-300"><i class="fa-solid fa-volume-high text-blue-500 mr-1"></i> Read:</span>
+          <button id="tts-play-btn" class="px-2.5 py-1 rounded bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:text-blue-600 flex items-center gap-1">
+            <i class="fa-solid fa-play text-[10px]"></i> Play
+          </button>
+          <button id="tts-pause-btn" class="hidden px-2.5 py-1 rounded bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:text-amber-600 flex items-center gap-1">
+            <i class="fa-solid fa-pause text-[10px]"></i> Pause
+          </button>
+          <button id="tts-stop-btn" class="hidden px-2.5 py-1 rounded bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:text-rose-600 flex items-center gap-1">
+            <i class="fa-solid fa-stop text-[10px]"></i> Stop
+          </button>
+        </div>
+
+        <!-- Utilities -->
+        <div class="flex items-center gap-2">
+          <button id="modal-save-btn" class="px-2.5 py-1 rounded bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:text-amber-500 flex items-center gap-1">
+            <i class="fa-regular fa-bookmark"></i>
+            <span>Save</span>
+          </button>
+          <button id="modal-share-btn" class="px-2.5 py-1 rounded bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:text-blue-500 flex items-center gap-1">
+            <i class="fa-solid fa-share-nodes"></i>
+            <span>Share</span>
+          </button>
+          <button id="modal-print-btn" class="px-2.5 py-1 rounded bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:text-indigo-500 flex items-center gap-1">
+            <i class="fa-solid fa-print"></i>
+            <span>Print</span>
+          </button>
+        </div>
+
+      </div>
+
+      <!-- Modal Scrollable Content -->
+      <div class="p-6 overflow-y-auto space-y-6 text-sm text-slate-700 dark:text-slate-200">
+        
+        <!-- Live Citizen Eligibility Breakdown -->
+        <div id="modal-eligibility-breakdown"></div>
+
+        <!-- Overview -->
+        <div>
+          <h4 class="font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2" data-i18n="scheme.overview">Overview</h4>
+          <p id="modal-scheme-desc" class="leading-relaxed"></p>
+        </div>
+
+        <!-- Benefits -->
+        <div>
+          <h4 class="font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2" data-i18n="scheme.benefits">Key Benefits</h4>
+          <ul id="modal-benefits-list" class="space-y-2"></ul>
+        </div>
+
+        <!-- Eligibility Criteria -->
+        <div>
+          <h4 class="font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2" data-i18n="scheme.eligibility">Eligibility Criteria</h4>
+          <p id="modal-eligibility-text" class="leading-relaxed p-3.5 rounded-lg bg-slate-50 dark:bg-slate-800/60 border border-slate-200 dark:border-slate-800 text-xs sm:text-sm"></p>
+        </div>
+
+        <!-- Required Documents -->
+        <div>
+          <h4 class="font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2" data-i18n="scheme.documents">Required Documents</h4>
+          <ul id="modal-documents-list" class="space-y-2"></ul>
+        </div>
+
+        <!-- How to Apply -->
+        <div>
+          <h4 class="font-bold text-xs uppercase tracking-wider text-slate-500 dark:text-slate-400 mb-2" data-i18n="scheme.howToApply">How to Apply</h4>
+          <ol id="modal-steps-list" class="space-y-2.5"></ol>
+        </div>
+
+        <!-- Department and Verified Contacts -->
+        <div class="p-4 rounded-xl bg-slate-50 dark:bg-slate-800/40 border border-slate-200 dark:border-slate-800 space-y-2 text-xs">
+          <div class="flex items-center gap-2">
+            <span class="font-bold text-slate-500" data-i18n="scheme.department">Department:</span>
+            <span id="modal-dept-text" class="font-medium text-slate-800 dark:text-slate-100"></span>
+          </div>
+          <div class="flex items-center gap-2">
+            <span class="font-bold text-slate-500" data-i18n="scheme.lastVerified">Last Verified:</span>
+            <span id="modal-verified-text" class="font-medium"></span>
+          </div>
+          <div id="modal-helpline-container" class="hidden flex items-center gap-2">
+            <span class="font-bold text-slate-500" data-i18n="scheme.helpline">Official Helpline:</span>
+            <span id="modal-helpline-text" class="font-semibold text-blue-600 dark:text-blue-400"></span>
+          </div>
+        </div>
+
+        <!-- Official External Website Redirection Notice -->
+        <div class="p-3.5 rounded-lg bg-amber-50 dark:bg-amber-950/40 border border-amber-200 dark:border-amber-900/60 text-xs text-amber-800 dark:text-amber-300 flex items-start gap-2.5">
+          <i class="fa-solid fa-shield-halved mt-0.5 text-amber-600"></i>
+          <span data-i18n="scheme.officialPortalWarning">
+            You will be redirected to the verified official government portal. Ensure you submit applications only on official .gov.in or .nic.in domains.
+          </span>
+        </div>
+
+      </div>
+
+      <!-- Modal Footer -->
+      <div class="p-4 border-t border-slate-200 dark:border-slate-800 bg-slate-50 dark:bg-slate-900/80 flex items-center justify-between gap-3">
+        <a id="modal-whatsapp-btn" href="#" target="_blank" class="hidden px-4 py-2 rounded-lg bg-emerald-600 hover:bg-emerald-700 text-white font-semibold text-xs transition-colors flex items-center gap-1.5 shadow-sm">
+          <i class="fa-brands fa-whatsapp text-sm"></i>
+          <span data-i18n="scheme.whatsapp">Chat on WhatsApp</span>
+        </a>
+
+        <div class="flex items-center gap-2 ml-auto">
+          <button data-close-modal="scheme-modal" class="px-4 py-2 rounded-lg text-xs font-semibold text-slate-600 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-800 transition-colors">
+            Close
+          </button>
+          <a id="modal-apply-btn" href="#" target="_blank" rel="noopener noreferrer" class="px-5 py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white font-semibold text-xs shadow-md transition-colors flex items-center gap-1.5">
+            <span data-i18n="scheme.applyNow">Apply on Official Portal</span>
+            <i class="fa-solid fa-arrow-up-right-from-square text-xs"></i>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 2. AI Voice Assistant Modal -->
+  <div id="voice-modal" class="fixed inset-0 z-50 modal-backdrop hidden items-center justify-center p-4" role="dialog" aria-modal="true">
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl max-w-md w-full p-6 text-center space-y-6">
+      
+      <div class="flex items-center justify-between">
+        <div class="flex items-center gap-2">
+          <div class="w-7 h-7 rounded-lg bg-blue-600 text-white flex items-center justify-center text-xs">
+            <i class="fa-solid fa-wave-square"></i>
+          </div>
+          <span class="text-sm font-bold text-slate-800 dark:text-slate-200" data-i18n="voice.modalTitle">Sudarshan Voice Assistant</span>
+        </div>
+        <button onclick="VoiceAssistant.closeModal()" class="text-slate-400 hover:text-slate-600">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <!-- Animated Waveform -->
+      <div id="voice-waveform" class="waveform-container my-4">
+        <div class="waveform-bar"></div>
+        <div class="waveform-bar"></div>
+        <div class="waveform-bar"></div>
+        <div class="waveform-bar"></div>
+        <div class="waveform-bar"></div>
+      </div>
+
+      <div>
+        <p id="voice-modal-status" class="text-sm font-semibold text-blue-600 dark:text-blue-400 mb-1" data-i18n="voice.listening">
+          Listening... Speak now in your selected language
+        </p>
+        <div class="min-h-[50px] p-3 rounded-lg bg-slate-50 dark:bg-slate-800 border border-slate-200 dark:border-slate-700 text-sm font-medium text-slate-800 dark:text-slate-100 flex items-center justify-center">
+          <span id="voice-transcript-text">...</span>
+        </div>
+      </div>
+
+      <div class="text-xs text-slate-400" data-i18n="voice.trySaying">
+        Try saying: 'Show student scholarships in Madhya Pradesh'
+      </div>
+
+      <div class="pt-2">
+        <button onclick="VoiceAssistant.closeModal()" class="px-5 py-2 rounded-lg bg-slate-100 dark:bg-slate-800 text-xs font-semibold text-slate-600 dark:text-slate-300 hover:bg-slate-200">
+          Cancel
+        </button>
+      </div>
+
+    </div>
+  </div>
+
+  <!-- 3. Demo Authentication Modal -->
+  <div id="auth-modal" class="fixed inset-0 z-50 modal-backdrop hidden items-center justify-center p-4" role="dialog" aria-modal="true">
+    <div class="bg-white dark:bg-slate-900 border border-slate-200 dark:border-slate-800 rounded-2xl shadow-2xl max-w-sm w-full p-6 space-y-5">
+      
+      <div class="flex items-center justify-between">
+        <div>
+          <h3 class="text-lg font-bold text-slate-900 dark:text-white" data-i18n="auth.modalTitle">Sign In to Sudarshan</h3>
+          <span class="inline-block mt-0.5 text-[10px] font-semibold bg-amber-100 dark:bg-amber-950 text-amber-800 dark:text-amber-300 px-2 py-0.5 rounded" data-i18n="auth.demoBadge">
+            Demo Authentication Architecture
+          </span>
+        </div>
+        <button onclick="AuthManager.closeAuthModal()" class="text-slate-400 hover:text-slate-600">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+
+      <form id="auth-form" onsubmit="event.preventDefault();" class="space-y-4">
+        <div>
+          <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="auth.enterMobileEmail">Mobile Number or Email</label>
+          <input type="text" id="auth-identifier" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500" placeholder="e.g. 9876543210 or user@example.com" value="citizen@sudarshan.in">
+        </div>
+
+        <button type="button" id="auth-send-otp-btn" class="w-full py-2.5 rounded-lg bg-blue-50 dark:bg-blue-950 text-blue-600 dark:text-blue-400 border border-blue-200 dark:border-blue-800 text-xs font-bold hover:bg-blue-100 transition-colors">
+          <span data-i18n="auth.sendOtp">Send Demo OTP</span>
+        </button>
+
+        <div id="otp-group">
+          <label class="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1" data-i18n="auth.otpLabel">Enter 6-Digit OTP</label>
+          <div class="flex gap-2">
+            <input type="text" id="auth-otp-input" maxlength="6" class="w-full text-xs p-2.5 rounded-lg border border-slate-200 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 focus:outline-none focus:border-blue-500 tracking-widest text-center font-mono font-bold" placeholder="123456" value="123456">
+          </div>
+          <p class="text-[10px] text-slate-400 mt-1" data-i18n="auth.demoHint">
+            Demo Mode: Click 'Send Demo OTP' and use OTP code 123456 to log in.
+          </p>
+        </div>
+
+        <button type="button" id="auth-verify-btn" class="w-full py-2.5 rounded-lg bg-blue-600 hover:bg-blue-700 text-white text-xs font-bold shadow-md transition-colors">
+          <span data-i18n="auth.verifyOtp">Verify & Login</span>
+        </button>
+
+        <div class="text-center text-[10px] text-slate-400 pt-1" data-i18n="auth.productionNote">
+          Production Notice: Live OAuth and SMS Gateway credentials require verified enterprise keys in .env.
+        </div>
+      </form>
+
+    </div>
+  </div>
+
+  <!-- Toast Container -->
+  <div id="toast-container" aria-live="polite" aria-atomic="true"></div>
+
+  <!-- Scripts -->
+  <script src="/js/api.js"></script>
+  <script src="/js/i18n.js"></script>
+  <script src="/js/theme.js"></script>
+  <script src="/js/voice.js"></script>
+  <script src="/js/eligibility.js"></script>
+  <script src="/js/auth.js"></script>
+  <script src="/js/app.js"></script>
+
+  <!-- Profile & Auth Form Binding Scripts -->
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      // Profile form synchronization
+      const profile = window.EligibilityManager.getProfile();
+      if (document.getElementById('prof-name')) document.getElementById('prof-name').value = profile.name || '';
+      if (document.getElementById('prof-age')) document.getElementById('prof-age').value = profile.age || '';
+      if (document.getElementById('prof-gender')) document.getElementById('prof-gender').value = profile.gender || '';
+      if (document.getElementById('prof-state')) document.getElementById('prof-state').value = profile.state || '';
+      if (document.getElementById('prof-district')) document.getElementById('prof-district').value = profile.district || '';
+      if (document.getElementById('prof-occupation')) document.getElementById('prof-occupation').value = profile.occupation || '';
+      if (document.getElementById('prof-education')) document.getElementById('prof-education').value = profile.education || '';
+      if (document.getElementById('prof-income')) document.getElementById('prof-income').value = profile.income || '';
+      if (document.getElementById('prof-category')) document.getElementById('prof-category').value = profile.category || '';
+
+      const saveProfBtn = document.getElementById('save-profile-btn');
+      if (saveProfBtn) {
+        saveProfBtn.addEventListener('click', () => {
+          const updated = {
+            name: document.getElementById('prof-name')?.value || '',
+            age: document.getElementById('prof-age')?.value || '',
+            gender: document.getElementById('prof-gender')?.value || '',
+            state: document.getElementById('prof-state')?.value || '',
+            district: document.getElementById('prof-district')?.value || '',
+            occupation: document.getElementById('prof-occupation')?.value || '',
+            education: document.getElementById('prof-education')?.value || '',
+            income: document.getElementById('prof-income')?.value || '',
+            category: document.getElementById('prof-category')?.value || ''
+          };
+          window.EligibilityManager.saveProfile(updated);
+          window.App.applyFiltersAndRender();
+        });
+      }
+
+      const clearProfBtn = document.getElementById('clear-profile-btn');
+      if (clearProfBtn) {
+        clearProfBtn.addEventListener('click', () => {
+          window.EligibilityManager.clearProfile();
+          document.getElementById('citizen-profile-form')?.reset();
+          window.App.applyFiltersAndRender();
+        });
+      }
+
+      // Demo Auth bindings
+      const sendOtpBtn = document.getElementById('auth-send-otp-btn');
+      if (sendOtpBtn) {
+        sendOtpBtn.addEventListener('click', async () => {
+          const id = document.getElementById('auth-identifier')?.value || 'citizen@sudarshan.in';
+          await window.AuthManager.sendDemoOtp(id);
+        });
+      }
+
+      const verifyOtpBtn = document.getElementById('auth-verify-btn');
+      if (verifyOtpBtn) {
+        verifyOtpBtn.addEventListener('click', async () => {
+          const id = document.getElementById('auth-identifier')?.value || 'citizen@sudarshan.in';
+          const otp = document.getElementById('auth-otp-input')?.value || '123456';
+          const success = await window.AuthManager.verifyDemoOtp(id, otp);
+          if (success) {
+            window.AuthManager.closeAuthModal();
+          }
+        });
+      }
+    });
+  </script>
+
+</body>
+</html>

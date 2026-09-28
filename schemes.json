@@ -1,0 +1,3364 @@
+[
+  {
+    "id": "mp-ladli-behna",
+    "name": "मुख्यमंत्री लाड़ली बहना योजना",
+    "name_en": "Mukhya Mantri Ladli Behna Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री लाड़ली बहना योजना", "shortDescription": "मध्य प्रदेश की पात्र महिलाओं को ₹1,250 प्रति माह की प्रत्यक्ष वित्तीय सहायता।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Women",
+    "subcategory": "Financial Assistance",
+    "description": "मुख्यमंत्री लाड़ली बहना योजना मध्य प्रदेश शासन की एक प्रमुख सामाजिक कल्याण योजना है, जिसका उद्देश्य प्रदेश की महिलाओं को आर्थिक रूप से सशक्त बनाना, उनके स्वास्थ्य व पोषण में सुधार करना और परिवार स्तर पर उनके निर्णयों में प्रभावी भूमिका सुनिश्चित करना है।",
+    "shortDescription": "Monthly financial aid of ₹1,250 to eligible women residents of Madhya Pradesh to foster economic independence and nutritional security.",
+    "benefits": [
+      "Direct benefit transfer (DBT) of ₹1,250 per month into bank accounts",
+      "Regular monthly financial support on the 10th of every month",
+      "Financial independence for personal, medical, and family needs"
+    ],
+    "eligibility": "Resident women of MP aged 21 to 60 years. Family annual income must be below ₹2.5 Lakh. Family should not be income-tax payee or have any member as regular government employee.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 21,
+      "maxAge": 60,
+      "maxIncome": 250000,
+      "state": "Madhya Pradesh",
+      "maritalStatus": ["Married", "Widowed", "Divorced", "Abandoned"]
+    },
+    "ageLimit": "21 - 60 years",
+    "incomeLimit": "Below ₹2,50,000 / year",
+    "gender": "Female",
+    "occupation": "Any / Homemaker",
+    "socialCategory": "All (General, OBC, SC, ST)",
+    "education": "Not required",
+    "documents": [
+      "Samagra Family ID & Member ID",
+      "Aadhaar Card",
+      "Active Bank Account with DBT and Aadhaar Linkage",
+      "Active Mobile Number registered with Aadhaar"
+    ],
+    "applicationSteps": [
+      "Complete Samagra e-KYC online or at CSC/Kiosk centre.",
+      "Visit camp organised at Gram Panchayat / Ward level.",
+      "Submit application with Samagra ID and Aadhaar photo match.",
+      "Collect printed acknowledgement slip from operator.",
+      "Verify DBT status on official portal cmladlibahna.mp.gov.in."
+    ],
+    "officialWebsite": "https://cmladlibahna.mp.gov.in",
+    "officialApplicationUrl": "https://cmladlibahna.mp.gov.in",
+    "officialDepartment": "Department of Women & Child Development, Govt of Madhya Pradesh",
+    "helpline": "0755-2700800",
+    "officialWhatsapp": null,
+    "source": "Government of Madhya Pradesh Official Portal",
+    "lastVerified": "2025-02-10",
+    "status": "Active"
+  },
+  {
+    "id": "mp-ladli-behna-gas",
+    "name": "लाड़ली बहना गैस रिफिल योजना",
+    "name_en": "Ladli Behna LPG Cylinder Refill Subsidy Scheme",
+    "translations": {
+      "hi": { "name": "लाड़ली बहना गैस रिफिल योजना", "shortDescription": "लाड़ली बहना योजना व उज्ज्वला योजना की हितग्राही महिलाओं को ₹450 में एलपीजी गैस सिलेंडर।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Women",
+    "subcategory": "Subsidy / Clean Fuel",
+    "description": "इस योजना के अंतर्गत मध्य प्रदेश की लाड़ली बहनों तथा प्रधानमंत्री उज्ज्वला योजना (PMUY) की पात्र महिला उपभोक्ताओं को घरेलू एलपीजी गैस सिलेंडर मात्र ₹450 में उपलब्ध कराया जाता है। शेष अनुदान राशि राज्य सरकार द्वारा सीधे डीबीटी के माध्यम से बैंक खाते में हस्तांतरित की जाती है।",
+    "shortDescription": "Provision of domestic LPG cylinder refills at a subsidized price of ₹450 for Ladli Behna and PMUY beneficiaries in MP.",
+    "benefits": [
+      "LPG cylinder refill available at subsidized price of ₹450",
+      "Difference in refill cost refunded directly via DBT to bank account",
+      "Reduction in household expenses and promotion of smoke-free kitchens"
+    ],
+    "eligibility": "Registered beneficiaries of Ladli Behna Yojana or PM Ujjwala Yojana possessing domestic LPG connection registered in their name in Madhya Pradesh.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 21,
+      "maxAge": 60,
+      "state": "Madhya Pradesh"
+    },
+    "ageLimit": "21 - 60 years",
+    "incomeLimit": "As per Ladli Behna / PMUY norms",
+    "gender": "Female",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Ladli Behna Registration ID",
+      "LPG Connection Consumer Number & Oil Company Name (IOCL/BPCL/HPCL)",
+      "Aadhaar Card & Samagra ID",
+      "Bank Account details linked with DBT"
+    ],
+    "applicationSteps": [
+      "Visit nearest Gram Panchayat, Ward office, or MP Online Kiosk.",
+      "Submit LPG Consumer Number and Ladli Behna Registration ID.",
+      "Operator links your LPG connection on the portal.",
+      "Purchase cylinder from your gas agency at regular market price.",
+      "Subsidy amount credited back to your bank account via DBT."
+    ],
+    "officialWebsite": "https://cmladlibahna.mp.gov.in",
+    "officialApplicationUrl": "https://cmladlibahna.mp.gov.in",
+    "officialDepartment": "Food, Civil Supplies & Consumer Protection Dept, Govt of Madhya Pradesh",
+    "helpline": "181",
+    "officialWhatsapp": null,
+    "source": "Government of Madhya Pradesh",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "mp-ladli-laxmi",
+    "name": "लाड़ली लक्ष्मी योजना 2.0",
+    "name_en": "Ladli Laxmi Yojana 2.0",
+    "translations": {
+      "hi": { "name": "लाड़ली लक्ष्मी योजना 2.0", "shortDescription": "बालिकाओं के जन्म, शिक्षा व सशक्तिकरण हेतु ₹1,43,000 तक का वित्तीय आश्वासन।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Children",
+    "subcategory": "Girl Child Empowerment",
+    "description": "बालिकाओं के प्रति समाज में सकारात्मक सोच को बढ़ावा देने, लिंगानुपात में सुधार, बाल विवाह की रोकथाम और बालिकाओं की उच्च शिक्षा को सुनिश्चित करने हेतु मध्य प्रदेश सरकार द्वारा संचालित प्रतिष्ठित योजना।",
+    "shortDescription": "Comprehensive financial support package of up to ₹1.43 Lakh supporting girl child education and welfare from birth up to marriage/graduation.",
+    "benefits": [
+      "Financial assurance certificate of ₹1,43,000 issued at registration",
+      "Scholarships at 6th (₹2,000), 9th (₹4,000), 11th (₹6,000), 12th (₹6,000)",
+      "One-time lump sum incentive of ₹25,000 on taking admission in college/undergraduate degree",
+      "Final payment of ₹1 Lakh on completing 21 years of age without early marriage"
+    ],
+    "eligibility": "Girl child born in Madhya Pradesh after January 1, 2006. Parents must be MP domicile and non-income tax payers. Maximum 2 children in family (with sterilization adopted after 2nd child).",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 0,
+      "maxAge": 21,
+      "state": "Madhya Pradesh"
+    },
+    "ageLimit": "0 - 21 years",
+    "incomeLimit": "Non-income tax payer family",
+    "gender": "Female",
+    "occupation": "Child / Student",
+    "socialCategory": "All",
+    "education": "School / College Going",
+    "documents": [
+      "Child Birth Certificate",
+      "Mother/Father MP Domicile Certificate",
+      "Samagra Family and Child ID",
+      "Family Planning Certificate (if applicable)",
+      "Passport sized photo of girl child with parents"
+    ],
+    "applicationSteps": [
+      "Visit Anganwadi Center within 1 year of child birth or apply via MP Online / ladlilaxmi.mp.gov.in.",
+      "Upload birth certificate, Samagra ID, and parental declaration.",
+      "Project Officer verifies documents and issues Ladli Laxmi Assurance Certificate.",
+      "Subsequent educational scholarships disbursed automatically into beneficiary account."
+    ],
+    "officialWebsite": "https://ladlilaxmi.mp.gov.in",
+    "officialApplicationUrl": "https://ladlilaxmi.mp.gov.in",
+    "officialDepartment": "Department of Women & Child Development, Govt of Madhya Pradesh",
+    "helpline": "0755-2550910",
+    "officialWhatsapp": null,
+    "source": "Government of Madhya Pradesh Official Portal",
+    "lastVerified": "2025-01-18",
+    "status": "Active"
+  },
+  {
+    "id": "mp-kanya-vivah",
+    "name": "मुख्यमंत्री कन्या विवाह / निकाह योजना",
+    "name_en": "Mukhya Mantri Kanya Vivah / Nikah Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री कन्या विवाह / निकाह योजना", "shortDescription": "गरीब व जरूरतमंद कन्याओं के सामूहिक विवाह हेतु ₹51,000 की आर्थिक सहायता।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Women",
+    "subcategory": "Marriage Support",
+    "description": "गरीब, जरूरतमंद, निराश्रित परिवारों की कन्याओं, विधवा और परित्यक्ता महिलाओं के वैवाहिक खर्च में सहायता प्रदान करने के लिए सामूहिक विवाह सम्मेलनों के माध्यम से वित्तीय अनुदान उपलब्ध कराने की योजना।",
+    "shortDescription": "Financial assistance of ₹51,000 per bride for marriage ceremonies conducted via mass wedding events.",
+    "benefits": [
+      "Total financial assistance of ₹51,000 per eligible bride",
+      "₹49,000 deposited directly into bride's account for household setup",
+      "₹6,000 allocated for marriage event organisation and arrangements"
+    ],
+    "eligibility": "Bride must be 18+ years and groom 21+ years. Family must be resident of Madhya Pradesh and belong to BPL, destitute, or low income category.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 18,
+      "maxAge": 45,
+      "state": "Madhya Pradesh"
+    },
+    "ageLimit": "Bride 18+ years, Groom 21+ years",
+    "incomeLimit": "BPL / Destitute / Low Income",
+    "gender": "Female",
+    "occupation": "Any",
+    "socialCategory": "All (General, OBC, SC, ST)",
+    "education": "Not required",
+    "documents": [
+      "Age proof of bride and groom (Birth certificate / 10th marksheet / Aadhaar)",
+      "MP Domicile Certificate",
+      "Samagra ID and BPL Card / Income Certificate",
+      "Bank Account details of the bride",
+      "Joint photograph of the couple"
+    ],
+    "applicationSteps": [
+      "Apply at local Gram Panchayat, Janpad Panchayat or Urban Local Body office at least 15 days before the mass wedding.",
+      "Submit joint application form with age and domicile documents.",
+      "Verification by local revenue/panchayat authorities.",
+      "Participate in designated mass marriage event.",
+      "Grant credited directly into bride's bank account."
+    ],
+    "officialWebsite": "https://vivah.mp.gov.in",
+    "officialApplicationUrl": "https://vivah.mp.gov.in",
+    "officialDepartment": "Department of Social Justice and Disabled Welfare, Govt of MP",
+    "helpline": "0755-2556916",
+    "officialWhatsapp": null,
+    "source": "Government of Madhya Pradesh Official Portal",
+    "lastVerified": "2025-01-10",
+    "status": "Active"
+  },
+  {
+    "id": "mp-kisan-kalyan",
+    "name": "मुख्यमंत्री किसान कल्याण योजना",
+    "name_en": "Mukhya Mantri Kisan Kalyan Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री किसान कल्याण योजना", "shortDescription": "मध्य प्रदेश के पीएम-किसान पात्र किसानों को अतिरिक्त ₹6,000 प्रति वर्ष की सहायता।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Farmers",
+    "subcategory": "Income Support",
+    "description": "मध्य प्रदेश सरकार द्वारा पीएम किसान सम्मान निधि के अतिरिक्त प्रदेश के किसानों को वार्षिक ₹6,000 की वित्तीय सहायता प्रदान की जाती है, जिससे कुल मिलाकर किसानों को प्रति वर्ष ₹12,000 (केंद्र से ₹6,000 + राज्य से ₹6,000) प्राप्त होते हैं।",
+    "shortDescription": "Direct cash support of ₹6,000/year in installments to PM-KISAN beneficiary landholding farmers in Madhya Pradesh.",
+    "benefits": [
+      "₹6,000 additional annual assistance disbursed in 3 equal installments of ₹2,000",
+      "Combined with PM-KISAN, farmers receive total ₹12,000 annually",
+      "Helps meet input costs like seeds, fertilizers, and agricultural equipment"
+    ],
+    "eligibility": "Farmers of Madhya Pradesh who are landholders and registered beneficiaries of PM-KISAN Samman Nidhi Yojana.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 99,
+      "state": "Madhya Pradesh",
+      "occupation": ["Farmer", "Agriculture"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Landholding agricultural farmer",
+    "gender": "All",
+    "occupation": "Farmer / Agriculture",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "PM-KISAN Registration ID",
+      "Land Ownership Documents (Khasra/Khatauni / B-1 copy)",
+      "Aadhaar Card",
+      "Bank Account linked with Aadhaar & NPCI DBT"
+    ],
+    "applicationSteps": [
+      "Ensure eligibility under Central PM-KISAN scheme.",
+      "Verify land records on SAARA portal (saara.mp.gov.in) with Patwari.",
+      "Patwari validates landholding status and updates portal.",
+      "Installment credited directly into bank account via DBT."
+    ],
+    "officialWebsite": "https://saara.mp.gov.in",
+    "officialApplicationUrl": "https://saara.mp.gov.in",
+    "officialDepartment": "Revenue Department, Govt of Madhya Pradesh",
+    "helpline": "181",
+    "officialWhatsapp": null,
+    "source": "SAARA MP Portal",
+    "lastVerified": "2025-02-01",
+    "status": "Active"
+  },
+  {
+    "id": "mp-balram-tal",
+    "name": "बलराम ताल योजना",
+    "name_en": "Balram Tal Yojana",
+    "translations": {
+      "hi": { "name": "बलराम ताल योजना", "shortDescription": "खेत में जल संरक्षण व तालाब निर्माण हेतु किसानों को 75% तक अनुदान।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Farmers",
+    "subcategory": "Irrigation & Water Conservation",
+    "description": "खेतों में बारिश का पानी संचित करने और भूजल स्तर बढ़ाने के उद्देश्य से किसानों को अपने खेतों में बलराम ताल (खेत तालाब) निर्माण हेतु लागत पर 40% से 75% तक सरकारी अनुदान दिया जाता है।",
+    "shortDescription": "Subsidies ranging from 40% to 75% (up to ₹1 Lakh) for constructing farm ponds to harvest rainwater for irrigation in MP.",
+    "benefits": [
+      "Small & Marginal Farmers (SC/ST): 75% grant up to ₹1,00,000",
+      "Small & Marginal Farmers (General/OBC): 50% grant up to ₹80,000",
+      "General Category Other Farmers: 40% grant up to ₹80,000",
+      "Secures irrigation water for Rabi and Kharif crops"
+    ],
+    "eligibility": "Farmers of Madhya Pradesh having cultivable land where a water harvesting structure is feasible.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 80,
+      "state": "Madhya Pradesh",
+      "occupation": ["Farmer", "Agriculture"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Not specified",
+    "gender": "All",
+    "occupation": "Farmer",
+    "socialCategory": "All (Higher subsidy for SC/ST)",
+    "education": "Not required",
+    "documents": [
+      "Land Record (Khasra, B-1)",
+      "Aadhaar Card",
+      "Caste Certificate (for SC/ST benefit)",
+      "Bank Passbook copy"
+    ],
+    "applicationSteps": [
+      "Apply online on Farmers Welfare portal dbt.mpdage.org.",
+      "Submit land and location details with soil/water report.",
+      "Field inspection by Agricultural Engineering official.",
+      "Post-construction verification with geo-tagging.",
+      "Subsidy credited to farmer bank account."
+    ],
+    "officialWebsite": "https://dbt.mpdage.org",
+    "officialApplicationUrl": "https://dbt.mpdage.org",
+    "officialDepartment": "Farmers Welfare and Agriculture Development Dept, MP",
+    "helpline": "0755-2558823",
+    "officialWhatsapp": null,
+    "source": "DBT Agriculture Portal MP",
+    "lastVerified": "2024-11-20",
+    "status": "Active"
+  },
+  {
+    "id": "mp-surajdhara",
+    "name": "सूरजधारा योजना",
+    "name_en": "Surajdhara Yojana",
+    "translations": {
+      "hi": { "name": "सूरजधारा योजना", "shortDescription": "एससी/एसटी के लघु एवं सीमांत किसानों को दलहनी-तिलहनी उन्नत बीजों पर 75% अनुदान।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Agriculture",
+    "subcategory": "Seeds Subsidy",
+    "description": "अनुसूचित जाति एवं अनुसूचित जनजाति के लघु एवं सीमांत कृषकों को लाभकारी दलहन एवं तिलहन फसलों के प्रमाणित व उन्नत बीज उपलब्ध कराकर उनकी फसल उत्पादकता एवं आय में वृद्धि करने की योजना।",
+    "shortDescription": "75% seed replacement subsidy on high-yield pulses and oilseeds for SC and ST small/marginal farmers in Madhya Pradesh.",
+    "benefits": [
+      "75% financial subsidy on certified seed kits of pulses and oilseeds",
+      "Seed exchange facility with local improved varieties",
+      "Technical guidance and training by Agriculture Extension Officers"
+    ],
+    "eligibility": "Small and marginal farmers of MP belonging to SC or ST categories holding valid land ownership records.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 80,
+      "state": "Madhya Pradesh",
+      "socialCategory": ["SC", "ST"],
+      "occupation": ["Farmer", "Agriculture"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Small / Marginal farmer",
+    "gender": "All",
+    "occupation": "Farmer",
+    "socialCategory": "SC / ST",
+    "education": "Not required",
+    "documents": [
+      "SC / ST Caste Certificate",
+      "Land Records (B-1, Khasra)",
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "applicationSteps": [
+      "Contact Rural Agriculture Extension Officer (RAEO) or Janpad Panchayat.",
+      "Register details on MP Agriculture DBT portal.",
+      "Receive seed allocation voucher.",
+      "Collect certified seeds from designated cooperative society/seed store."
+    ],
+    "officialWebsite": "https://mpkrishi.mp.gov.in",
+    "officialApplicationUrl": "https://mpkrishi.mp.gov.in",
+    "officialDepartment": "Department of Agriculture, Govt of Madhya Pradesh",
+    "helpline": "181",
+    "officialWhatsapp": null,
+    "source": "MP Krishi Portal",
+    "lastVerified": "2024-10-15",
+    "status": "Active"
+  },
+  {
+    "id": "mp-bhavantar-bhugtan",
+    "name": "भावांतर भुगतान योजना",
+    "name_en": "Bhavantar Bhugtan Yojana",
+    "translations": {
+      "hi": { "name": "भावांतर भुगतान योजना", "shortDescription": "मंडी भाव और समर्थन मूल्य के अंतर की राशि किसानों के बैंक खाते में।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Farmers",
+    "subcategory": "Price Deficit Support",
+    "description": "कृषि उपजों के बाजार मूल्यों में गिरावट के दौरान किसानों को वित्तीय सुरक्षा देने के उद्देश्य से न्यूनतम समर्थन मूल्य (MSP) अथवा मॉडल दर और किसान द्वारा मंडी में बेची गई वास्तविक दर के अंतर का भुगतान सीधे बैंक खाते में करने की योजना।",
+    "shortDescription": "Price deficit compensation scheme providing payout of the gap between market auction price and minimum support price.",
+    "benefits": [
+      "Direct compensation for market rate deficit into bank account",
+      "Protection from distress selling during bumper crop seasons",
+      "Transparent auction records linked via APMC Mandi e-portal"
+    ],
+    "eligibility": "Farmers of Madhya Pradesh cultivating notified crops registered on the portal during the sowing window.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "state": "Madhya Pradesh",
+      "occupation": ["Farmer", "Agriculture"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Not specified",
+    "gender": "All",
+    "occupation": "Farmer",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "E-Uparjan Registration slip",
+      "Khasra/Khatauni land record",
+      "Mandi sales slip (Anubandh Patra & Bhugtan Patra)",
+      "Aadhaar & Bank Account details"
+    ],
+    "applicationSteps": [
+      "Register notified crop on MP e-Uparjan portal within specified dates.",
+      "Sell produce at designated APMC Mandi.",
+      "Collect official mandi receipt with biometric verification.",
+      "Deficit amount calculated and disbursed to bank account via DBT."
+    ],
+    "officialWebsite": "https://mpeuparjan.nic.in",
+    "officialApplicationUrl": "https://mpeuparjan.nic.in",
+    "officialDepartment": "Farmers Welfare & Agriculture Development Dept, MP",
+    "helpline": "181",
+    "officialWhatsapp": null,
+    "source": "MP e-Uparjan Official Portal",
+    "lastVerified": "2024-12-05",
+    "status": "Active"
+  },
+  {
+    "id": "mp-mmsky",
+    "name": "मुख्यमंत्री सीखो-कमाओ योजना (MMSKY)",
+    "name_en": "Mukhya Mantri Sikho Kamao Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री सीखो-कमाओ योजना", "shortDescription": "युवाओं को कौशल प्रशिक्षण के साथ ₹8,000 से ₹10,000 प्रतिमाह स्टाइपेंड।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Youth",
+    "subcategory": "Skill & Stipend",
+    "description": "मध्य प्रदेश के 18 से 29 वर्ष के शिक्षित युवाओं को औद्योगिक एवं व्यावसायिक प्रतिष्ठानों में 'ऑन-द-जॉब ट्रेनिंग' (OJT) प्रदान करने और प्रशिक्षण अवधि में ₹8,000 से ₹10,000 प्रतिमाह स्टाइपेंड उपलब्ध कराने की महत्वाकांक्षी योजना।",
+    "shortDescription": "On-the-job industrial skill training program offering monthly stipends between ₹8,000 and ₹10,000 to youth in MP.",
+    "benefits": [
+      "12th Pass trainees receive ₹8,000 per month stipend",
+      "ITI pass trainees receive ₹8,500 per month stipend",
+      "Diploma holders receive ₹9,000 per month stipend",
+      "Graduates / Postgraduates receive ₹10,000 per month stipend",
+      "75% stipend funded by MP Govt, 25% by enterprise; SCVT/NCVT certification"
+    ],
+    "eligibility": "Permanent resident of Madhya Pradesh aged 18 to 29 years. Minimum qualification: 12th pass, ITI, Diploma, or Higher Education degree.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 29,
+      "state": "Madhya Pradesh",
+      "education": ["12th Pass", "ITI", "Diploma", "Graduate", "Postgraduate"]
+    },
+    "ageLimit": "18 - 29 years",
+    "incomeLimit": "Not specified",
+    "gender": "All",
+    "occupation": "Unemployed Youth / Jobseeker",
+    "socialCategory": "All",
+    "education": "12th / ITI / Diploma / Degree",
+    "documents": [
+      "Samagra ID with e-KYC",
+      "Aadhaar Card",
+      "Educational certificates and marksheets",
+      "Bank Account linked with Aadhaar DBT",
+      "Mobile number"
+    ],
+    "applicationSteps": [
+      "Register on official MMSKY portal mmsky.mp.gov.in as Candidate.",
+      "Complete profile and select preferred vocational sectors and districts.",
+      "Browse vacancies offered by registered industrial enterprises.",
+      "Apply for training positions and accept training contract.",
+      "Undergo training and receive monthly stipend directly into bank account."
+    ],
+    "officialWebsite": "https://mmsky.mp.gov.in",
+    "officialApplicationUrl": "https://mmsky.mp.gov.in",
+    "officialDepartment": "Technical Education, Skill Development and Employment Dept, MP",
+    "helpline": "0755-2525258",
+    "officialWhatsapp": null,
+    "source": "MMSKY Official Portal Govt of MP",
+    "lastVerified": "2025-01-25",
+    "status": "Active"
+  },
+  {
+    "id": "mp-sant-ravidas",
+    "name": "संत रविदास स्वरोजगार योजना",
+    "name_en": "Sant Ravidas Swarojgar Yojana",
+    "translations": {
+      "hi": { "name": "संत रविदास स्वरोजगार योजना", "shortDescription": "अनुसूचित जाति के युवाओं को ₹1 लाख से ₹50 लाख तक का ऋण व 5% ब्याज अनुदान।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Entrepreneurship",
+    "subcategory": "Self Employment Loan",
+    "description": "मध्य प्रदेश के अनुसूचित जाति (SC) वर्ग के युवाओं को नवीन उद्यम, सेवा अथवा व्यवसाय स्थापित करने के लिए बैंकों के माध्यम से रियायती ब्याज दर पर ऋण और 5% वार्षिक ब्याज अनुदान प्रदान करने वाली योजना।",
+    "shortDescription": "Financial loans from ₹1 Lakh to ₹50 Lakh with 5% interest subsidy for SC entrepreneurs in MP.",
+    "benefits": [
+      "Manufacturing Units: Loan up to ₹50 Lakh",
+      "Service & Retail Units: Loan from ₹1 Lakh to ₹25 Lakh",
+      "5% annual interest subsidy for 5 years",
+      "Credit guarantee fee borne by the State Government"
+    ],
+    "eligibility": "Resident of MP belonging to Scheduled Caste (SC) category aged 18 to 45 years with minimum 8th class educational qualification.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 45,
+      "state": "Madhya Pradesh",
+      "socialCategory": ["SC"]
+    },
+    "ageLimit": "18 - 45 years",
+    "incomeLimit": "Family annual income below ₹12 Lakh",
+    "gender": "All",
+    "occupation": "Youth / Aspiring Entrepreneur",
+    "socialCategory": "SC",
+    "education": "8th Pass and above",
+    "documents": [
+      "SC Caste Certificate issued by competent authority",
+      "MP Domicile Certificate",
+      "8th/10th Marksheet",
+      "Project Report / Business Plan",
+      "Aadhaar Card and PAN Card"
+    ],
+    "applicationSteps": [
+      "Apply on MP MSME Portal msme.mponline.gov.in.",
+      "Upload business project report and caste credentials.",
+      "District Task Force Committee reviews and recommends to participating bank.",
+      "Bank sanction and disbursement with credit guarantee.",
+      "Quarterly interest subsidy credited by State Government."
+    ],
+    "officialWebsite": "https://msme.mponline.gov.in",
+    "officialApplicationUrl": "https://msme.mponline.gov.in",
+    "officialDepartment": "SC Welfare Department / MSME Dept, MP",
+    "helpline": "0755-2553329",
+    "officialWhatsapp": null,
+    "source": "MP MSME Portal",
+    "lastVerified": "2024-11-15",
+    "status": "Active"
+  },
+  {
+    "id": "mp-udyam-kranti",
+    "name": "मुख्यमंत्री उद्यम क्रांति योजना",
+    "name_en": "Mukhya Mantri Udyam Kranti Yojana (MMUKY)",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री उद्यम क्रांति योजना", "shortDescription": "12वीं पास युवाओं को उद्योग हेतु ₹50 लाख व सेवा क्षेत्र हेतु ₹25 लाख तक का ऋण व 3% ब्याज अनुदान।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Business",
+    "subcategory": "Self Employment",
+    "description": "प्रदेश के शिक्षित युवाओं को स्वयं का उद्योग, सेवा अथवा व्यवसाय स्थापित करने हेतु वित्तीय सहायता उपलब्ध कराना, जिसमें राज्य सरकार द्वारा बैंक ऋण पर 3% वार्षिक ब्याज अनुदान तथा बैंक गारंटी शुल्क का 7 वर्ष तक वहन किया जाता है।",
+    "shortDescription": "Collateral-free subsidized loans up to ₹50 Lakh with 3% interest subsidy for setting up manufacturing and service enterprises in MP.",
+    "benefits": [
+      "Manufacturing sector: Loan from ₹1 Lakh up to ₹50 Lakh",
+      "Service & Trading sector: Loan from ₹1 Lakh up to ₹25 Lakh",
+      "3% per annum interest subsidy for maximum 7 years",
+      "Full guarantee coverage under CGTMSE paid by state government"
+    ],
+    "eligibility": "Resident of Madhya Pradesh aged 18 to 40 years. Minimum 12th pass. Family income not exceeding ₹12 Lakh per year. Not a defaulter with any financial institution.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 40,
+      "state": "Madhya Pradesh",
+      "education": ["12th Pass", "Graduate", "Postgraduate", "Diploma"]
+    },
+    "ageLimit": "18 - 40 years",
+    "incomeLimit": "Family income below ₹12 Lakh/year",
+    "gender": "All",
+    "occupation": "Youth / Entrepreneur",
+    "socialCategory": "All",
+    "education": "12th Pass minimum",
+    "documents": [
+      "12th Standard Marksheet / Degree",
+      "MP Domicile & Samagra ID",
+      "Detailed Project Report (DPR)",
+      "Aadhaar Card, PAN Card, CIBIL Report",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Submit application on samast.mponline.gov.in portal.",
+      "Select desired business sector and preferred bank branch.",
+      "Scrutiny by District Industries Centre (DIC).",
+      "Sanction of loan by bank with government guarantee.",
+      "Release of subsidy upon successful business setup."
+    ],
+    "officialWebsite": "https://samast.mponline.gov.in",
+    "officialApplicationUrl": "https://samast.mponline.gov.in",
+    "officialDepartment": "Micro, Small & Medium Enterprises (MSME) Dept, MP",
+    "helpline": "0755-6720200",
+    "officialWhatsapp": null,
+    "source": "MP MSME Portal",
+    "lastVerified": "2025-01-05",
+    "status": "Active"
+  },
+  {
+    "id": "mp-medhavi-vidyarthi",
+    "name": "मुख्यमंत्री मेधावी विद्यार्थी योजना (MMVY)",
+    "name_en": "Mukhya Mantri Medhavi Vidyarthi Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री मेधावी विद्यार्थी योजना", "shortDescription": "12वीं में 70%+ अंक पाने वाले मेधावियों की मेडिकल, इंजीनियरिंग व उच्च शिक्षा की पूरी फीस सरकार भरेगी।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Scholarship",
+    "subcategory": "Higher Education Fee Waiver",
+    "description": "मध्य प्रदेश के प्रतिभावान विद्यार्थियों को उच्च शिक्षा (इंजीनियरिंग, मेडिकल, विधि, प्रबंधन आदि) में प्रवेश लेने पर उनकी संपूर्ण शिक्षण शुल्क (ट्यूशन फीस) राज्य सरकार द्वारा वहन की जाती है।",
+    "shortDescription": "Complete tuition fee payment for meritorious MP students enrolled in premier professional courses (IIT, NIT, MBBS, NLU, etc.).",
+    "benefits": [
+      "100% tuition fee reimbursement for government and private colleges",
+      "Covers engineering (JEE Rank up to 1.5 Lakh), medical (NEET admissions), CLAT, and traditional degrees",
+      "Direct settlement of fees with educational institutions"
+    ],
+    "eligibility": "Resident of MP. Scored 70% or more in MP Board or 85% or more in CBSE/ICSE in Class 12. Family annual income less than ₹6,00,000.",
+    "eligibilityRules": {
+      "minAge": 16,
+      "maxAge": 28,
+      "state": "Madhya Pradesh",
+      "maxIncome": 600000,
+      "education": ["12th Pass", "Student"]
+    },
+    "ageLimit": "16 - 28 years",
+    "incomeLimit": "Family income below ₹6 Lakh/year",
+    "gender": "All",
+    "occupation": "Student",
+    "socialCategory": "All",
+    "education": "Class 12 (70% MPBSE / 85% CBSE)",
+    "documents": [
+      "Class 10th and 12th Marksheets",
+      "Income Certificate (under ₹6 Lakh)",
+      "MP Domicile Certificate & Samagra ID",
+      "Entrance exam scorecard (JEE / NEET / CLAT)",
+      "College Admission Allotment Letter & Fee Receipt"
+    ],
+    "applicationSteps": [
+      "Visit MP Scholarship Portal scholarshipportal.mp.nic.in.",
+      "Register as MMVY applicant with Samagra ID and Aadhaar.",
+      "Fill college admission details and upload verification documents.",
+      "College nodal officer verifies the application online.",
+      "State Department sanctions fee directly to institution."
+    ],
+    "officialWebsite": "https://scholarshipportal.mp.nic.in",
+    "officialApplicationUrl": "https://scholarshipportal.mp.nic.in/MedhaviChhatra/Default.aspx",
+    "officialDepartment": "Department of Higher Education, Govt of Madhya Pradesh",
+    "helpline": "0755-2559901",
+    "officialWhatsapp": null,
+    "source": "MP Higher Education Portal",
+    "lastVerified": "2025-01-12",
+    "status": "Active"
+  },
+  {
+    "id": "mp-gaon-ki-beti",
+    "name": "गांव की बेटी योजना",
+    "name_en": "Gaon Ki Beti Yojana",
+    "translations": {
+      "hi": { "name": "गांव की बेटी योजना", "shortDescription": "ग्रामीण छात्राओं को 12वीं प्रथम श्रेणी पास करने पर उच्च शिक्षा हेतु ₹500 प्रतिमाह छात्रवृत्ति।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Education",
+    "subcategory": "Rural Girl Scholarship",
+    "description": "ग्रामीण क्षेत्र की बालिकाओं को उच्च शिक्षा प्राप्त करने के लिए प्रोत्साहित करने के उद्देश्य से 12वीं कक्षा प्रथम श्रेणी (60% या अधिक) में उत्तीर्ण होने पर कॉलेज में अध्ययन के दौरान ₹500 प्रति माह (₹5,000 प्रति वर्ष) छात्रवृत्ति दी जाती है।",
+    "shortDescription": "Scholarship of ₹5,000 per academic year for rural girls in MP securing 1st division in Class 12 pursuing higher studies.",
+    "benefits": [
+      "₹500 per month (up to 10 months = ₹5,000 per year) during graduation",
+      "Financial assistance for rural girls to travel to nearby colleges and pursue degrees"
+    ],
+    "eligibility": "Girl student residing in a recognized rural area of MP who passed Class 12 in First Division and enrolled in a recognized government/aided college.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 16,
+      "maxAge": 25,
+      "state": "Madhya Pradesh"
+    },
+    "ageLimit": "16 - 25 years",
+    "incomeLimit": "Not specified",
+    "gender": "Female",
+    "occupation": "Student",
+    "socialCategory": "All",
+    "education": "Class 12th First Division (60%+)",
+    "documents": [
+      "Gaon Ki Beti Certificate issued by Gram Panchayat Sarpanch/Secretary",
+      "Class 12th Marksheet showing 1st Division",
+      "College Admission Fee Receipt",
+      "Aadhaar Card and Samagra ID",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Obtain Village Domicile certification from Gram Panchayat.",
+      "Register on MP State Scholarship Portal (scholarshipportal.mp.nic.in).",
+      "Select 'Gaon Ki Beti Yojana' and submit college details.",
+      "College verifies enrollment.",
+      "Scholarship disbursed directly to student's bank account."
+    ],
+    "officialWebsite": "https://scholarshipportal.mp.nic.in",
+    "officialApplicationUrl": "https://scholarshipportal.mp.nic.in",
+    "officialDepartment": "Higher Education Department, Madhya Pradesh",
+    "helpline": "0755-2559901",
+    "officialWhatsapp": null,
+    "source": "MP State Scholarship Portal",
+    "lastVerified": "2024-11-28",
+    "status": "Active"
+  },
+  {
+    "id": "mp-akanksha",
+    "name": "आकांक्षा योजना",
+    "name_en": "Akanksha Yojana",
+    "translations": {
+      "hi": { "name": "आकांक्षा योजना", "shortDescription": "एसटी वर्ग के मेधावी छात्रों को JEE, NEET व AIIMS की निःशुल्क राष्ट्रीय स्तरीय कोचिंग।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "ST",
+    "subcategory": "Free Coaching",
+    "description": "मध्य प्रदेश के जनजातीय (ST) वर्ग के प्रतिभाशाली विद्यार्थियों को राष्ट्रीय स्तर की प्रतियोगी परीक्षाओं (JEE, NEET, AIIMS, CLAT) की तैयारी हेतु प्रतिष्ठित कोचिंग संस्थानों के माध्यम से निःशुल्क आवासीय कोचिंग एवं शिक्षण सामग्री उपलब्ध कराने की योजना।",
+    "shortDescription": "Free coaching, boarding, and lodging for meritorious Tribal (ST) students preparing for JEE, NEET, and CLAT examinations.",
+    "benefits": [
+      "100% free coaching in top coaching institutes in Bhopal, Indore, Jabalpur, Gwalior",
+      "Free residential hostel accommodation and food allowance",
+      "Books and specialized study material kit provided free"
+    ],
+    "eligibility": "Student belonging to Scheduled Tribe (ST) of MP who has completed Class 10 with high marks and qualified state entrance screening test.",
+    "eligibilityRules": {
+      "minAge": 14,
+      "maxAge": 20,
+      "state": "Madhya Pradesh",
+      "socialCategory": ["ST"]
+    },
+    "ageLimit": "14 - 20 years",
+    "incomeLimit": "Family income below ₹6 Lakh/year",
+    "gender": "All",
+    "occupation": "Student",
+    "socialCategory": "ST",
+    "education": "Class 10 Pass",
+    "documents": [
+      "ST Caste Certificate",
+      "Class 10 Marksheet",
+      "MP Domicile Certificate",
+      "Income Certificate",
+      "Aadhaar Card"
+    ],
+    "applicationSteps": [
+      "Register for Akanksha Entrance Test on tribal.mp.gov.in / mptass portal.",
+      "Appear in state screening entrance examination.",
+      "Merit-based allotment of coaching centres and accommodation.",
+      "Commence fully funded two-year residential coaching."
+    ],
+    "officialWebsite": "https://www.tribal.mp.gov.in",
+    "officialApplicationUrl": "https://www.tribal.mp.gov.in/mptaas",
+    "officialDepartment": "Tribal Affairs Department, Govt of Madhya Pradesh",
+    "helpline": "0755-2551651",
+    "officialWhatsapp": null,
+    "source": "MP Tribal Welfare Department",
+    "lastVerified": "2024-12-10",
+    "status": "Active"
+  },
+  {
+    "id": "mp-valmiki-protsahan",
+    "name": "महर्षि वाल्मीकि प्रोत्साहन योजना",
+    "name_en": "Maharshi Valmiki Protsahan Yojana",
+    "translations": {
+      "hi": { "name": "महर्षि वाल्मीकि प्रोत्साहन योजना", "shortDescription": "वाल्मीकि व अनुसूचित जाति के मेधावी विद्यार्थियों को राष्ट्रीय संस्थानों में प्रवेश पर ₹50,000 प्रोत्साहन।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "SC",
+    "subcategory": "Merit Incentive",
+    "description": "अनुसूचित जाति के विद्यार्थियों द्वारा राष्ट्रीय स्तर की प्रतियोगी परीक्षाओं जैसे JEE, NEET, CLAT, NIFT आदि में सफलता प्राप्त कर राष्ट्रीय संस्थानों में प्रवेश लेने पर प्रोत्साहन स्वरूप ₹50,000 की एकमुश्त वित्तीय सहायता प्रदान की जाती है।",
+    "shortDescription": "One-time financial reward of ₹50,000 for SC students securing admission into prestigious national institutes.",
+    "benefits": [
+      "One-time cash incentive of ₹50,000 directly deposited into student account",
+      "Boosts confidence and meets initial relocation and laptop expenses"
+    ],
+    "eligibility": "Scheduled Caste (SC) student of MP who has secured admission in an IIT, IIM, AIIMS, NIT, NLU, or recognized premier national institute.",
+    "eligibilityRules": {
+      "minAge": 17,
+      "maxAge": 28,
+      "state": "Madhya Pradesh",
+      "socialCategory": ["SC"]
+    },
+    "ageLimit": "17 - 28 years",
+    "incomeLimit": "Not specified",
+    "gender": "All",
+    "occupation": "Student",
+    "socialCategory": "SC",
+    "education": "Admission in National Premier Institute",
+    "documents": [
+      "SC Caste Certificate",
+      "MP Domicile Certificate",
+      "National Entrance Exam Scorecard",
+      "Admission Letter and College ID card",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Apply through MPTAAS portal (tribal.mp.gov.in/mptaas).",
+      "Submit admission proof and scorecard of premier national institute.",
+      "Verification by SC Welfare District Officer.",
+      "Incentive of ₹50,000 disbursed via DBT."
+    ],
+    "officialWebsite": "https://www.tribal.mp.gov.in/mptaas",
+    "officialApplicationUrl": "https://www.tribal.mp.gov.in/mptaas",
+    "officialDepartment": "Scheduled Caste Welfare Department, Govt of MP",
+    "helpline": "0755-2553329",
+    "officialWhatsapp": null,
+    "source": "MP TAAS Portal",
+    "lastVerified": "2024-11-10",
+    "status": "Active"
+  },
+  {
+    "id": "mp-free-scooty",
+    "name": "मुख्यमंत्री फ्री स्कूटी योजना",
+    "name_en": "Mukhya Mantri Free Scooty Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री फ्री स्कूटी योजना", "shortDescription": "सरकारी स्कूलों में 12वीं में टॉप करने वाले छात्र-छात्राओं को ई-स्कूटी खरीदने हेतु राशि।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Students",
+    "subcategory": "Vehicle Incentive",
+    "description": "मध्य प्रदेश के शासकीय हायर सेकेंडरी स्कूलों में कक्षा 12वीं की बोर्ड परीक्षा में सर्वोच्च अंक (टॉपर) प्राप्त करने वाले छात्र एवं छात्राओं को कॉलेज आने-जाने की सुविधा हेतु निःशुल्क ई-स्कूटी खरीदने के लिए राशि प्रदान की जाती है।",
+    "shortDescription": "Direct financial aid of up to ₹1,20,000 for purchasing an electric/motorized scooty to top-ranking 12th students of MP Govt schools.",
+    "benefits": [
+      "Grant of up to ₹1,20,000 for electric scooty or ₹90,000 for petrol scooty",
+      "One boy and one girl topper from every government higher secondary school benefited",
+      "Encourages excellence in secondary school education"
+    ],
+    "eligibility": "Regular student of MP Government Higher Secondary School who secured 1st rank (topper among boys and girls) in their school in 12th board exams.",
+    "eligibilityRules": {
+      "minAge": 17,
+      "maxAge": 22,
+      "state": "Madhya Pradesh",
+      "education": ["12th Pass", "Student"]
+    },
+    "ageLimit": "17 - 22 years",
+    "incomeLimit": "Not required",
+    "gender": "All",
+    "occupation": "Student",
+    "socialCategory": "All",
+    "education": "Class 12th Govt School Topper",
+    "documents": [
+      "Class 12th Marksheet showing school topper merit",
+      "Valid Driving License / Learner License (if applicable)",
+      "Aadhaar Card & Samagra ID",
+      "Quotation / Invoice of Scooty from authorized dealer",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "School principal prepares list of merit toppers and forwards to District Education Officer (DEO).",
+      "Student registers vehicle quotation on the School Education Portal.",
+      "Fund transferred into student account for vehicle procurement.",
+      "Submit vehicle registration (RC) copy to DEO office."
+    ],
+    "officialWebsite": "https://educationportal.mp.gov.in",
+    "officialApplicationUrl": "https://educationportal.mp.gov.in",
+    "officialDepartment": "School Education Department, Govt of Madhya Pradesh",
+    "helpline": "0755-2551522",
+    "officialWhatsapp": null,
+    "source": "MP School Education Portal",
+    "lastVerified": "2024-10-30",
+    "status": "Active"
+  },
+  {
+    "id": "mp-ayushman-bharat",
+    "name": "आयुष्मान भारत - मध्य प्रदेश (निरामयम)",
+    "name_en": "Ayushman Bharat MP (Niramayam)",
+    "translations": {
+      "hi": { "name": "आयुष्मान भारत - मध्य प्रदेश", "shortDescription": "पात्र परिवारों को प्रति वर्ष ₹5 लाख तक का कैशलेस स्वास्थ्य उपचार।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Health",
+    "subcategory": "Health Insurance",
+    "description": "मध्य प्रदेश के गरीब एवं मध्यमवर्गीय परिवारों को गंभीर बीमारियों के इलाज के लिए प्रति परिवार प्रति वर्ष ₹5 लाख तक का निःशुल्क कैशलेस इन-पेशेंट उपचार उपलब्ध कराने वाली स्वास्थ्य सुरक्षा योजना।",
+    "shortDescription": "Cashless health cover of up to ₹5,00,000 per family per year in empanelled hospitals across MP and India.",
+    "benefits": [
+      "Cashless hospitalization up to ₹5 Lakh per annum per family",
+      "Over 1,900 surgical and medical procedures covered",
+      "Cashless diagnosis, surgery, medicines, and food during hospital stay",
+      "Senior citizens aged 70+ receive expanded coverage under recent expansion"
+    ],
+    "eligibility": "SECC 2011 identified families, NFSA ration card holders, Sambal card holders, and building construction workers in MP.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "state": "Madhya Pradesh"
+    },
+    "ageLimit": "All ages",
+    "incomeLimit": "BPL / Ration card / Sambal card holders",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Ration Card / Samagra Family ID",
+      "Mobile number registered with Aadhaar"
+    ],
+    "applicationSteps": [
+      "Check name on beneficiary portal beneficiary.nha.gov.in or visit nearest Ayushman Mitra at empanelled hospital / CSC.",
+      "Perform biometric Aadhaar e-KYC.",
+      "Ayushman Golden Card generated instantly and downloadable.",
+      "Show card at any empanelled hospital for cashless treatment."
+    ],
+    "officialWebsite": "https://ayushmanbharat.mp.gov.in",
+    "officialApplicationUrl": "https://beneficiary.nha.gov.in",
+    "officialDepartment": "Public Health & Medical Education Dept, Madhya Pradesh",
+    "helpline": "14555",
+    "officialWhatsapp": null,
+    "source": "Ayushman Bharat MP Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "mp-bal-hriday",
+    "name": "मुख्यमंत्री बाल हृदय उपचार योजना",
+    "name_en": "Mukhya Mantri Bal Hriday Upchar Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री बाल हृदय उपचार योजना", "shortDescription": "जन्मजात हृदय रोग से पीड़ित बच्चों की निःशुल्क हार्ट सर्जरी व उपचार।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Health",
+    "subcategory": "Pediatric Heart Surgery",
+    "description": "जन्मजात हृदय रोग (Congenital Heart Defect) से पीड़ित 0 से 18 वर्ष तक के बच्चों की पहचान कर प्रमुख सुपर-स्पेशियलिटी अस्पतालों में निःशुल्क सर्जरी एवं संपूर्ण इलाज की सुविधा प्रदान करने की योजना।",
+    "shortDescription": "100% free surgical treatment for children aged 0 to 18 suffering from congenital heart diseases in premier hospitals.",
+    "benefits": [
+      "Complete free cardiac surgery and post-operative care up to ₹1.5 - ₹2 Lakh per child",
+      "Free travel assistance for child and one attendant",
+      "Empanelled specialized hospitals (Narayana Hrudayalaya, Medanta, AIIMS, etc.)"
+    ],
+    "eligibility": "Resident children of Madhya Pradesh aged 0 to 18 years diagnosed with congenital heart disease.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 18,
+      "state": "Madhya Pradesh"
+    },
+    "ageLimit": "0 - 18 years",
+    "incomeLimit": "Not strict; priority to economically weaker families",
+    "gender": "All",
+    "occupation": "Child",
+    "socialCategory": "All",
+    "education": "Not applicable",
+    "documents": [
+      "Child Birth Certificate / Age proof",
+      "MP Domicile of parents & Samagra ID",
+      "Cardiology diagnosis report (2D Echo / ECG / Doctor prescription)",
+      "Aadhaar Card of Parent and Child"
+    ],
+    "applicationSteps": [
+      "Get child examined at District Hospital under RBSK (Rashtriya Bal Swasthya Karyakram).",
+      "Civil Surgeon / CMHO recommends case for heart surgery.",
+      "Collectorate approval and referral to empanelled super-speciality hospital.",
+      "Hospital performs free surgical intervention.",
+      "Follow-up medical checkups funded by state government."
+    ],
+    "officialWebsite": "https://health.mp.gov.in",
+    "officialApplicationUrl": "https://health.mp.gov.in",
+    "officialDepartment": "Public Health and Family Welfare Dept, MP",
+    "helpline": "104",
+    "officialWhatsapp": null,
+    "source": "MP Public Health Directorate",
+    "lastVerified": "2024-11-18",
+    "status": "Active"
+  },
+  {
+    "id": "mp-teerth-darshan",
+    "name": "मुख्यमंत्री तीर्थ दर्शन योजना",
+    "name_en": "Mukhya Mantri Teerth Darshan Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री तीर्थ दर्शन योजना", "shortDescription": "60 वर्ष से अधिक के वरिष्ठ नागरिकों को देश के प्रमुख तीर्थ स्थलों की निःशुल्क यात्रा।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Senior Citizens",
+    "subcategory": "Pilgrimage Travel",
+    "description": "मध्य प्रदेश के 60 वर्ष या उससे अधिक आयु के वरिष्ठ नागरिकों को देश भर के प्रसिद्ध धार्मिक व तीर्थ स्थलों (काशी, तिरुपति, द्वारका, जगन्नाथ पुरी, अयोध्या आदि) की विशेष ट्रेन एवं हवाई जहाज से निःशुल्क यात्रा कराने की योजना।",
+    "shortDescription": "Free guided pilgrimage tour by special trains and flights with accommodation and food for senior citizens in MP.",
+    "benefits": [
+      "100% free train / air travel, food, accommodation, and local transport",
+      "Companion permitted for pilgrims above 65 years or with disability",
+      "Medical doctor and security escorts accompany every special pilgrim train"
+    ],
+    "eligibility": "Permanent resident of MP aged 60+ years (58+ for women). Must be medically fit and non-income tax payer.",
+    "eligibilityRules": {
+      "minAge": 60,
+      "maxAge": 100,
+      "state": "Madhya Pradesh"
+    },
+    "ageLimit": "60+ years (58+ for women)",
+    "incomeLimit": "Non-income tax payer",
+    "gender": "All",
+    "occupation": "Senior Citizen / Retired",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Age proof (Aadhaar / Voter ID / 10th marksheet)",
+      "MP Domicile certificate and Samagra ID",
+      "Medical Fitness Certificate from registered government physician",
+      "Passport sized photographs"
+    ],
+    "applicationSteps": [
+      "Collect application form from Tehsil / Janpad Panchayat / Municipal office.",
+      "Attach medical fitness certificate and preferred pilgrimage destination.",
+      "Submit application at Tehsil office.",
+      "Selection done transparently through computerised lottery by District Collectorate.",
+      "Selected pilgrims board designated train / flight on allotted schedule."
+    ],
+    "officialWebsite": "https://tirthdarshan.mp.gov.in",
+    "officialApplicationUrl": "https://tirthdarshan.mp.gov.in",
+    "officialDepartment": "Religious Trusts and Endowments Department, MP",
+    "helpline": "181",
+    "officialWhatsapp": null,
+    "source": "MP Teerth Darshan Portal",
+    "lastVerified": "2024-12-12",
+    "status": "Active"
+  },
+  {
+    "id": "mp-atal-griha-jyoti",
+    "name": "सरल बिजली बिल / अटल गृह ज्योति योजना",
+    "name_en": "Saral Bijli Bill / Atal Griha Jyoti Yojana",
+    "translations": {
+      "hi": { "name": "सरल बिजली बिल / अटल गृह ज्योति योजना", "shortDescription": "घरेलू उपभोक्ताओं को 100 यूनिट तक बिजली की खपत पर मात्र ₹100 का बिल।" }
+    },
+    "state": "Madhya Pradesh",
+    "stateCode": "MP",
+    "scope": "State",
+    "category": "Social Security",
+    "subcategory": "Power Tariff Subsidy",
+    "description": "मध्य प्रदेश के घरेलू उपभोक्ताओं को राहत प्रदान करने हेतु 100 यूनिट तक मासिक बिजली खपत पर मात्र ₹100 का बिजली बिल देय होता है, जिससे कमजोर और मध्यम वर्गीय परिवारों के बिजली खर्च में भारी कमी आती है।",
+    "shortDescription": "Electricity tariff subsidy ensuring domestic consumers pay only ₹100 for monthly consumption up to 100 units.",
+    "benefits": [
+      "Monthly bill of ₹100 only for consumption up to 100 units",
+      "Subsidized slab up to 150 units consumption",
+      "Direct tariff subsidy reimbursed to power distribution companies by state govt"
+    ],
+    "eligibility": "Domestic low-tension (LT) electricity consumers in Madhya Pradesh having connected load up to 1 kW.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 99,
+      "state": "Madhya Pradesh"
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Domestic consumer load up to 1 kW",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Consumer Service Connection Number (IVRS No.)",
+      "Aadhaar Card",
+      "Samagra ID"
+    ],
+    "applicationSteps": [
+      "Subsidy is automatically applied in monthly electricity bills if consumption is under 150 units.",
+      "Verify connection load at local DISCOM office (MPPKVVCL / MPMKVVCL / MPPoKVVCL).",
+      "Pay reduced bill online via Urja portal or MP Online."
+    ],
+    "officialWebsite": "https://mponline.gov.in",
+    "officialApplicationUrl": "https://mponline.gov.in",
+    "officialDepartment": "Energy Department, Govt of Madhya Pradesh",
+    "helpline": "1912",
+    "officialWhatsapp": null,
+    "source": "MP DISCOM Portals",
+    "lastVerified": "2025-01-05",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-kisan",
+    "name": "प्रधानमंत्री किसान सम्मान निधि (PM-KISAN)",
+    "name_en": "Pradhan Mantri Kisan Samman Nidhi",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री किसान सम्मान निधि", "shortDescription": "सभी भूमिधारक किसान परिवारों को प्रति वर्ष ₹6,000 की वित्तीय सहायता।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Farmers",
+    "subcategory": "Direct Income Support",
+    "description": "भारत सरकार की केंद्रीय क्षेत्र की योजना, जिसके अंतर्गत सभी पात्र भूमिधारक किसान परिवारों को कृषि एवं घरेलू आवश्यकताओं की पूर्ति हेतु ₹6,000 प्रति वर्ष तीन समान किस्तों में सीधे उनके बैंक खातों में अंतरित किए जाते हैं।",
+    "shortDescription": "Direct financial assistance of ₹6,000 per year transferred in three equal four-monthly installments to farmer families.",
+    "benefits": [
+      "₹6,000 per year transferred in 3 installments of ₹2,000 directly via DBT",
+      "Ensures timely funds for procuring agricultural inputs like seeds and fertilizers",
+      "Over 11 crore farmers supported nationwide"
+    ],
+    "eligibility": "Landholder farmer families having cultivable landholding in their names. Excludes institutional landholders, income tax payees, and constitutional post holders.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 99,
+      "occupation": ["Farmer", "Agriculture"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Non-income tax payer landholder",
+    "gender": "All",
+    "occupation": "Farmer / Agriculture",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Land Ownership Documents (Record of Rights / Khatauni)",
+      "Aadhaar Card (Mandatory biometric e-KYC)",
+      "Aadhaar-seeded active bank account",
+      "Active Mobile number"
+    ],
+    "applicationSteps": [
+      "Visit official portal pmkisan.gov.in.",
+      "Click on 'New Farmer Registration' under Farmers Corner.",
+      "Enter Aadhaar Number, select State, and input land details.",
+      "Complete mandatory Aadhaar OTP e-KYC or face-authentication.",
+      "State nodal officer verifies records; DBT transferred into bank account."
+    ],
+    "officialWebsite": "https://pmkisan.gov.in",
+    "officialApplicationUrl": "https://pmkisan.gov.in/RegistrationFormNew.aspx",
+    "officialDepartment": "Department of Agriculture and Farmers Welfare, Govt of India",
+    "helpline": "155261",
+    "officialWhatsapp": null,
+    "source": "PM-KISAN Official Central Portal",
+    "lastVerified": "2025-02-15",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmfby",
+    "name": "प्रधानमंत्री फसल बीमा योजना (PMFBY)",
+    "name_en": "Pradhan Mantri Fasal Bima Yojana",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री फसल बीमा योजना", "shortDescription": "प्राकृतिक आपदाओं से फसल नुकसान पर न्यूनतम प्रीमियम में व्यापक बीमा सुरक्षा।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Agriculture",
+    "subcategory": "Crop Insurance",
+    "description": "प्राकृतिक आपदाओं, कीटों एवं रोगों के परिणामस्वरूप अधिसूचित फसलों में होने वाले नुकसान की स्थिति में किसानों को व्यापक बीमा आवरण और वित्तीय सहायता प्रदान करने वाली राष्ट्रीय योजना।",
+    "shortDescription": "Comprehensive crop insurance scheme protecting farmers against unforeseen natural risks at very low premium rates.",
+    "benefits": [
+      "Nominal premium: 2% for Kharif, 1.5% for Rabi, 5% for annual commercial/horticultural crops",
+      "Full insured sum claim without capping",
+      "Covers prevented sowing, post-harvest losses, and localized calamities (hailstorm, landslide, inundation)"
+    ],
+    "eligibility": "All farmers including sharecroppers and tenant farmers growing notified crops in notified areas.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 90,
+      "occupation": ["Farmer", "Agriculture"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Not specified",
+    "gender": "All",
+    "occupation": "Farmer",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Land Record (Khasra / Khatauni / LPC)",
+      "Sowing Certificate issued by Patwari / Gram Pradhan",
+      "Aadhaar Card",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Apply through bank branch, CSC, or portal pmfby.gov.in before cut-off date.",
+      "Enter farmer details, crop type, survey number, and pay premium share.",
+      "Insurance policy receipt generated.",
+      "In event of crop damage, report within 72 hours via Crop Insurance App or helpline 14447."
+    ],
+    "officialWebsite": "https://pmfby.gov.in",
+    "officialApplicationUrl": "https://pmfby.gov.in",
+    "officialDepartment": "Ministry of Agriculture and Farmers Welfare, Govt of India",
+    "helpline": "14447",
+    "officialWhatsapp": null,
+    "source": "PMFBY Official Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-kusum",
+    "name": "पीएम कुसुम योजना (PM-KUSUM)",
+    "name_en": "PM-KUSUM (Kisan Urja Suraksha evam Utthaan Mahabhiyan)",
+    "translations": {
+      "hi": { "name": "पीएम कुसुम योजना", "shortDescription": "खेतों में सोलर पंप लगाने एवं सौर ऊर्जा संयंत्र स्थापित करने हेतु 60% तक सब्सिडी।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Environment",
+    "subcategory": "Solar Farming & Irrigation",
+    "description": "किसानों को सिंचाई हेतु सौर ऊर्जा से चलने वाले कृषि पंप लगाने और बंजर भूमि पर सौर संयंत्र स्थापित कर अतिरिक्त बिजली ग्रिड को बेचकर आय बढ़ाने हेतु केंद्र व राज्य सरकारों द्वारा 60% अनुदान की योजना।",
+    "shortDescription": "Subsidy of up to 60% for installing stand-alone solar agriculture pumps and solarizing grid-connected irrigation pumps.",
+    "benefits": [
+      "60% total subsidy (30% Central + 30% State Govt), 30% bank loan, farmer pays only 10%",
+      "Eliminates dependency on diesel pumps and erratic rural electricity",
+      "Farmers can sell surplus solar power to DISCOMs for extra recurring income"
+    ],
+    "eligibility": "Individual farmers, Farmer Producer Organisations (FPOs), cooperatives, and water user associations with agricultural land.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 85,
+      "occupation": ["Farmer", "Agriculture"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Not specified",
+    "gender": "All",
+    "occupation": "Farmer",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Land Ownership Documents",
+      "Electricity connection details (for Component-C)",
+      "Bank Account statement"
+    ],
+    "applicationSteps": [
+      "Visit state renewable energy development agency portal or pmkusum.mnre.gov.in.",
+      "Select desired solar pump capacity (3HP, 5HP, 7.5HP).",
+      "Pay farmer beneficiary share through portal.",
+      "Authorised vendor installs certified solar pump and tests water discharge."
+    ],
+    "officialWebsite": "https://pmkusum.mnre.gov.in",
+    "officialApplicationUrl": "https://pmkusum.mnre.gov.in",
+    "officialDepartment": "Ministry of New and Renewable Energy, Govt of India",
+    "helpline": "1800-180-3333",
+    "officialWhatsapp": null,
+    "source": "MNRE Official Portal",
+    "lastVerified": "2025-01-15",
+    "status": "Active"
+  },
+  {
+    "id": "central-soil-health-card",
+    "name": "सॉइल हेल्थ कार्ड योजना (Soil Health Card)",
+    "name_en": "Soil Health Card Scheme",
+    "translations": {
+      "hi": { "name": "सॉइल हेल्थ कार्ड योजना", "shortDescription": "खेत की मिट्टी की जांच और उचित खाद-उर्वरक उपयोग की सटीक सरकारी रिपोर्ट।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Agriculture",
+    "subcategory": "Soil Testing",
+    "description": "किसानों को उनकी कृषि भूमि की मिट्टी की गुणवत्ता, पोषक तत्वों की स्थिति एवं आवश्यक उर्वरक मात्रा की सटीक जानकारी उपलब्ध कराने हेतु सॉइल हेल्थ कार्ड जारी किया जाता है, जिससे खेती की लागत कम होती है और पैदावार बढ़ती है।",
+    "shortDescription": "Biennial soil nutrient testing card recommending customized fertilizer dosages for optimal crop yield.",
+    "benefits": [
+      "Tests 12 vital chemical parameters (N, P, K, S, Zn, Fe, Cu, Mn, Bo, pH, EC, OC)",
+      "Prevents excessive and expensive chemical fertilizer usage",
+      "Improves crop yield and sustains soil fertility"
+    ],
+    "eligibility": "All landholding farmers across India.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 90,
+      "occupation": ["Farmer", "Agriculture"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Farmer",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Land Khasra details"
+    ],
+    "applicationSteps": [
+      "Agriculture department staff collects soil sample from field grid.",
+      "Sample tested in authorized soil testing laboratory.",
+      "Soil Health Card generated and handed over or downloaded online.",
+      "Apply fertilizers strictly as per card recommendations."
+    ],
+    "officialWebsite": "https://soilhealth.dac.gov.in",
+    "officialApplicationUrl": "https://soilhealth.dac.gov.in",
+    "officialDepartment": "Department of Agriculture and Farmers Welfare, Govt of India",
+    "helpline": "1800-180-1551",
+    "officialWhatsapp": null,
+    "source": "Soil Health Portal",
+    "lastVerified": "2024-11-12",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-pranam",
+    "name": "पीएम प्रणाम योजना (PM PRANAM)",
+    "name_en": "PM PRANAM (Promotion of Alternate Nutrients for Agriculture Management)",
+    "translations": {
+      "hi": { "name": "पीएम प्रणाम योजना", "shortDescription": "रासायनिक उर्वरकों के स्थान पर प्राकृतिक एवं जैविक खादों को प्रोत्साहन देने की राष्ट्रीय योजना।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Agriculture",
+    "subcategory": "Bio-Fertilizers & Organic Farming",
+    "description": "रासायनिक उर्वरकों के संतुलित उपयोग को बढ़ावा देने, वैकल्पिक खादों (जैव उर्वरक, नैनो यूरिया) को अपनाने और रासायनिक उर्वरक सब्सिडी में बचत कर राज्यों व किसानों को पुरस्कृत करने की पहल।",
+    "shortDescription": "Initiative incentivizing states and farmers to adopt alternative and organic fertilizers to protect soil health.",
+    "benefits": [
+      "Subsidies saved on chemical fertilizers transferred to states for rural asset creation",
+      "Subsidized nano urea and bio-fertilizer supply",
+      "Protection of groundwater and soil microbiology from chemical degradation"
+    ],
+    "eligibility": "States, farmer groups, cooperatives, and farmers adopting natural and integrated nutrient management.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 90
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Not specified",
+    "gender": "All",
+    "occupation": "Farmer / Agriculture",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Farmer Registration / Soil Health record"
+    ],
+    "applicationSteps": [
+      "Access training programs through Krishi Vigyan Kendras (KVK).",
+      "Procure certified bio-fertilizers and nano-inputs through cooperative societies.",
+      "Participate in state-level organic cultivation clusters."
+    ],
+    "officialWebsite": "https://agricoop.nic.in",
+    "officialApplicationUrl": "https://agricoop.nic.in",
+    "officialDepartment": "Ministry of Chemicals & Fertilizers / Dept of Agriculture, Govt of India",
+    "helpline": "1800-180-1551",
+    "officialWhatsapp": null,
+    "source": "Government of India Official Portal",
+    "lastVerified": "2024-12-01",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmay-g",
+    "name": "प्रधानमंत्री आवास योजना - ग्रामीण (PMAY-G)",
+    "name_en": "Pradhan Mantri Awaas Yojana - Gramin",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री आवास योजना - ग्रामीण", "shortDescription": "ग्रामीण क्षेत्रों में बेघर व कच्चे मकानों में रहने वाले परिवारों को पक्के घर हेतु ₹1.20 लाख की सहायता।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Housing",
+    "subcategory": "Rural Housing",
+    "description": "ग्रामीण क्षेत्रों में कच्चे एवं जीर्ण-शीर्ण घरों में रहने वाले सभी बेघर परिवारों को बुनियादी सुविधाओं से युक्त पक्का मकान बनाने हेतु ₹1,20,000 (मैदानी क्षेत्र) तथा ₹1,30,000 (पहाड़ी/दुर्गम क्षेत्र) की प्रत्यक्ष वित्तीय सहायता उपलब्ध कराने की योजना।",
+    "shortDescription": "Financial grant of ₹1.20 to ₹1.30 Lakh plus 90-95 days of MGNREGA unskilled labor assistance to construct pucca houses in rural areas.",
+    "benefits": [
+      "Grant of ₹1,20,000 in plains and ₹1,30,000 in hilly/difficult areas",
+      "Additional 90-95 days of unskilled employment under MGNREGA (~₹20,000+)",
+      "₹12,000 dedicated assistance for toilet construction via Swachh Bharat Mission",
+      "LPG connection via PM Ujjwala and electricity via Saubhagya"
+    ],
+    "eligibility": "Rural households without a pucca house identified through SECC 2011 and Awaas+ list verified by Gram Sabha.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 90,
+      "maxIncome": 200000
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "BPL / Deprived rural household",
+    "gender": "All (Female / Joint preferred)",
+    "occupation": "Any",
+    "socialCategory": "All (Priority to SC/ST/Minority)",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "MGNREGA Job Card",
+      "Bank Account details (Aadhaar linked)",
+      "Land possession document / Gram Panchayat certificate",
+      "Photograph of existing kuccha house"
+    ],
+    "applicationSteps": [
+      "Beneficiary list prepared via Awaas+ survey and verified by Gram Sabha.",
+      "Geo-tagging of existing site by Panchayat Secretary through AwaasSoft app.",
+      "Sanction order issued and first installment released for plinth construction.",
+      "Geo-tagging at each construction stage triggers subsequent installment DBT."
+    ],
+    "officialWebsite": "https://pmayg.nic.in",
+    "officialApplicationUrl": "https://pmayg.nic.in",
+    "officialDepartment": "Ministry of Rural Development, Govt of India",
+    "helpline": "1800-11-6446",
+    "officialWhatsapp": null,
+    "source": "PMAY-G Official Portal",
+    "lastVerified": "2025-01-28",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmay-u",
+    "name": "प्रधानमंत्री आवास योजना - शहरी 2.0 (PMAY-U)",
+    "name_en": "Pradhan Mantri Awas Yojana - Urban 2.0",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री आवास योजना - शहरी", "shortDescription": "शहरी मध्यम व निम्न आय वर्ग के परिवारों को पक्का घर खरीदने या बनाने हेतु ₹2.50 लाख तक अनुदान।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Housing",
+    "subcategory": "Urban Housing",
+    "description": "शहरी क्षेत्रों में रहने वाले आर्थिक रूप से कमजोर वर्ग (EWS), निम्न आय वर्ग (LIG) एवं मध्यम आय वर्ग (MIG) के परिवारों को अपना पहला पक्का घर खरीदने, बनाने या विस्तार करने हेतु ब्याज सब्सिडी और प्रत्यक्ष वित्तीय अनुदान प्रदान करने की योजना।",
+    "shortDescription": "Government assistance of up to ₹2.5 Lakh including interest subsidies on home loans for urban families building or buying pucca houses.",
+    "benefits": [
+      "Interest subsidy under Credit Linked Subsidy Scheme (CLSS) up to ₹2.67 Lakh",
+      "Direct grant of ₹1.50 Lakh under Beneficiary Led Construction (BLC)",
+      "Affordable Housing in Partnership (AHP) with urban local bodies"
+    ],
+    "eligibility": "Urban families not owning a pucca house anywhere in India. EWS (Income up to ₹3 Lakh), LIG (Income ₹3-6 Lakh), MIG (Income up to ₹18 Lakh).",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "maxIncome": 900000
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "EWS / LIG / MIG criteria",
+    "gender": "All (Female ownership preferred)",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card of all family members",
+      "Income Certificate / Salary Slip / ITR",
+      "Land / Property documents or allotment letter",
+      "Affidavit affirming non-ownership of pucca house",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Visit pmaymis.gov.in or apply through Citizen Service Centre (CSC).",
+      "Choose category: Beneficiary Led Construction or Credit Linked Subsidy.",
+      "Enter Aadhaar and municipal ward details.",
+      "Verification by Urban Local Body (ULB).",
+      "Subsidies credited via direct bank integration or loan account credit."
+    ],
+    "officialWebsite": "https://pmaymis.gov.in",
+    "officialApplicationUrl": "https://pmaymis.gov.in",
+    "officialDepartment": "Ministry of Housing and Urban Affairs, Govt of India",
+    "helpline": "011-23063285",
+    "officialWhatsapp": null,
+    "source": "PMAY Urban Portal",
+    "lastVerified": "2025-01-10",
+    "status": "Active"
+  },
+  {
+    "id": "central-jal-jeevan",
+    "name": "जल जीवन मिशन (Jal Jeevan Mission)",
+    "name_en": "Jal Jeevan Mission (Har Ghar Jal)",
+    "translations": {
+      "hi": { "name": "जल जीवन मिशन", "shortDescription": "प्रत्येक ग्रामीण परिवार को नल से शुद्ध व पर्याप्त पीने का पानी पहुंचाने की राष्ट्रीय योजना।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Rural Development",
+    "subcategory": "Potable Tap Water",
+    "description": "भारत के प्रत्येक ग्रामीण परिवार को व्यक्तिगत घरेलू नल कनेक्शन (FHTC) के माध्यम से प्रति व्यक्ति प्रति दिन 55 लीटर गुणवत्तापूर्ण एवं सुरक्षित पेयजल नियमित व दीर्घकालिक आधार पर उपलब्ध कराने की राष्ट्रीय योजना।",
+    "shortDescription": "Nationwide mission ensuring functional household tap water connections to every rural home.",
+    "benefits": [
+      "Piped potable drinking water connection directly to home tap",
+      "Assured 55 liters per capita per day of tested safe drinking water",
+      "Relieves rural women and girls from drudgery of fetching water from distant sources"
+    ],
+    "eligibility": "Rural households residing in villages across all States and Union Territories of India.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 99
+    },
+    "ageLimit": "All rural residents",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Panchayat residence proof"
+    ],
+    "applicationSteps": [
+      "Village Action Plan formulated by Village Water and Sanitation Committee (VWSC).",
+      "Piped water infrastructure laid by Public Health Engineering Department.",
+      "Household tap connection installed and verified on JJM dashboard.",
+      "Report grievances on Jal Jeevan Samvad portal."
+    ],
+    "officialWebsite": "https://jaljeevanmission.gov.in",
+    "officialApplicationUrl": "https://ejalshakti.gov.in/jjmreport/JJMIndia.aspx",
+    "officialDepartment": "Department of Drinking Water and Sanitation, Ministry of Jal Shakti",
+    "helpline": "1800-180-2444",
+    "officialWhatsapp": null,
+    "source": "JJM Dashboard Govt of India",
+    "lastVerified": "2025-01-30",
+    "status": "Active"
+  },
+  {
+    "id": "central-swachh-bharat",
+    "name": "स्वच्छ भारत मिशन (Swachh Bharat Mission 2.0)",
+    "name_en": "Swachh Bharat Mission (Grameen & Urban 2.0)",
+    "translations": {
+      "hi": { "name": "स्वच्छ भारत मिशन", "shortDescription": "खुले में शौच मुक्ति, ठोस-तरल कचरा प्रबंधन एवं व्यक्तिगत शौचालय निर्माण हेतु ₹12,000 अनुदान।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Rural Development",
+    "subcategory": "Sanitation",
+    "description": "संपूर्ण भारत को खुले में शौच से मुक्त (ODF Plus) बनाए रखने, प्रत्येक छूटे हुए परिवार को व्यक्तिगत घरेलू शौचालय (IHHL) निर्माण हेतु ₹12,000 की वित्तीय सहायता तथा ग्रामों व शहरों में वैज्ञानिक कचरा प्रबंधन लागू करने की योजना।",
+    "shortDescription": "Incentive of ₹12,000 for individual household toilet construction and comprehensive waste management.",
+    "benefits": [
+      "Incentive of ₹12,000 for constructing individual sanitary toilet",
+      "Promotion of public health, hygiene, and dignity for women",
+      "Solid and Liquid Waste Management (SLWM) in every gram panchayat"
+    ],
+    "eligibility": "Rural and urban households not having an individual sanitary toilet. Covers SC/ST, small/marginal farmers, women-headed households, and BPL families.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 90
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "BPL / Identified deprived APL",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Bank Passbook copy",
+      "Photograph of applicant with toilet under construction"
+    ],
+    "applicationSteps": [
+      "Apply online on sbm.gov.in or through Gram Panchayat Secretary / Ward Officer.",
+      "Submit Aadhaar and bank details for IHHL registration.",
+      "Construct sanitary latrine as per specified twin-pit technical design.",
+      "Geo-tagging and verification of completed toilet.",
+      "Incentive of ₹12,000 deposited directly into bank account."
+    ],
+    "officialWebsite": "https://swachhbharatmission.ddws.gov.in",
+    "officialApplicationUrl": "https://sbm.gov.in/sbm_dbt/secure/ApplicantRegistration.aspx",
+    "officialDepartment": "Ministry of Jal Shakti / Ministry of Housing & Urban Affairs",
+    "helpline": "1800-180-0404",
+    "officialWhatsapp": null,
+    "source": "SBM Official Portal",
+    "lastVerified": "2024-11-25",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-surya-ghar",
+    "name": "पीएम सूर्य घर: मुफ्त बिजली योजना (PM Surya Ghar)",
+    "name_en": "PM Surya Ghar: Muft Bijli Yojana",
+    "translations": {
+      "hi": { "name": "पीएम सूर्य घर योजना", "shortDescription": "घरों की छत पर सोलर पैनल लगाने हेतु ₹78,000 तक सब्सिडी व 300 यूनिट मुफ्त बिजली।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Environment",
+    "subcategory": "Rooftop Solar Subsidy",
+    "description": "भारत के एक करोड़ घरों की छतों पर रूफटॉप सोलर सिस्टम स्थापित कर परिवारों को प्रति माह 300 यूनिट तक निःशुल्क सौर बिजली उपलब्ध कराने तथा ₹78,000 तक की प्रत्यक्ष केंद्रीय वित्तीय सब्सिडी देने की महा-योजना।",
+    "shortDescription": "Direct capital subsidy up to ₹78,000 for installing residential rooftop solar panels ensuring up to 300 units of free electricity every month.",
+    "benefits": [
+      "Subsidy of ₹30,000 for 1 kW system",
+      "Subsidy of ₹60,000 for 2 kW system",
+      "Subsidy of ₹78,000 for 3 kW and higher systems",
+      "Up to 300 units free solar electricity every month, saving ₹15,000+ per year in power bills",
+      "Collateral-free low-interest bank loans at ~7% interest available via Jan Samarth portal"
+    ],
+    "eligibility": "Indian citizen household with a suitable roof with clear sunshine and an active residential electricity connection in their name.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 90
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Latest Electricity Bill",
+      "Aadhaar Card",
+      "Proof of roof ownership / tenancy authorization",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Register on national portal pmsuryaghar.gov.in with Consumer Account Number and DISCOM name.",
+      "Apply for rooftop solar net-metering feasibility approval.",
+      "Choose registered empaneled vendor and install system.",
+      "Net-meter installed and commissioning certificate generated by DISCOM.",
+      "Subsidy transferred directly into bank account within 30 days."
+    ],
+    "officialWebsite": "https://pmsuryaghar.gov.in",
+    "officialApplicationUrl": "https://pmsuryaghar.gov.in",
+    "officialDepartment": "Ministry of New and Renewable Energy, Govt of India",
+    "helpline": "15555",
+    "officialWhatsapp": null,
+    "source": "PM Surya Ghar Official Portal",
+    "lastVerified": "2025-02-14",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-svanidhi",
+    "name": "पीएम स्वनिधि योजना (PM SVANidhi)",
+    "name_en": "PM Street Vendor's AtmaNirbhar Nidhi",
+    "translations": {
+      "hi": { "name": "पीएम स्वनिधि योजना", "shortDescription": "स्ट्रीट वेंडरों को ₹10,000 से ₹50,000 तक बिना गारंटी कार्यशील पूंजी ऋण व 7% ब्याज सब्सिडी।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Employment",
+    "subcategory": "Micro Credit for Street Vendors",
+    "description": "शहरी एवं उप-शहरी क्षेत्रों में रेहड़ी-पटरी, ठेला एवं फुटपाथ पर दुकान लगाने वाले स्ट्रीट वेंडरों को अपने व्यवसाय को पुनः गति देने हेतु बिना किसी गारंटी के ₹10,000, ₹20,000 और ₹50,000 का रियायती कार्यशील पूंजी ऋण प्रदान करने की योजना।",
+    "shortDescription": "Collateral-free working capital micro-loans of ₹10K, ₹20K, and ₹50K with 7% interest subsidy and cashback on digital transactions.",
+    "benefits": [
+      "1st tranche: ₹10,000 loan; on timely repayment 2nd tranche: ₹20,000; 3rd tranche: ₹50,000",
+      "7% annual interest subsidy credited directly into bank account",
+      "Monthly digital cashback reward of up to ₹100 for digital payments",
+      "No collateral or third-party guarantee required"
+    ],
+    "eligibility": "Street vendors vending in urban areas possessing Certificate of Vending / ID card issued by Urban Local Body or recommendation letter (LoR).",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "occupation": ["Street Vendor", "Self Employed", "Shopkeeper"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Street vendor income category",
+    "gender": "All",
+    "occupation": "Street Vendor / Small Trader",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Vending Certificate / Urban Local Body ID Card / Letter of Recommendation (LoR)",
+      "Aadhaar Card",
+      "Aadhaar linked Bank Account",
+      "Mobile number"
+    ],
+    "applicationSteps": [
+      "Visit pmsvanidhi.mohua.gov.in or nearest Common Service Centre (CSC).",
+      "Enter mobile number and Aadhaar for OTP verification.",
+      "Select lending bank or microfinance institution.",
+      "Urban local body validates vending credentials.",
+      "Loan disbursed directly into vendor's bank account."
+    ],
+    "officialWebsite": "https://pmsvanidhi.mohua.gov.in",
+    "officialApplicationUrl": "https://pmsvanidhi.mohua.gov.in",
+    "officialDepartment": "Ministry of Housing and Urban Affairs, Govt of India",
+    "helpline": "1800-11-1979",
+    "officialWhatsapp": null,
+    "source": "PM SVANidhi Portal",
+    "lastVerified": "2025-01-22",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmgsy",
+    "name": "प्रधानमंत्री ग्राम सड़क योजना (PMGSY)",
+    "name_en": "Pradhan Mantri Gram Sadak Yojana",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री ग्राम सड़क योजना", "shortDescription": "ग्रामीण बस्तियों को हर मौसम में चालू रहने वाली पक्की सड़कों से जोड़ने की योजना।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Infrastructure",
+    "subcategory": "Rural All-Weather Roads",
+    "description": "देश के असंबद्ध ग्रामीण क्षेत्रों एवं बस्तियों को बारहमासी (ऑल-वेदर) पक्की सड़कों के माध्यम से मुख्य सड़क नेटवर्क से जोड़ने की राष्ट्रव्यापी बुनियादी ढांचा परियोजना।",
+    "shortDescription": "Nationwide infrastructure scheme connecting unconnected habitations with all-weather motorable roads.",
+    "benefits": [
+      "All-weather macadamized road connectivity to rural habitations",
+      "Drastic reduction in travel time to health centres, schools, and markets",
+      "Boosts rural commerce and agricultural logistics"
+    ],
+    "eligibility": "Rural habitations having population of 500+ (plains) or 250+ (hilly/tribal/desert regions) without all-weather road connectivity.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 99
+    },
+    "ageLimit": "Community project",
+    "incomeLimit": "Not applicable",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Habitation connectivity proposal by Gram Sabha / Panchayat"
+    ],
+    "applicationSteps": [
+      "District Rural Road Plan approved by District Panchayat and State Nodal Agency.",
+      "Technical approval by National Rural Infrastructure Development Agency (NRIDA).",
+      "Competitive e-tendering and construction.",
+      "Citizens can monitor progress on OMMAS portal and Meri Sadak app."
+    ],
+    "officialWebsite": "https://omms.nic.in",
+    "officialApplicationUrl": "https://omms.nic.in",
+    "officialDepartment": "Ministry of Rural Development, Govt of India",
+    "helpline": "011-26716930",
+    "officialWhatsapp": null,
+    "source": "OMMAS NRIDA Portal",
+    "lastVerified": "2024-11-15",
+    "status": "Active"
+  },
+  {
+    "id": "central-smart-cities",
+    "name": "स्मार्ट सिटी मिशन (Smart Cities Mission)",
+    "name_en": "Smart Cities Mission",
+    "translations": {
+      "hi": { "name": "स्मार्ट सिटी मिशन", "shortDescription": "100 भारतीय शहरों में आधुनिक नागरिक सुविधाएं, डिजिटल तकनीक व सतत बुनियादी ढांचा।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Urban Development",
+    "subcategory": "Urban Infrastructure",
+    "description": "देश के 100 चयनित शहरों में कोर इंफ्रास्ट्रक्चर, स्वच्छ व टिकाऊ पर्यावरण, डिजिटल गवर्नेंस और नागरिकों को गुणवत्तापूर्ण जीवन प्रदान करने हेतु एकीकृत कमान एवं नियंत्रण केंद्र (ICCC) व स्मार्ट गतिशीलता विकसित करने की योजना।",
+    "shortDescription": "Urban transformation mission upgrading core infrastructure, digital transit, smart surveillance, and citizen services in 100 cities.",
+    "benefits": [
+      "Smart traffic management and Integrated Command and Control Centres (ICCC)",
+      "High quality public spaces, non-motorized transport, and smart water management",
+      "Improved municipal service delivery through mobile apps and citizen portals"
+    ],
+    "eligibility": "Citizens residing in 100 designated Smart Cities across India.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "ageLimit": "All citizens",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "City residency proof"
+    ],
+    "applicationSteps": [
+      "Access city municipal services via respective Smart City citizen portal / mobile app.",
+      "Participate in citizen consultation surveys on Smartnet portal."
+    ],
+    "officialWebsite": "https://smartcities.gov.in",
+    "officialApplicationUrl": "https://smartcities.gov.in",
+    "officialDepartment": "Ministry of Housing and Urban Affairs, Govt of India",
+    "helpline": "011-23062309",
+    "officialWhatsapp": null,
+    "source": "MoHUA Official Portal",
+    "lastVerified": "2024-10-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmjdy",
+    "name": "प्रधानमंत्री जन धन योजना (PMJDY)",
+    "name_en": "Pradhan Mantri Jan Dhan Yojana",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री जन धन योजना", "shortDescription": "प्रत्येक अनबैंक परिवार के लिए जीरो बैलेंस खाता, रुपे कार्ड व ₹2 लाख का दुर्घटना बीमा।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Banking",
+    "subcategory": "Financial Inclusion",
+    "description": "देश के प्रत्येक नागरिक को बैंकिंग सेवाओं (बचत खाता, प्रेषण, ऋण, बीमा, पेंशन) से जोड़ने हेतु शून्य न्यूनतम बैलेंस बचत बैंक खाता, मुफ्त RuPay डेबिट कार्ड और ₹2 लाख तक का दुर्घटना बीमा कवर प्रदान करने वाली राष्ट्रीय योजना।",
+    "shortDescription": "National financial inclusion mission providing zero-balance bank accounts, RuPay debit card, and ₹2 Lakh accidental insurance cover.",
+    "benefits": [
+      "Zero minimum balance required in bank account",
+      "Free RuPay Debit Card with ₹2,00,000 built-in accidental insurance cover",
+      "Overdraft (OD) facility up to ₹10,000 for eligible account holders",
+      "Direct recipient of all government DBT subsidies and benefits"
+    ],
+    "eligibility": "Any Indian citizen aged 10 years and above who does not possess a basic savings bank deposit account.",
+    "eligibilityRules": {
+      "minAge": 10,
+      "maxAge": 99
+    },
+    "ageLimit": "10+ years",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card (or Voter ID / Driving License / NREGA Card)",
+      "Passport sized photograph",
+      "Mobile number"
+    ],
+    "applicationSteps": [
+      "Visit any bank branch or Bank Mitra / Business Correspondent (BC) kiosk.",
+      "Fill PMJDY account opening form.",
+      "Submit Aadhaar card copy with biometric verification.",
+      "Account opened instantly and RuPay Debit Card issued."
+    ],
+    "officialWebsite": "https://pmjdy.gov.in",
+    "officialApplicationUrl": "https://pmjdy.gov.in",
+    "officialDepartment": "Department of Financial Services, Ministry of Finance, Govt of India",
+    "helpline": "1800-180-1111",
+    "officialWhatsapp": null,
+    "source": "PMJDY Official Portal",
+    "lastVerified": "2025-01-14",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-mudra",
+    "name": "प्रधानमंत्री मुद्रा योजना (PMMY)",
+    "name_en": "Pradhan Mantri MUDRA Yojana",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री मुद्रा योजना", "shortDescription": "छोटे उद्यमियों व व्यवसायियों को ₹20 लाख तक का बिना गारंटी का व्यावसायिक ऋण।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Finance",
+    "subcategory": "MSME Business Loans",
+    "description": "गैर-कॉर्पोरेट, गैर-कृषि लघु एवं सूक्ष्म उद्यमों को विनिर्माण, प्रसंस्करण, व्यापार या सेवा गतिविधियों हेतु ₹20 लाख तक का संपार्श्विक-मुक्त (बिना गारंटी) ऋण बैंकों एवं वित्तीय संस्थानों द्वारा उपलब्ध कराने की योजना।",
+    "shortDescription": "Collateral-free business loans up to ₹20 Lakh categorized into Shishu (up to ₹50K), Kishore (₹50K-₹5L), and Tarun (₹5L-₹20L).",
+    "benefits": [
+      "Shishu: Loans up to ₹50,000 for early stage micro-enterprises",
+      "Kishor: Loans from ₹50,000 up to ₹5,00,000 for developing units",
+      "Tarun & Tarun Plus: Loans from ₹5,00,000 up to ₹20,00,000 for scaling businesses",
+      "No collateral or third party guarantee required; reasonable interest rates"
+    ],
+    "eligibility": "Any Indian citizen having a feasible business idea or existing micro-enterprise in manufacturing, trading, or service sector.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 65,
+      "occupation": ["Self Employed", "Business", "Shopkeeper", "Artisan"]
+    },
+    "ageLimit": "18 - 65 years",
+    "incomeLimit": "Not specified",
+    "gender": "All",
+    "occupation": "Micro Entrepreneur / Trader / Artisan",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card, PAN Card, Voter ID",
+      "Business address proof & quotation of machinery/inventory",
+      "Past 6 months bank statement",
+      "Passport photographs"
+    ],
+    "applicationSteps": [
+      "Apply online on Udyamimitra portal (udyamimitra.in) or visit any commercial / gramin bank.",
+      "Select loan tier (Shishu, Kishor, or Tarun) and upload business plan.",
+      "Bank appraises project viability.",
+      "Loan sanctioned and Mudra card issued for working capital withdrawals."
+    ],
+    "officialWebsite": "https://www.mudra.org.in",
+    "officialApplicationUrl": "https://www.udyamimitra.in",
+    "officialDepartment": "Department of Financial Services, Ministry of Finance, Govt of India",
+    "helpline": "1800-180-1111",
+    "officialWhatsapp": null,
+    "source": "MUDRA Official Portal",
+    "lastVerified": "2025-01-18",
+    "status": "Active"
+  },
+  {
+    "id": "central-stand-up-india",
+    "name": "स्टैंड-अप इंडिया योजना (Stand-Up India)",
+    "name_en": "Stand-Up India Scheme",
+    "translations": {
+      "hi": { "name": "स्टैंड-अप इंडिया योजना", "shortDescription": "महिला, एससी व एसटी उद्यमियों को ग्रीनफील्ड उद्यम हेतु ₹10 लाख से ₹1 करोड़ तक बैंक ऋण।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Entrepreneurship",
+    "subcategory": "Women & SC/ST Loans",
+    "description": "अनुसूचित जाति (SC), अनुसूचित जनजाति (ST) एवं महिला उद्यमियों द्वारा विनिर्माण, सेवा, व्यापार अथवा कृषि-संबंधित गतिविधियों में पहला नया (ग्रीनफील्ड) उद्यम स्थापित करने हेतु ₹10 लाख से ₹1 करोड़ तक बैंक ऋण उपलब्ध कराने की योजना।",
+    "shortDescription": "Bank loans between ₹10 Lakh and ₹1 Crore to at least one SC/ST and one woman borrower per bank branch for setting up greenfield enterprises.",
+    "benefits": [
+      "Composite loan (term loan + working capital) between ₹10 Lakh and ₹1 Crore",
+      "Margin money requirement lowered up to 15%",
+      "Credit guarantee cover through NCGTC",
+      "Mentorship and handholding support through SIDBI"
+    ],
+    "eligibility": "SC / ST individuals and Women entrepreneurs aged 18+ setting up a new enterprise (first-time venture). In non-individual enterprises, 51% shareholding must be held by SC/ST or woman.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "None",
+    "gender": "Female (or SC/ST male/female)",
+    "occupation": "Aspiring Entrepreneur",
+    "socialCategory": "SC / ST / Women",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card, PAN Card, Proof of SC/ST status (if applicable)",
+      "Detailed Project Report (DPR)",
+      "Premises lease agreement or ownership documents",
+      "Partnership deed / RoC registration (for firms)"
+    ],
+    "applicationSteps": [
+      "Register on standupmitra.in portal.",
+      "Access handholding support and select target bank branch.",
+      "Upload project proposal and documentation.",
+      "Bank evaluates proposal and sanctions loan under Stand-Up India guidelines."
+    ],
+    "officialWebsite": "https://www.standupmitra.in",
+    "officialApplicationUrl": "https://www.standupmitra.in",
+    "officialDepartment": "Department of Financial Services, Ministry of Finance, Govt of India",
+    "helpline": "1800-180-1111",
+    "officialWhatsapp": null,
+    "source": "Stand-Up Mitra Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-sukanya-samriddhi",
+    "name": "सुकन्या समृद्धि योजना (SSY)",
+    "name_en": "Sukanya Samriddhi Yojana",
+    "translations": {
+      "hi": { "name": "सुकन्या समृद्धि योजना", "shortDescription": "10 वर्ष से कम आयु की बालिकाओं के लिए उच्च ब्याज दर (8.2%) व टैक्स-फ्री बचत खाता।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Children",
+    "subcategory": "Girl Child Savings",
+    "description": "'बेटी बचाओ बेटी पढ़ाओ' अभियान के अंतर्गत बालिकाओं की उच्च शिक्षा एवं विवाह खर्चों की पूर्ति हेतु माता-पिता द्वारा खोला जाने वाला आकर्षक ब्याज दर (8.2% वार्षिक) और पूर्णतः कर-मुक्त (EEE स्टेटस) लघु बचत खाता।",
+    "shortDescription": "Government small-savings scheme for girl children below 10 years offering 8.2% annual interest and Section 80C tax exemption.",
+    "benefits": [
+      "High sovereign guaranteed interest rate (currently 8.2% compounded annually)",
+      "Tax exemption under Section 80C on deposit, interest, and maturity (Triple EEE status)",
+      "Minimum deposit of only ₹250 per year (maximum ₹1.5 Lakh)",
+      "Partial withdrawal of up to 50% allowed for girl's higher education after age 18"
+    ],
+    "eligibility": "Parents or legal guardians of a girl child resident in India. Account can be opened before girl child attains 10 years of age. Maximum 2 girls per family.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 0,
+      "maxAge": 10
+    },
+    "ageLimit": "0 - 10 years",
+    "incomeLimit": "None",
+    "gender": "Female",
+    "occupation": "Child",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Girl Child Birth Certificate",
+      "Aadhaar Card and PAN of parent/guardian",
+      "Address proof of parent",
+      "Passport photographs of child and guardian"
+    ],
+    "applicationSteps": [
+      "Visit any Post Office or authorized commercial bank branch.",
+      "Fill Sukanya Samriddhi Account opening form.",
+      "Submit child birth certificate and parent KYC documents with initial deposit (min ₹250).",
+      "Passbook issued; maintain deposits online or offline until 15 years from account opening."
+    ],
+    "officialWebsite": "https://www.indiapost.gov.in",
+    "officialApplicationUrl": "https://www.indiapost.gov.in/Financial/Pages/Content/Sukanya-Samriddhi-Account.aspx",
+    "officialDepartment": "Department of Posts / Ministry of Finance, Govt of India",
+    "helpline": "1800-266-6868",
+    "officialWhatsapp": null,
+    "source": "India Post Official Portal",
+    "lastVerified": "2025-02-05",
+    "status": "Active"
+  },
+  {
+    "id": "central-atal-pension",
+    "name": "अटल पेंशन योजना (APY)",
+    "name_en": "Atal Pension Yojana",
+    "translations": {
+      "hi": { "name": "अटल पेंशन योजना", "shortDescription": "18 से 40 वर्ष के नागरिकों के लिए ₹1,000 से ₹5,000 प्रतिमाह की आजीवन गारंटीड सरकारी पेंशन।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Social Security",
+    "subcategory": "Guaranteed Pension",
+    "description": "असंगठित क्षेत्र के कामगारों और नागरिकों को वृद्धावस्था में सामाजिक सुरक्षा प्रदान करने हेतु 60 वर्ष की आयु पूर्ण होने पर ₹1,000 से ₹5,000 प्रतिमाह की न्यूनतम निश्चित आजीवन पेंशन उपलब्ध कराने वाली राष्ट्रीय पेंशन योजना।",
+    "shortDescription": "Government-backed guaranteed lifelong pension ranging from ₹1,000 to ₹5,000 per month starting after age 60.",
+    "benefits": [
+      "Guaranteed minimum pension of ₹1,000, ₹2,000, ₹3,000, ₹4,000 or ₹5,000 per month after 60 years",
+      "Lifelong pension to subscriber, and after subscriber's demise to the spouse",
+      "Return of full accumulated pension corpus to nominee after demise of spouse",
+      "Nominal monthly contributions auto-debited from savings account"
+    ],
+    "eligibility": "Indian citizens aged between 18 and 40 years holding a savings bank account. Must not be an income-tax payer.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 40
+    },
+    "ageLimit": "18 - 40 years",
+    "incomeLimit": "Non-income tax payer",
+    "gender": "All",
+    "occupation": "Unorganized Worker / Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Savings Bank Account / Post Office Account",
+      "Aadhaar Card",
+      "Active Mobile number"
+    ],
+    "applicationSteps": [
+      "Visit your bank branch or log in to net banking / mobile banking app.",
+      "Select 'Atal Pension Yojana' registration.",
+      "Choose desired pension amount (₹1,000 to ₹5,000) and nomination details.",
+      "Auto-debit mandate setup from bank account.",
+      "Download PRAN and APY subscriber e-card."
+    ],
+    "officialWebsite": "https://www.npscra.nsdl.co.in",
+    "officialApplicationUrl": "https://enps.nsdl.com/eNPS/ApySubRegistration.html",
+    "officialDepartment": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "helpline": "1800-110-069",
+    "officialWhatsapp": null,
+    "source": "PFRDA Official Portal",
+    "lastVerified": "2025-01-16",
+    "status": "Active"
+  },
+  {
+    "id": "central-nps-vatsalya",
+    "name": "एनपीएस वात्सल्य योजना (NPS Vatsalya)",
+    "name_en": "NPS Vatsalya Scheme",
+    "translations": {
+      "hi": { "name": "एनपीएस वात्सल्य योजना", "shortDescription": "नाबालिग बच्चों के भविष्य हेतु पेंशन खाता, जो 18 वर्ष का होने पर नियमित एनपीएस में परिवर्तित होगा।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Children",
+    "subcategory": "Minor Pension & Wealth Creation",
+    "description": "माता-पिता द्वारा अपने नाबालिग बच्चों (18 वर्ष से कम) के नाम से दीर्घकालिक वित्तीय सुरक्षा एवं पेंशन कोष तैयार करने हेतु शुरू की गई राष्ट्रीय योजना। 18 वर्ष की आयु पूरी होने पर यह खाता निर्बाध रूप से सामान्य NPS टियर-1 खाते में परिवर्तित हो जाता है।",
+    "shortDescription": "Contributory pension savings scheme for minors operated by parents with minimum ₹1,000 annual contribution.",
+    "benefits": [
+      "Flexible contributions starting from just ₹1,000 annually",
+      "Compound growth via diversified market investments (Equities, Corporate Debt, Govt Securities)",
+      "Seamless auto-conversion to standard NPS account upon minor turning 18",
+      "Disciplined wealth creation for long-term retirement security"
+    ],
+    "eligibility": "All minor Indian citizens (aged below 18 years) through their parents or legal guardians.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 17
+    },
+    "ageLimit": "0 - 17 years",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Minor Child",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Minor's Birth Certificate",
+      "Guardian's PAN Card and Aadhaar Card",
+      "Guardian's Bank Account details"
+    ],
+    "applicationSteps": [
+      "Visit eNPS portal or authorized Point of Presence (POP) bank branch.",
+      "Select NPS Vatsalya Account Registration.",
+      "Complete guardian KYC and submit child's birth certificate.",
+      "Make initial deposit (min ₹1,000) and receive PRAN allotment."
+    ],
+    "officialWebsite": "https://enps.nsdl.com",
+    "officialApplicationUrl": "https://enps.nsdl.com",
+    "officialDepartment": "Pension Fund Regulatory and Development Authority (PFRDA)",
+    "helpline": "1800-222-080",
+    "officialWhatsapp": null,
+    "source": "PFRDA Official Portal",
+    "lastVerified": "2025-02-01",
+    "status": "Active"
+  },
+  {
+    "id": "central-beti-bachao",
+    "name": "बेटी बचाओ बेटी पढ़ाओ (BBBP)",
+    "name_en": "Beti Bachao Beti Padhao Scheme",
+    "translations": {
+      "hi": { "name": "बेटी बचाओ बेटी पढ़ाओ", "shortDescription": "बाल लिंगानुपात में सुधार, कन्या भ्रूण हत्या रोकथाम व बालिकाओं की शिक्षा सुनिश्चित करने का राष्ट्रीय अभियान।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Women & Child",
+    "subcategory": "Girl Child Rights & Education",
+    "description": "गिरते बाल लिंगानुपात (CSR) को रोकने, कन्या भ्रूण हत्या पर प्रभावी प्रतिबंध लगाने, बालिकाओं के अस्तित्व, संरक्षण तथा अनिवार्य माध्यमिक व उच्चतर शिक्षा को बढ़ावा देने वाला प्रमुख राष्ट्रीय बहु-क्षेत्रीय अभियान।",
+    "shortDescription": "National initiative ensuring protection, survival, nutrition, and secondary education for the girl child across India.",
+    "benefits": [
+      "District level convergence ensuring zero dropouts for girls in secondary schools",
+      "Special scholarship programs and residential hostel facilities (KGBV)",
+      "Strict enforcement of PC&PNDT Act to eliminate gender-biased sex selection",
+      "Awareness camps and community rewards for girl child excellence"
+    ],
+    "eligibility": "All girl children across all districts of India.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 0,
+      "maxAge": 22
+    },
+    "ageLimit": "0 - 22 years",
+    "incomeLimit": "None",
+    "gender": "Female",
+    "occupation": "Student / Child",
+    "socialCategory": "All",
+    "education": "School / College",
+    "documents": [
+      "Girl child birth certificate",
+      "School admission records",
+      "Aadhaar Card"
+    ],
+    "applicationSteps": [
+      "Community advocacy campaign implemented via Anganwadi Centers and Government Schools.",
+      "Enrol girl child in nearby school and link with Sukanya Samriddhi Yojana.",
+      "Access institutional delivery benefits and school health checkups."
+    ],
+    "officialWebsite": "https://wcd.nic.in/bbbp-schemes",
+    "officialApplicationUrl": "https://wcd.nic.in/bbbp-schemes",
+    "officialDepartment": "Ministry of Women and Child Development, Govt of India",
+    "helpline": "1098",
+    "officialWhatsapp": null,
+    "source": "MWCD Official Portal",
+    "lastVerified": "2024-11-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmmvy",
+    "name": "प्रधानमंत्री मातृ वंदना योजना (PMMVY 2.0)",
+    "name_en": "Pradhan Mantri Matru Vandana Yojana",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री मातृ वंदना योजना", "shortDescription": "गर्भवती व स्तनपान कराने वाली माताओं को पोषण व मजदूरी क्षतिपूर्ति हेतु ₹5,000 से ₹6,000 की सहायता।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Women & Child",
+    "subcategory": "Maternity Benefit",
+    "description": "गर्भवती महिलाओं और स्तनपान कराने वाली माताओं को पहले जीवित बच्चे के जन्म पर ₹5,000 तथा दूसरे बच्चे के रूप में कन्या जन्म पर ₹6,000 की प्रत्यक्ष नकद प्रोत्साहन सहायता प्रदान करने वाली योजना, जिससे पोषण में सुधार और मजदूरी क्षतिपूर्ति होती है।",
+    "shortDescription": "Direct cash incentive of ₹5,000 for first child and ₹6,000 for second girl child to pregnant women and lactating mothers.",
+    "benefits": [
+      "First child: ₹5,000 in two installments upon antenatal check-up (ANC) and child birth vaccination",
+      "Second child (if girl child): ₹6,000 in a single installment post vaccination",
+      "Promotes institutional delivery and full immunization of infants",
+      "Direct DBT transfer into Aadhaar-seeded bank account"
+    ],
+    "eligibility": "Pregnant Women and Lactating Mothers (PW&LM) who are not regular employees of Central/State Government or PSUs. Family income below ₹8 Lakh or holder of BPL/e-Shram/MGNREGA card.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 19,
+      "maxAge": 45,
+      "maxIncome": 800000
+    },
+    "ageLimit": "19+ years",
+    "incomeLimit": "Family income under ₹8 Lakh/year",
+    "gender": "Female",
+    "occupation": "Any non-government",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Mother and Child Protection (MCP) Card",
+      "Aadhaar Card of mother and husband",
+      "Aadhaar-linked Bank Account details of mother",
+      "Child Birth Certificate (for 2nd installment)"
+    ],
+    "applicationSteps": [
+      "Register at nearest Anganwadi Center or online on pmmvy.wcd.gov.in.",
+      "Submit MCP card details with proof of early ANC check-up.",
+      "Anganwadi Worker / ASHA validates registration.",
+      "Installments disbursed directly into beneficiary's bank account via DBT."
+    ],
+    "officialWebsite": "https://pmmvy.wcd.gov.in",
+    "officialApplicationUrl": "https://pmmvy.wcd.gov.in",
+    "officialDepartment": "Ministry of Women and Child Development, Govt of India",
+    "helpline": "011-23382393",
+    "officialWhatsapp": null,
+    "source": "PMMVY Official Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-poshan-abhiyaan",
+    "name": "पोषण अभियान (POSHAN Abhiyaan 2.0)",
+    "name_en": "POSHAN Abhiyaan (National Nutrition Mission)",
+    "translations": {
+      "hi": { "name": "पोषण अभियान", "shortDescription": "बच्चों, किशोरियों एवं गर्भवती महिलाओं में कुपोषण और एनीमिया दूर करने का राष्ट्रीय मिशन।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Health",
+    "subcategory": "Nutrition & Child Health",
+    "description": "0 से 6 वर्ष तक के छोटे बच्चों, किशोरियों, गर्भवती महिलाओं और स्तनपान कराने वाली माताओं के पोषण स्तर में सुधार लाने, बौनापन (स्टंटिंग), कुपोषण (वेस्टिंग) तथा एनीमिया के स्तर में तीव्र कमी लाने का समग्र राष्ट्रीय अभियान।",
+    "shortDescription": "Multi-sectoral national mission curbing malnutrition, stunting, wasting, and anemia among children and mothers.",
+    "benefits": [
+      "Supplementary Nutrition Programme (SNP) hot cooked meals and take-home rations (THR)",
+      "Growth monitoring and health tracking using Poshan Tracker mobile app",
+      "Early childhood care, micronutrient supplementation, and deworming"
+    ],
+    "eligibility": "Children under 6 years, adolescent girls (14-18 years in aspirational districts), and pregnant/lactating women.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 18
+    },
+    "ageLimit": "0 - 18 years / Pregnant & lactating women",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Child / Mother",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card of mother/guardian",
+      "Child birth record",
+      "Anganwadi registration"
+    ],
+    "applicationSteps": [
+      "Enroll at local Anganwadi Center.",
+      "Anganwadi Worker registers child/mother on Poshan Tracker.",
+      "Receive regular nutrition supplements, medical checkups, and growth monitoring."
+    ],
+    "officialWebsite": "https://www.poshantracker.in",
+    "officialApplicationUrl": "https://www.poshantracker.in",
+    "officialDepartment": "Ministry of Women and Child Development, Govt of India",
+    "helpline": "14408",
+    "officialWhatsapp": null,
+    "source": "Poshan Tracker Portal",
+    "lastVerified": "2025-01-08",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-ujjwala",
+    "name": "प्रधानमंत्री उज्ज्वला योजना (PMUY 2.0)",
+    "name_en": "Pradhan Mantri Ujjwala Yojana 2.0",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री उज्ज्वला योजना", "shortDescription": "गरीब ग्रामीण महिलाओं को निःशुल्क एलपीजी गैस कनेक्शन, पहला सिलेंडर व चूल्हा।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Women",
+    "subcategory": "Clean Cooking Fuel",
+    "description": "गरीब परिवारों की वयस्क महिलाओं को धुएं से मुक्ति दिलाने और स्वच्छ रसोई ईंधन प्रदान करने हेतु निःशुल्क एलपीजी कनेक्शन, सुरक्षा नली, गैस चूल्हा (हॉटप्लेट) तथा पहला सिलेंडर 100% निःशुल्क उपलब्ध कराने की योजना।",
+    "shortDescription": "Free deposit-free LPG gas connection with first refill and stove provided to adult women from low-income families.",
+    "benefits": [
+      "Deposit-free LPG cylinder connection",
+      "First domestic LPG refill provided free of cost",
+      "Free hotplate (stove) along with connection",
+      "Ongoing targeted subsidy of ₹300 per cylinder for up to 12 refills per year"
+    ],
+    "eligibility": "Adult woman (aged 18+) belonging to poor household (SECC list, BPL, SC/ST, PMAY beneficiary, Forest dwellers, Most Backward Classes) without existing LPG connection.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 18,
+      "maxAge": 90
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "BPL / Poor household category",
+    "gender": "Female",
+    "occupation": "Any",
+    "socialCategory": "All (SC/ST/BPL prioritized)",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card of applicant woman",
+      "Ration Card / BPL Certificate / 14-point declaration",
+      "Aadhaar linked Bank Account",
+      "Proof of address"
+    ],
+    "applicationSteps": [
+      "Apply online on pmuy.gov.in or submit form at nearest LPG distributor (Indane, Bharatgas, HP Gas).",
+      "Submit Aadhaar, Ration Card and bank passbook.",
+      "Distributor performs de-duplication check.",
+      "Connection issued with stove and filled cylinder delivered to doorstep."
+    ],
+    "officialWebsite": "https://www.pmuy.gov.in",
+    "officialApplicationUrl": "https://www.pmuy.gov.in/ujjwala2.html",
+    "officialDepartment": "Ministry of Petroleum and Natural Gas, Govt of India",
+    "helpline": "1906",
+    "officialWhatsapp": null,
+    "source": "PMUY Official Portal",
+    "lastVerified": "2025-01-26",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmjay",
+    "name": "आयुष्मान भारत - प्रधानमंत्री जन आरोग्य योजना (PM-JAY)",
+    "name_en": "Ayushman Bharat PM-JAY",
+    "translations": {
+      "hi": { "name": "आयुष्मान भारत PM-JAY", "shortDescription": "देश के 12 करोड़ गरीब परिवारों को प्रति वर्ष ₹5 लाख का कैशलेस स्वास्थ्य उपचार।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Health",
+    "subcategory": "Universal Health Coverage",
+    "description": "विश्व की सबसे बड़ी सरकार द्वारा वित्तपोषित स्वास्थ्य आश्वासन योजना, जिसके अंतर्गत देश के 55 करोड़ से अधिक पात्र नागरिकों एवं 70 वर्ष से अधिक आयु के सभी वरिष्ठ नागरिकों को प्रति परिवार प्रति वर्ष ₹5 लाख तक का कैशलेस इनपेशेंट अस्पताल उपचार प्रदान किया जाता है।",
+    "shortDescription": "World's largest government health assurance scheme covering cashless hospital care up to ₹5,00,000 per family per year.",
+    "benefits": [
+      "Cashless and paperless access to services at empanelled public and private hospitals across India",
+      "Up to ₹5,00,000 cover per family per year for secondary and tertiary care hospitalization",
+      "Covers pre-existing conditions from day one, covering 1,949 medical procedures",
+      "Universal coverage for all senior citizens aged 70 and above regardless of income"
+    ],
+    "eligibility": "Families identified in SECC 2011 deprivation criteria, NFSA ration card holders, and all Indian citizens aged 70 years and above.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "ageLimit": "All ages (Universal for 70+)",
+    "incomeLimit": "BPL / NFSA criteria (None for 70+)",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Ration Card / PM Letter / Family ID",
+      "Active Mobile number for OTP"
+    ],
+    "applicationSteps": [
+      "Check eligibility on beneficiary.nha.gov.in.",
+      "Complete Aadhaar e-KYC using facial recognition or OTP.",
+      "Download Ayushman Card (Golden Card) instantly on smartphone.",
+      "Present Ayushman Card at helpdesk of any empanelled hospital for cashless treatment."
+    ],
+    "officialWebsite": "https://pmjay.gov.in",
+    "officialApplicationUrl": "https://beneficiary.nha.gov.in",
+    "officialDepartment": "National Health Authority (NHA), Ministry of Health & Family Welfare",
+    "helpline": "14555",
+    "officialWhatsapp": null,
+    "source": "NHA Beneficiary Portal",
+    "lastVerified": "2025-02-12",
+    "status": "Active"
+  },
+  {
+    "id": "central-abdm",
+    "name": "आयुष्मान भारत डिजिटल मिशन (ABDM)",
+    "name_en": "Ayushman Bharat Digital Mission (ABHA)",
+    "translations": {
+      "hi": { "name": "आयुष्मान भारत डिजिटल मिशन", "shortDescription": "14 अंकों का डिजिटल स्वास्थ्य खाता (ABHA ID), मेडिकल रिकॉर्ड्स का सुरक्षित ऑनलाइन संग्रह।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Digital",
+    "subcategory": "Digital Health Records",
+    "description": "भारत के प्रत्येक नागरिक के लिए 14 अंकों की विशिष्ट आभा (ABHA) हेल्थ आईडी बनाकर सभी मेडिकल रिकॉर्ड्स, पर्चियां, लैब रिपोर्ट और डिस्चार्ज समरी को डिजिटल रूप से सुरक्षित रखने एवं डॉक्टरों के साथ सहमति-आधारित साझा करने का राष्ट्रीय डिजिटल स्वास्थ्य तंत्र।",
+    "shortDescription": "Creation of 14-digit Ayushman Bharat Health Account (ABHA) ID for seamless, consent-based digital sharing of personal medical records.",
+    "benefits": [
+      "14-digit unique ABHA health identification number for life",
+      "Store prescriptions, lab tests, scans, and diagnostic reports digitally in one place",
+      "Skip long OPD queues using 'Scan and Share' QR codes at hospitals",
+      "Complete data privacy with patient consent-driven record sharing"
+    ],
+    "eligibility": "All Indian citizens.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "ageLimit": "All ages",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card (or Driving License)",
+      "Mobile number linked with Aadhaar"
+    ],
+    "applicationSteps": [
+      "Visit abha.abdm.gov.in or download ABHA App.",
+      "Enter 12-digit Aadhaar number and enter OTP received on mobile.",
+      "Create your customized ABHA address (e.g., name@abdm).",
+      "Download ABHA Card with digital QR code."
+    ],
+    "officialWebsite": "https://abdm.gov.in",
+    "officialApplicationUrl": "https://abha.abdm.gov.in/abha/v3/register",
+    "officialDepartment": "National Health Authority (NHA), Govt of India",
+    "helpline": "1800-11-4477",
+    "officialWhatsapp": null,
+    "source": "ABDM Official Portal",
+    "lastVerified": "2025-01-25",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmsby",
+    "name": "प्रधानमंत्री सुरक्षा बीमा योजना (PMSBY)",
+    "name_en": "Pradhan Mantri Suraksha Bima Yojana",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री सुरक्षा बीमा योजना", "shortDescription": "मात्र ₹20 प्रति वर्ष में ₹2 लाख का दुर्घटना मृत्यु एवं दिव्यांगता बीमा कवर।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Social Security",
+    "subcategory": "Accident Insurance",
+    "description": "18 से 70 वर्ष के नागरिकों को आकस्मिक मृत्यु अथवा पूर्ण स्थायी दिव्यांगता की स्थिति में ₹2,00,000 तथा आंशिक स्थायी दिव्यांगता पर ₹1,00,000 का दुर्घटना बीमा कवर मात्र ₹20 वार्षिक प्रीमियम पर उपलब्ध कराने की योजना।",
+    "shortDescription": "Accidental death and disability insurance cover of ₹2 Lakh at an ultra-low premium of just ₹20 per year.",
+    "benefits": [
+      "₹2,00,000 insurance payout on accidental death or permanent total disability",
+      "₹1,00,000 payout on permanent partial disability",
+      "Nominal annual premium of ₹20 auto-debited once a year in May"
+    ],
+    "eligibility": "Indian citizens aged 18 to 70 years holding an active savings bank account or post office account.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 70
+    },
+    "ageLimit": "18 - 70 years",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Savings Bank Account details with auto-debit consent"
+    ],
+    "applicationSteps": [
+      "Log in to internet banking / mobile banking or visit home bank branch.",
+      "Opt-in for PMSBY insurance scheme.",
+      "Authorize annual auto-debit of ₹20 from savings account.",
+      "Insurance certificate / policy number generated."
+    ],
+    "officialWebsite": "https://financialservices.gov.in",
+    "officialApplicationUrl": "https://jansuraksha.gov.in",
+    "officialDepartment": "Department of Financial Services, Ministry of Finance, Govt of India",
+    "helpline": "1800-180-1111",
+    "officialWhatsapp": null,
+    "source": "Jan Suraksha Portal",
+    "lastVerified": "2025-01-15",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmjjby",
+    "name": "प्रधानमंत्री जीवन ज्योति बीमा योजना (PMJJBY)",
+    "name_en": "Pradhan Mantri Jeevan Jyoti Bima Yojana",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री जीवन ज्योति बीमा योजना", "shortDescription": "₹436 प्रति वर्ष के प्रीमियम पर किसी भी कारण से मृत्यु होने पर ₹2 लाख का जीवन बीमा।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Social Security",
+    "subcategory": "Life Insurance",
+    "description": "18 से 50 वर्ष के बैंक खाताधारकों को किसी भी कारणवश (प्राकृतिक अथवा दुर्घटना) मृत्यु होने पर उनके परिवार/नामिती को ₹2,00,000 का एकमुश्त जीवन बीमा दावा प्रदान करने वाली किफायती सामाजिक सुरक्षा योजना।",
+    "shortDescription": "Renewable term life insurance cover of ₹2 Lakh for death due to any reason at ₹436 per year.",
+    "benefits": [
+      "₹2,00,000 life insurance coverage payable to nominee upon death of subscriber",
+      "Covers death due to any cause (illness, natural, or accidental)",
+      "Simple auto-debit premium of ₹436 per annum directly from bank account"
+    ],
+    "eligibility": "Individuals aged 18 to 50 years having a savings bank account with consent to join auto-debit.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 50
+    },
+    "ageLimit": "18 - 50 years",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Savings Bank Account Passbook",
+      "Nominee details"
+    ],
+    "applicationSteps": [
+      "Subscribe through bank net-banking or visit branch / BC kiosk.",
+      "Fill consent-cum-declaration form with nominee particulars.",
+      "Annual premium of ₹436 debited.",
+      "Acknowledgement slip with policy details issued."
+    ],
+    "officialWebsite": "https://jansuraksha.gov.in",
+    "officialApplicationUrl": "https://jansuraksha.gov.in",
+    "officialDepartment": "Department of Financial Services, Ministry of Finance, Govt of India",
+    "helpline": "1800-180-1111",
+    "officialWhatsapp": null,
+    "source": "Jan Suraksha Portal",
+    "lastVerified": "2025-01-15",
+    "status": "Active"
+  },
+  {
+    "id": "central-mgnrega",
+    "name": "महात्मा गांधी राष्ट्रीय ग्रामीण रोजगार गारंटी अधिनियम (MGNREGA)",
+    "name_en": "Mahatma Gandhi National Rural Employment Guarantee Act",
+    "translations": {
+      "hi": { "name": "मनरेगा योजना", "shortDescription": "ग्रामीण परिवारों को प्रति वित्तीय वर्ष कम से कम 100 दिन के अकुशल रोजगार की कानूनी गारंटी।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Employment",
+    "subcategory": "Rural Livelihood Guarantee",
+    "description": "ग्रामीण क्षेत्रों में प्रत्येक परिवार जिसके वयस्क सदस्य अकुशल शारीरिक श्रम करने के इच्छुक हैं, उन्हें एक वित्तीय वर्ष में कम से कम 100 दिनों के सवैतनिक रोजगार की वैधानिक गारंटी प्रदान करने वाला ऐतिहासिक अधिनियम।",
+    "shortDescription": "Statutory legal guarantee of 100 days of wage employment per financial year to adult members of rural households.",
+    "benefits": [
+      "Guaranteed 100 days of unskilled wage employment per household per year",
+      "Statutory minimum wage paid directly to bank account within 15 days",
+      "Unemployment allowance payable if work is not allocated within 15 days of demand",
+      "Creche, drinking water, and first aid facilities provided at worksites"
+    ],
+    "eligibility": "Adult members (18+ years) of rural households willing to do unskilled manual work.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 75,
+      "occupation": ["Laborer", "Rural Worker", "Unemployed"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Rural household",
+    "gender": "All (At least 1/3rd women)",
+    "occupation": "Rural Manual Laborer",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Photograph of all adult family members",
+      "Bank / Post Office account details",
+      "Proof of residence in Gram Panchayat"
+    ],
+    "applicationSteps": [
+      "Submit application to Gram Panchayat Secretary for Job Card.",
+      "Job Card issued within 15 days of application.",
+      "Submit written work application demanding employment.",
+      "Work allocated within 5 km of village; wages paid weekly/fortnightly via ABPS."
+    ],
+    "officialWebsite": "https://nrega.nic.in",
+    "officialApplicationUrl": "https://nrega.nic.in",
+    "officialDepartment": "Ministry of Rural Development, Govt of India",
+    "helpline": "1800-11-1555",
+    "officialWhatsapp": null,
+    "source": "MGNREGA Official Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmkvy",
+    "name": "प्रधानमंत्री कौशल विकास योजना (PMKVY 4.0)",
+    "name_en": "Pradhan Mantri Kaushal Vikas Yojana 4.0",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री कौशल विकास योजना", "shortDescription": "युवाओं को निःशुल्क उद्योग-प्रासंगिक कौशल प्रशिक्षण, सरकारी प्रमाण पत्र व रोजगार सहायता।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Skill Development",
+    "subcategory": "Vocational Training",
+    "description": "देश के युवाओं को उद्योग-उन्मुख कौशल (कोडिंग, रोबोटिक्स, 3डी प्रिंटिंग, ड्रोन, एआई, हेल्थकेयर, ऑटोमोटिव) में निःशुल्क अल्पकालिक प्रशिक्षण, राष्ट्रीय स्तर का कौशल प्रमाण पत्र और रोजगार/स्वरोजगार के अवसर प्रदान करने की योजना।",
+    "shortDescription": "Industry-relevant short-term vocational training, NSQF certification, and placement assistance for Indian youth.",
+    "benefits": [
+      "100% free training courses aligned with National Skills Qualification Framework (NSQF)",
+      "Covers cutting-edge Industry 4.0 skills (AI, IoT, Drones, Robotics, Mechatronics)",
+      "Govt of India skill certificate and monetary reward upon certification",
+      "Rozgar Melas and apprenticeship linkages"
+    ],
+    "eligibility": "Indian youth aged 15 to 45 years who are school/college dropouts or unemployed seeking industry skills.",
+    "eligibilityRules": {
+      "minAge": 15,
+      "maxAge": 45
+    },
+    "ageLimit": "15 - 45 years",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Youth / Jobseeker / Student",
+    "socialCategory": "All",
+    "education": "School Dropout / 10th / 12th / Graduate",
+    "documents": [
+      "Aadhaar Card",
+      "Educational certificates",
+      "Bank Account details",
+      "Passport sized photographs"
+    ],
+    "applicationSteps": [
+      "Register on Skill India Digital portal skillindiadigital.gov.in.",
+      "Browse accredited training centres and courses by location/job role.",
+      "Enroll in preferred training batch.",
+      "Complete classroom and practical training.",
+      "Pass third-party assessment and obtain NSQF certificate."
+    ],
+    "officialWebsite": "https://www.skillindiadigital.gov.in",
+    "officialApplicationUrl": "https://www.skillindiadigital.gov.in",
+    "officialDepartment": "Ministry of Skill Development and Entrepreneurship, Govt of India",
+    "helpline": "08800055555",
+    "officialWhatsapp": null,
+    "source": "Skill India Digital Portal",
+    "lastVerified": "2025-01-30",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-vishwakarma",
+    "name": "पीएम विश्वकर्मा योजना (PM Vishwakarma)",
+    "name_en": "PM Vishwakarma Scheme",
+    "translations": {
+      "hi": { "name": "पीएम विश्वकर्मा योजना", "shortDescription": "18 पारंपरिक कारीगरों व शिल्पकारों को ₹3 लाख तक का 5% पर ऋण, टूलकिट हेतु ₹15,000 व प्रशिक्षण।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Skill Development",
+    "subcategory": "Artisan & Traditional Crafts",
+    "description": "हाथों और औजारों से काम करने वाले 18 पारंपरिक शिल्पों के कारीगरों (बढ़ई, लोहार, कुम्हार, मूर्तिकार, मोची, दर्जी, धोबी आदि) को पहचान, कौशल उन्नयन, ₹15,000 की टूलकिट प्रोत्साहन राशि तथा 5% की रियायती ब्याज दर पर ₹3 लाख तक संपार्श्विक-मुक्त ऋण प्रदान करने की योजना।",
+    "shortDescription": "End-to-end support for traditional artisans including ₹15K modern toolkit grant, daily ₹500 stipend during training, and collateral-free enterprise loans up to ₹3 Lakh at 5% interest.",
+    "benefits": [
+      "PM Vishwakarma Certificate and ID Card recognition",
+      "5-7 days basic skill training with ₹500 per day stipend",
+      "₹15,000 e-voucher grant for purchasing modern professional toolkit",
+      "Collateral-free enterprise loan: 1st tranche up to ₹1,00,000 (18 months); 2nd tranche up to ₹2,00,000 (30 months) at 5% interest",
+      "Incentive for digital transactions (₹1 per transaction up to 100/month) and marketing support"
+    ],
+    "eligibility": "Artisan or craftsperson working with hands and tools in one of 18 family-based traditional trades aged 18+. One member per family eligible.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "occupation": ["Artisan", "Craftsperson", "Carpenter", "Blacksmith", "Potter", "Tailor", "Cobbler"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Traditional trade artisan",
+    "gender": "All",
+    "occupation": "Artisans in 18 identified trades",
+    "socialCategory": "All (OBC, SC, ST and General artisans)",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card with biometric verification",
+      "Mobile number",
+      "Bank Account details",
+      "Ration Card / Family details"
+    ],
+    "applicationSteps": [
+      "Visit nearest Common Service Centre (CSC) with Aadhaar and mobile.",
+      "Register on pmvishwakarma.gov.in in your trade.",
+      "Three-tier verification: Gram Panchayat / ULB, District Committee, and State Screening.",
+      "Attend basic training and receive PM Vishwakarma ID and toolkit incentive.",
+      "Apply for concessional loan through the portal."
+    ],
+    "officialWebsite": "https://pmvishwakarma.gov.in",
+    "officialApplicationUrl": "https://pmvishwakarma.gov.in",
+    "officialDepartment": "Ministry of Micro, Small and Medium Enterprises (MSME), Govt of India",
+    "helpline": "1800-267-7777",
+    "officialWhatsapp": null,
+    "source": "PM Vishwakarma Official Portal",
+    "lastVerified": "2025-02-10",
+    "status": "Active"
+  },
+  {
+    "id": "central-startup-india",
+    "name": "स्टार्टअप इंडिया (Startup India)",
+    "name_en": "Startup India Initiative",
+    "translations": {
+      "hi": { "name": "स्टार्टअप इंडिया", "shortDescription": "इनोवेटिव स्टार्टअप्स हेतु 3 वर्ष टैक्स छूट, सीड फंड, पेटेंट में 80% छूट व आसान फंडिंग।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Entrepreneurship",
+    "subcategory": "Innovation & Seed Funding",
+    "description": "भारत में नवाचार और स्टार्टअप संस्कृति को बढ़ावा देने, युवाओं को रोजगार सृजक बनाने, डीपीआईआईटी मान्यता प्राप्त स्टार्टअप्स को 3 वर्षों के लिए आयकर छूट, आसान सार्वजनिक खरीद तथा ₹50 लाख तक का स्टार्टअप सीड फंड (SISFS) उपलब्ध कराने की राष्ट्रीय पहल।",
+    "shortDescription": "Flagship initiative offering DPIIT recognition, 3-year income tax holiday (Section 80-IAC), 80% patent rebate, and up to ₹50 Lakh seed funding.",
+    "benefits": [
+      "DPIIT Certificate of Recognition for 10 years from incorporation",
+      "100% income tax exemption for 3 consecutive years out of 10 years",
+      "Up to ₹20 Lakh grant for proof of concept and up to ₹50 Lakh debt for commercialization under SISFS",
+      "80% rebate in patent filing fees and 50% rebate in trademark filing",
+      "Exemption from prior turnover and experience criteria in Government e-Marketplace (GeM)"
+    ],
+    "eligibility": "Private Limited Company, LLP, or Registered Partnership incorporated not more than 10 years ago with annual turnover under ₹100 Crore working towards innovation/improvement.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 70,
+      "occupation": ["Entrepreneur", "Startup Founder"]
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Turnover under ₹100 Crore",
+    "gender": "All",
+    "occupation": "Founder / Innovator",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Certificate of Incorporation / Registration of entity",
+      "PAN Card of the entity",
+      "Pitch Deck / Brief write-up on innovation and scalability",
+      "Website or mobile app link (if available)"
+    ],
+    "applicationSteps": [
+      "Register on startupindia.gov.in portal.",
+      "Apply for DPIIT Recognition online by providing company details and innovation pitch.",
+      "Receive DPIIT Recognition Certificate within 2-3 working days.",
+      "Apply for Startup India Seed Fund Scheme (SISFS) through shortlisted incubators."
+    ],
+    "officialWebsite": "https://www.startupindia.gov.in",
+    "officialApplicationUrl": "https://www.startupindia.gov.in/content/sih/en/recognition-page.html",
+    "officialDepartment": "DPIIT, Ministry of Commerce and Industry, Govt of India",
+    "helpline": "1800-115-565",
+    "officialWhatsapp": null,
+    "source": "Startup India Official Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-make-in-india",
+    "name": "मेक इन इंडिया (Make in India)",
+    "name_en": "Make in India Initiative",
+    "translations": {
+      "hi": { "name": "मेक इन इंडिया", "shortDescription": "घरेलू विनिर्माण को बढ़ावा, प्रत्यक्ष विदेशी निवेश (FDI) सुगमता व पीएलआई प्रोत्साहन योजनाएं।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Business",
+    "subcategory": "Manufacturing & Investment",
+    "description": "भारत को वैश्विक डिजाइन और विनिर्माण केंद्र में परिवर्तित करने, 27 प्रमुख क्षेत्रों में प्रोडक्शन लिंक्ड इंसेंटिव (PLI) योजनाओं के माध्यम से घरेलू विनिर्माण को बढ़ावा देने तथा व्यापार सुगमता (Ease of Doing Business) सुनिश्चित करने की राष्ट्रीय पहल।",
+    "shortDescription": "National manufacturing initiative driving domestic manufacturing across 27 sectors with ₹1.97 Lakh Crore PLI schemes.",
+    "benefits": [
+      "Production Linked Incentive (PLI) schemes providing 4% to 6% incremental output subsidies",
+      "Single Window Clearance System (National Single Window System - NSWS)",
+      "Fast-track industrial land allocation and customs duty rationalization"
+    ],
+    "eligibility": "Manufacturing companies, MSMEs, industrial investors, and technology enterprises registered in India.",
+    "eligibilityRules": {
+      "minAge": 18,
+      "maxAge": 90
+    },
+    "ageLimit": "Corporate / Enterprise",
+    "incomeLimit": "Sector specific PLI investment slabs",
+    "gender": "All",
+    "occupation": "Manufacturer / Industrialist",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Company Registration (ROC)",
+      "GSTIN and PAN",
+      "Industrial manufacturing licenses",
+      "Audited financial statements"
+    ],
+    "applicationSteps": [
+      "Access National Single Window System (nsws.gov.in).",
+      "Identify applicable PLI scheme or manufacturing clearance clearances.",
+      "Submit unified application form.",
+      "Track approvals and submit production proof for PLI disbursements."
+    ],
+    "officialWebsite": "https://www.makeinindia.com",
+    "officialApplicationUrl": "https://www.nsws.gov.in",
+    "officialDepartment": "DPIIT, Ministry of Commerce and Industry, Govt of India",
+    "helpline": "011-23062665",
+    "officialWhatsapp": null,
+    "source": "Make in India Official Portal",
+    "lastVerified": "2024-11-30",
+    "status": "Active"
+  },
+  {
+    "id": "central-digital-india",
+    "name": "डिजिटल इंडिया (Digital India Programme)",
+    "name_en": "Digital India Programme",
+    "translations": {
+      "hi": { "name": "डिजिटल इंडिया कार्यक्रम", "shortDescription": "डिजिटल इंफ्रास्ट्रक्चर, ऑनलाइन सरकारी सेवाएं (DigiLocker, UMANG) व डिजिटल साक्षरता।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Digital",
+    "subcategory": "Digital Citizen Services",
+    "description": "भारत को डिजिटल रूप से सशक्त समाज और ज्ञान अर्थव्यवस्था में बदलने, प्रत्येक नागरिक को हाई-स्पीड इंटरनेट, डिजिलॉकर, उमंग, यूपीआई तथा ऑनलाइन प्रमाण पत्र व सेवाएं उपलब्ध कराने का महा-कार्यक्रम।",
+    "shortDescription": "Comprehensive digital transformation initiative offering citizen e-services (DigiLocker, UMANG, e-Sign, Bhashini, BharatNet).",
+    "benefits": [
+      "Access to 1,000+ government services on single UMANG app",
+      "DigiLocker cloud storage for authentic electronic certificates (Aadhaar, DL, Marksheets)",
+      "High speed broadband in gram panchayats via BharatNet",
+      "Direct benefit delivery eliminating intermediaries"
+    ],
+    "eligibility": "All Indian citizens.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 100
+    },
+    "ageLimit": "All ages",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Mobile number"
+    ],
+    "applicationSteps": [
+      "Download DigiLocker and UMANG apps from App Store / Play Store.",
+      "Register using Aadhaar number and OTP verification.",
+      "Issue and store digital government documents instantly."
+    ],
+    "officialWebsite": "https://www.digitalindia.gov.in",
+    "officialApplicationUrl": "https://web.umang.gov.in",
+    "officialDepartment": "Ministry of Electronics and Information Technology (MeitY), Govt of India",
+    "helpline": "1800-11-5246",
+    "officialWhatsapp": null,
+    "source": "Digital India Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-pmjuga",
+    "name": "प्रधानमंत्री जनजातीय उन्नत ग्राम अभियान (PM-JUGA)",
+    "name_en": "Pradhan Mantri Janjatiya Unnat Gram Abhiyan",
+    "translations": {
+      "hi": { "name": "पीएम जनजातीय उन्नत ग्राम अभियान", "shortDescription": "63,000 से अधिक आदिवासी गांवों में पक्के मकान, स्वच्छ पेयजल, बिजली व आजीविका का समग्र विकास।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Tribal",
+    "subcategory": "Tribal Village Development",
+    "description": "देश के 549 जिलों के 63,843 जनजातीय बहुल गांवों में 5 करोड़ से अधिक आदिवासी नागरिकों के जीवन स्तर में सुधार हेतु 17 मंत्रालयों के 25 प्रमुख हस्तक्षेपों (पक्के मकान, ऑल-वेदर रोड, हर घर नल से जल, विद्युतीकरण, कौशल केंद्र) का समग्र विकास अभियान।",
+    "shortDescription": "Mission-mode development program transforming 63,843 tribal majority villages covering over 5 Crore tribal citizens.",
+    "benefits": [
+      "100% saturation of PMAY-G houses and tap water connections in tribal hamlets",
+      "Solar off-grid power for unelectrified remote tribal villages",
+      "Tribal Home Stays support (₹5 Lakh grant per household) for eco-tourism",
+      "Mobile health units and specialized sickle cell screening camps"
+    ],
+    "eligibility": "Residents of notified tribal majority villages and Scheduled Tribe households across participating states.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "socialCategory": ["ST"]
+    },
+    "ageLimit": "All ages",
+    "incomeLimit": "Tribal village residents",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "ST",
+    "education": "Not required",
+    "documents": [
+      "ST Certificate",
+      "Aadhaar Card",
+      "Village resident certificate"
+    ],
+    "applicationSteps": [
+      "Village saturation plan executed by District Collector and Tribal Welfare Department.",
+      "Gram Sabha verifies household saturation lists.",
+      "Direct benefit delivery via converged departmental schemes."
+    ],
+    "officialWebsite": "https://tribal.nic.in",
+    "officialApplicationUrl": "https://tribal.nic.in",
+    "officialDepartment": "Ministry of Tribal Affairs, Govt of India",
+    "helpline": "011-23381652",
+    "officialWhatsapp": null,
+    "source": "Ministry of Tribal Affairs",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "central-pm-janman",
+    "name": "पीएम-जनमन योजना (PM-JANMAN)",
+    "name_en": "PM-JANMAN (Pradhan Mantri Janjati Adivasi Nyaya Maha Abhiyan)",
+    "translations": {
+      "hi": { "name": "पीएम-जनमन योजना", "shortDescription": "विशेष रूप से कमजोर जनजातीय समूहों (PVTGs) को आवास, सड़क, स्वच्छ जल व बुनियादी सुविधाएं।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Tribal",
+    "subcategory": "Particularly Vulnerable Tribal Groups",
+    "description": "विशेष रूप से कमजोर जनजातीय समूहों (PVTG) के 28 लाख से अधिक परिवारों को मुख्यधारा से जोड़ने और 11 महत्वपूर्ण क्षेत्रों (पक्के आवास, सड़क, पेयजल, मोबाइल मेडिकल यूनिट, कौशल केंद्र, सौर विद्युतीकरण) में बुनियादी सुविधाएं प्रदान करने की ₹24,000 करोड़ की महा-योजना।",
+    "shortDescription": "Comprehensive ₹24,000 Crore mission addressing critical infrastructure, housing, health, and livelihood needs of 75 PVTG communities.",
+    "benefits": [
+      "Pucca houses under PMAY-G with enhanced unit cost of ₹2.00 Lakh",
+      "Clean tap water, road connectivity, and off-grid solar power systems",
+      "Van Dhan Vikas Kendras (VDVK) for processing minor forest produce",
+      "Hostels for PVTG students and mobile medical clinics"
+    ],
+    "eligibility": "Households belonging to 75 recognized Particularly Vulnerable Tribal Groups (PVTGs) residing in 18 states and UTs.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "socialCategory": ["ST"]
+    },
+    "ageLimit": "All ages",
+    "incomeLimit": "PVTG community member",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "ST (PVTG)",
+    "education": "Not required",
+    "documents": [
+      "PVTG Identity Certificate",
+      "Aadhaar Card",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Special saturation camps organized directly in PVTG habitations.",
+      "Aadhaar enrollment and Jan Dhan bank accounts opened at doorstep.",
+      "Sanction letters for housing, water, and electrification distributed by district teams."
+    ],
+    "officialWebsite": "https://tribal.nic.in/PMJANMAN.aspx",
+    "officialApplicationUrl": "https://tribal.nic.in/PMJANMAN.aspx",
+    "officialDepartment": "Ministry of Tribal Affairs, Govt of India",
+    "helpline": "011-23381652",
+    "officialWhatsapp": null,
+    "source": "PM JANMAN Portal",
+    "lastVerified": "2025-01-28",
+    "status": "Active"
+  },
+  {
+    "id": "edu-pm-usp",
+    "name": "प्रधानमंत्री उच्चतर शिक्षा प्रोत्साहन योजना (PM-USP)",
+    "name_en": "PM Uchchatar Shiksha Protsahan Yojana",
+    "translations": {
+      "hi": { "name": "प्रधानमंत्री उच्चतर शिक्षा प्रोत्साहन योजना", "shortDescription": "कॉलेज व विश्वविद्यालय छात्रों को उच्च शिक्षा हेतु ₹12,000 से ₹20,000 वार्षिक छात्रवृत्ति।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Scholarship",
+    "subcategory": "College & University Scholarship",
+    "description": "मेधावी छात्रों को उच्च शिक्षण संस्थानों (कॉलेज एवं विश्वविद्यालय) में स्नातक एवं स्नातकोत्तर पाठ्यक्रमों में अध्ययन हेतु वित्तीय सहायता प्रदान करने वाली केंद्रीय छात्रवृत्ति योजना।",
+    "shortDescription": "Central sector scholarship of ₹12,000/year for graduation and ₹20,000/year for post-graduation for meritorious college students.",
+    "benefits": [
+      "₹12,000 per year at graduation level for first 3 years",
+      "₹20,000 per year at post-graduation level",
+      "Direct DBT transfer into student's Aadhaar-linked bank account"
+    ],
+    "eligibility": "Students above 80th percentile of successful candidates in Class 12 board examination enrolled in recognized regular college/university degree. Family annual income less than ₹4.5 Lakh.",
+    "eligibilityRules": {
+      "minAge": 17,
+      "maxAge": 25,
+      "maxIncome": 450000,
+      "education": ["12th Pass", "Graduate", "Student"]
+    },
+    "ageLimit": "17 - 25 years",
+    "incomeLimit": "Family income below ₹4,50,000/year",
+    "gender": "All",
+    "occupation": "Student",
+    "socialCategory": "All",
+    "education": "Class 12th Board (>80th Percentile)",
+    "documents": [
+      "Class 12th Marksheet",
+      "Family Income Certificate",
+      "College Admission Bonafide / Fee Receipt",
+      "Aadhaar Card",
+      "Bank Passbook"
+    ],
+    "applicationSteps": [
+      "Register on National Scholarship Portal (scholarships.gov.in).",
+      "Select 'Central Sector Scheme of Scholarship for College and University Students'.",
+      "Institute nodal officer verifies enrollment.",
+      "State education department processes merit list.",
+      "Scholarship credited directly via DBT."
+    ],
+    "officialWebsite": "https://scholarships.gov.in",
+    "officialApplicationUrl": "https://scholarships.gov.in",
+    "officialDepartment": "Department of Higher Education, Ministry of Education, Govt of India",
+    "helpline": "0120-6619540",
+    "officialWhatsapp": null,
+    "source": "National Scholarship Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "edu-nmms",
+    "name": "राष्ट्रीय साधन-सह-योग्यता छात्रवृत्ति योजना (NMMSS)",
+    "name_en": "National Means-cum-Merit Scholarship Scheme",
+    "translations": {
+      "hi": { "name": "राष्ट्रीय साधन-सह-योग्यता छात्रवृत्ति", "shortDescription": "कक्षा 9 से 12 तक के मेधावी व आर्थिक रूप से कमजोर छात्रों को ₹12,000 प्रति वर्ष छात्रवृत्ति।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Scholarship",
+    "subcategory": "School Secondary Scholarship",
+    "description": "आर्थिक रूप से कमजोर वर्गों के प्रतिभाशाली विद्यार्थियों को कक्षा 8 के बाद पढ़ाई छोड़ने से रोकने तथा कक्षा 9 से 12 तक माध्यमिक स्तर पर अध्ययन जारी रखने हेतु ₹12,000 प्रति वर्ष की छात्रवृत्ति प्रदान करने की केंद्रीय योजना।",
+    "shortDescription": "Scholarship of ₹12,000 per annum (₹1,000 per month) for classes 9 to 12 for meritorious students from economically weaker sections.",
+    "benefits": [
+      "₹12,000 per year from Class 9 to Class 12 (Total ₹48,000 across 4 years)",
+      "Direct DBT transfer into student's personal bank account",
+      "Arrests dropout rate of brilliant students in rural and low-income families"
+    ],
+    "eligibility": "Students studying in Class 8 in Govt, Govt-aided or Local body schools who scored 55%+ in Class 7 and qualify NMMS state screening test. Family income below ₹3.5 Lakh.",
+    "eligibilityRules": {
+      "minAge": 12,
+      "maxAge": 17,
+      "maxIncome": 350000,
+      "education": ["Student", "8th Pass", "9th Pass"]
+    },
+    "ageLimit": "12 - 17 years",
+    "incomeLimit": "Family income below ₹3,50,000/year",
+    "gender": "All",
+    "occupation": "School Student",
+    "socialCategory": "All",
+    "education": "Class 8 in Govt/Aided school",
+    "documents": [
+      "Class 7th & 8th Marksheet",
+      "Income Certificate (under ₹3.5 Lakh)",
+      "Aadhaar Card",
+      "NMMS Examination Admit Card / Rank Card",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Appear in State Level NMMS Selection Exam (Mental Ability Test + Scholastic Aptitude Test).",
+      "After qualifying merit list, register on National Scholarship Portal (scholarships.gov.in).",
+      "School verifies application online.",
+      "Disbursement of ₹12,000 yearly via PFMS DBT."
+    ],
+    "officialWebsite": "https://scholarships.gov.in",
+    "officialApplicationUrl": "https://scholarships.gov.in",
+    "officialDepartment": "Department of School Education & Literacy, Ministry of Education, Govt of India",
+    "helpline": "0120-6619540",
+    "officialWhatsapp": null,
+    "source": "NSP Official Portal",
+    "lastVerified": "2024-12-15",
+    "status": "Active"
+  },
+  {
+    "id": "edu-pm-yasasvi",
+    "name": "पीएम यशस्वी योजना (PM YASASVI)",
+    "name_en": "PM Young Achievers Scholarship Award Scheme for Vibrant India",
+    "translations": {
+      "hi": { "name": "पीएम यशस्वी योजना", "shortDescription": "OBC, EBC व DNT छात्रों को कक्षा 9-10 हेतु ₹75,000 व 11-12 हेतु ₹1,25,000 छात्रवृत्ति।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "OBC",
+    "subcategory": "Merit Scholarship",
+    "description": "अन्य पिछड़ा वर्ग (OBC), आर्थिक रूप से पिछड़े वर्ग (EBC) और विमुक्त एवं घुमंतू जनजातियों (DNT) के उत्कृष्ट विद्यार्थियों को शीर्ष स्कूलों में कक्षा 9 से 12 तक उच्च गुणवत्तापूर्ण शिक्षा हेतु पूर्ण छात्रवृत्ति प्रदान करने की योजना।",
+    "shortDescription": "Top class school scholarship of ₹75,000/year (Class 9-10) and ₹1,25,000/year (Class 11-12) for OBC, EBC, and DNT students.",
+    "benefits": [
+      "Class 9 and 10 students receive up to ₹75,000 per year covering school tuition and hostel fees",
+      "Class 11 and 12 students receive up to ₹1,25,000 per year",
+      "Top-class college education scholarships also covered under higher component"
+    ],
+    "eligibility": "Students belonging to OBC, EBC, or DNT categories enrolled in identified top-schools. Family annual income not exceeding ₹2.5 Lakh.",
+    "eligibilityRules": {
+      "minAge": 13,
+      "maxAge": 19,
+      "maxIncome": 250000,
+      "socialCategory": ["OBC", "EBC", "DNT"]
+    },
+    "ageLimit": "13 - 19 years",
+    "incomeLimit": "Family income below ₹2,50,000/year",
+    "gender": "All",
+    "occupation": "Student",
+    "socialCategory": "OBC / EBC / DNT",
+    "education": "Class 9 to 12 Student",
+    "documents": [
+      "OBC / EBC / DNT Category Certificate",
+      "Income Certificate",
+      "Class 8th / 10th Marksheet",
+      "Aadhaar Card",
+      "Bank Account details"
+    ],
+    "applicationSteps": [
+      "Apply through National Scholarship Portal (scholarships.gov.in).",
+      "Select PM-YASASVI Top Class Education in Schools scheme.",
+      "Upload caste and income credentials.",
+      "School and District Nodal Officer verify credentials.",
+      "Scholarship disbursed directly through PFMS."
+    ],
+    "officialWebsite": "https://scholarships.gov.in",
+    "officialApplicationUrl": "https://scholarships.gov.in",
+    "officialDepartment": "Ministry of Social Justice and Empowerment, Govt of India",
+    "helpline": "011-23382391",
+    "officialWhatsapp": null,
+    "source": "MSJE Official Portal",
+    "lastVerified": "2025-01-10",
+    "status": "Active"
+  },
+  {
+    "id": "edu-swayam",
+    "name": "स्वयं (SWAYAM)",
+    "name_en": "SWAYAM - Study Webs of Active-Learning for Young Aspiring Minds",
+    "translations": {
+      "hi": { "name": "स्वयं ऑनलाइन शिक्षा मंच", "shortDescription": "आईआईटी, आईआईएम व शीर्ष प्राध्यापकों द्वारा 9वीं से पोस्ट-ग्रेजुएशन तक निःशुल्क ऑनलाइन पाठ्यक्रम व क्रेडिट ट्रांसफर।" }
+    },
+    "state": "All India",
+    "stateCode": "CENTRAL",
+    "scope": "Central",
+    "category": "Education",
+    "subcategory": "Free Online MOOCs & Degree Credits",
+    "description": "भारत सरकार के शिक्षा मंत्रालय द्वारा संचालित राष्ट्रीय ऑनलाइन लर्निंग पोर्टल, जिस पर कक्षा 9 से लेकर पोस्ट-ग्रेजुएशन स्तर तक के 3,000 से अधिक पाठ्यक्रमों की उच्च गुणवत्तायुक्त शिक्षा देश के शीर्ष प्राध्यापकों (IITs, IIMs, IISc, IGNOU) द्वारा निःशुल्क उपलब्ध कराई जाती है।",
+    "shortDescription": "India's national MOOC platform offering free interactive online courses with academic credit transfer facility under UGC/AICTE norms.",
+    "benefits": [
+      "Free access to video lectures, reading materials, self-assessment tests, and online discussion forums",
+      "Earn verifiable certificates from IITs, IIMs, and Central Universities upon proctored exam",
+      "Academic Bank of Credits (ABC) integration allowing transfer of up to 40% course credits into university degrees",
+      "Free learning across Engineering, Science, Humanities, Management, and Law"
+    ],
+    "eligibility": "Open to all students, teachers, professionals, and lifelong learners across India and the world.",
+    "eligibilityRules": {
+      "minAge": 13,
+      "maxAge": 99
+    },
+    "ageLimit": "13+ years",
+    "incomeLimit": "None",
+    "gender": "All",
+    "occupation": "Student / Teacher / Professional",
+    "socialCategory": "All",
+    "education": "School / College / Lifelong Learner",
+    "documents": [
+      "Email ID and Mobile Number",
+      "Aadhaar Card / Student ID (for examination registration)"
+    ],
+    "applicationSteps": [
+      "Visit swayam.gov.in and click 'Sign In / Register'.",
+      "Browse course catalog by subject or national coordinator (NPTEL, AICTE, UGC, CEC, IGNOU).",
+      "Click 'Join' to enroll in any course 100% free of charge.",
+      "Watch weekly video lectures and submit online assignments.",
+      "Optional: Pay nominal fee of ₹1,000 for appearing in proctored exam to earn official certificate."
+    ],
+    "officialWebsite": "https://swayam.gov.in",
+    "officialApplicationUrl": "https://swayam.gov.in",
+    "officialDepartment": "Ministry of Education, Govt of India",
+    "helpline": "1800-121-9025",
+    "officialWhatsapp": null,
+    "source": "SWAYAM Official Portal",
+    "lastVerified": "2025-02-18",
+    "status": "Active"
+  },
+  {
+    "id": "state-up-kanya-sumangala",
+    "name": "मुख्यमंत्री कन्या सुमंगला योजना (UP)",
+    "name_en": "Mukhya Mantri Kanya Sumangala Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री कन्या सुमंगला योजना", "shortDescription": "उत्तर प्रदेश की बालिकाओं को जन्म से स्नातक तक 6 चरणों में ₹25,000 की वित्तीय सहायता।" }
+    },
+    "state": "Uttar Pradesh",
+    "stateCode": "UP",
+    "scope": "State",
+    "category": "Women & Child",
+    "subcategory": "Girl Child Assistance",
+    "description": "उत्तर प्रदेश सरकार द्वारा बालिकाओं के जन्म, टीकाकरण, प्राथमिक, माध्यमिक एवं उच्च शिक्षा में प्रवेश पर कुल ₹25,000 की वित्तीय सहायता 6 किस्तों में सीधे बैंक खाते में प्रदान की जाती है।",
+    "shortDescription": "Conditional cash grant of ₹25,000 disbursed across 6 developmental milestones from birth to graduation for girls in Uttar Pradesh.",
+    "benefits": [
+      "Disbursement of ₹25,000 in 6 stages (Birth: ₹5,000, Immunization: ₹2,000, Class 1: ₹3,000, Class 6: ₹3,000, Class 9: ₹5,000, Graduation: ₹7,000)",
+      "Direct DBT transfer into mother/girl's bank account",
+      "Eliminates female foeticide and promotes girl child education"
+    ],
+    "eligibility": "Resident of Uttar Pradesh. Family annual income less than ₹3,00,000. Maximum 2 girls per family.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 0,
+      "maxAge": 22,
+      "state": "Uttar Pradesh",
+      "maxIncome": 300000
+    },
+    "ageLimit": "0 - 22 years",
+    "incomeLimit": "Family income below ₹3 Lakh/year",
+    "gender": "Female",
+    "occupation": "Student / Child",
+    "socialCategory": "All",
+    "education": "School / Higher Education",
+    "documents": [
+      "UP Domicile Certificate",
+      "Income Certificate",
+      "Birth Certificate of girl child",
+      "Aadhaar Card and Bank Passbook",
+      "School / College Admission Proof"
+    ],
+    "applicationSteps": [
+      "Apply on mksy.up.gov.in portal.",
+      "Select milestone stage and upload supporting certificates.",
+      "Block Development Officer (BDO) / SDM verifies application.",
+      "Grant credited to bank account via DBT."
+    ],
+    "officialWebsite": "https://mksy.up.gov.in",
+    "officialApplicationUrl": "https://mksy.up.gov.in",
+    "officialDepartment": "Women and Child Development Department, Govt of Uttar Pradesh",
+    "helpline": "181",
+    "officialWhatsapp": null,
+    "source": "MKSY UP Portal",
+    "lastVerified": "2025-01-10",
+    "status": "Active"
+  },
+  {
+    "id": "state-mh-ladki-bahin",
+    "name": "मुख्यमंत्री माझी लाड़की बहिन योजना (Maharashtra)",
+    "name_en": "Mukhya Mantri Majhi Ladki Bahin Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री माझी लाड़की बहिन योजना", "shortDescription": "महाराष्ट्र की 21 से 65 वर्ष की पात्र महिलाओं को ₹1,500 प्रतिमाह प्रत्यक्ष आर्थिक सहायता।" }
+    },
+    "state": "Maharashtra",
+    "stateCode": "MH",
+    "scope": "State",
+    "category": "Women",
+    "subcategory": "Direct Income Support",
+    "description": "महाराष्ट्र राज्य की 21 से 65 वर्ष आयु वर्ग की पात्र महिलाओं के आर्थिक स्वावलंबन, स्वास्थ्य और पोषण में सुधार हेतु ₹1,500 प्रति माह (₹18,000 वार्षिक) की प्रत्यक्ष वित्तीय सहायता सीधे बैंक खाते में प्रदान करने की प्रमुख योजना।",
+    "shortDescription": "Direct monthly financial support of ₹1,500 to women residents of Maharashtra to promote health, nutrition, and self-reliance.",
+    "benefits": [
+      "Direct DBT transfer of ₹1,500 per month into beneficiary bank account",
+      "Financial security and independence for day-to-day household and health expenses"
+    ],
+    "eligibility": "Resident woman of Maharashtra aged 21 to 65 years. Family annual income less than ₹2.5 Lakh. Holder of yellow or orange ration card.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 21,
+      "maxAge": 65,
+      "state": "Maharashtra",
+      "maxIncome": 250000
+    },
+    "ageLimit": "21 - 65 years",
+    "incomeLimit": "Family income below ₹2,50,000/year",
+    "gender": "Female",
+    "occupation": "Any / Homemaker",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Aadhaar Card",
+      "Maharashtra Domicile Certificate / Ration Card",
+      "Income Certificate (under ₹2.5 Lakh)",
+      "Bank Passbook linked with Aadhaar"
+    ],
+    "applicationSteps": [
+      "Apply through Nari Shakti Doot App or ladkibahin.maharashtra.gov.in.",
+      "Submit Aadhaar, Ration Card and income proof.",
+      "Verification by local municipal / taluka committee.",
+      "Monthly payout disbursed directly to bank account."
+    ],
+    "officialWebsite": "https://ladkibahin.maharashtra.gov.in",
+    "officialApplicationUrl": "https://ladkibahin.maharashtra.gov.in",
+    "officialDepartment": "Women and Child Development Department, Govt of Maharashtra",
+    "helpline": "181",
+    "officialWhatsapp": null,
+    "source": "Govt of Maharashtra Official Portal",
+    "lastVerified": "2025-01-25",
+    "status": "Active"
+  },
+  {
+    "id": "state-rj-chiranjeevi",
+    "name": "मुख्यमंत्री आयुष्मान आरोग्य योजना (Rajasthan)",
+    "name_en": "Mukhyamantri Ayushman Arogya Yojana (Formerly Chiranjeevi)",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री आयुष्मान आरोग्य योजना", "shortDescription": "राजस्थान के परिवारों को ₹25 लाख तक का कैशलेस स्वास्थ्य बीमा एवं ₹5 लाख का दुर्घटना बीमा।" }
+    },
+    "state": "Rajasthan",
+    "stateCode": "RJ",
+    "scope": "State",
+    "category": "Health",
+    "subcategory": "Universal Health Insurance",
+    "description": "राजस्थान के सभी परिवारों को गंभीर बीमारियों के इलाज हेतु सरकारी एवं संबद्ध निजी चिकित्सालयों में ₹25 लाख तक का कैशलेस इनडोर उपचार तथा ₹5 लाख का दुर्घटना बीमा कवर प्रदान करने की योजना।",
+    "shortDescription": "Universal health coverage providing cashless medical treatment up to ₹25 Lakh and ₹5 Lakh accident insurance for families in Rajasthan.",
+    "benefits": [
+      "Cashless medical treatment up to ₹25,00,000 per family per year",
+      "Accidental death and permanent disability cover of ₹5,00,000",
+      "Free for NFSA, SECC, small/marginal farmers, and contractual workers"
+    ],
+    "eligibility": "Permanent resident families of Rajasthan possessing Jan Aadhaar Card.",
+    "eligibilityRules": {
+      "minAge": 0,
+      "maxAge": 100,
+      "state": "Rajasthan"
+    },
+    "ageLimit": "All ages",
+    "incomeLimit": "Universal in Rajasthan (nominal premium for non-eligible)",
+    "gender": "All",
+    "occupation": "Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Jan Aadhaar Card",
+      "Aadhaar Card",
+      "Ration Card"
+    ],
+    "applicationSteps": [
+      "Verify registration on chiranjeevi.rajasthan.gov.in using Jan Aadhaar ID.",
+      "Download Chiranjeevi Policy Document.",
+      "Show Jan Aadhaar at helpdesk of empanelled hospital for cashless hospitalization."
+    ],
+    "officialWebsite": "https://chiranjeevi.rajasthan.gov.in",
+    "officialApplicationUrl": "https://chiranjeevi.rajasthan.gov.in",
+    "officialDepartment": "Department of Medical, Health and Family Welfare, Govt of Rajasthan",
+    "helpline": "181",
+    "officialWhatsapp": null,
+    "source": "Rajasthan Health Portal",
+    "lastVerified": "2025-01-20",
+    "status": "Active"
+  },
+  {
+    "id": "state-br-kanya-utthan",
+    "name": "मुख्यमंत्री कन्या उत्थान योजना (Bihar)",
+    "name_en": "Mukhyamantri Kanya Utthan Yojana",
+    "translations": {
+      "hi": { "name": "मुख्यमंत्री कन्या उत्थान योजना", "shortDescription": "बिहार की छात्राओं को जन्म से स्नातक तक कुल ₹54,100 तथा स्नातक पास करने पर ₹50,000 एकमुश्त।" }
+    },
+    "state": "Bihar",
+    "stateCode": "BR",
+    "scope": "State",
+    "category": "Education",
+    "subcategory": "Girl Education Incentive",
+    "description": "बाल विवाह रोकने, लिंगानुपात में सुधार लाने और बालिकाओं को उच्च शिक्षा हेतु प्रेरित करने हेतु बिहार सरकार द्वारा जन्म से स्नातक तक विभिन्न चरणों में वित्तीय सहायता तथा स्नातक पास करने पर ₹50,000 की एकमुश्त प्रोत्साहन राशि दी जाती है।",
+    "shortDescription": "Cumulative incentive of ₹54,100 from birth to graduation, with ₹50,000 one-time incentive for girls completing graduation in Bihar.",
+    "benefits": [
+      "₹50,000 direct bank grant on passing Graduation from recognized university in Bihar",
+      "₹25,000 incentive for unmarried girls passing Intermediate (12th)",
+      "Funds directly credited into girl's personal bank account"
+    ],
+    "eligibility": "Resident girl student of Bihar who graduated from a recognized university in Bihar. Intermediate component for unmarried girls.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 17,
+      "maxAge": 30,
+      "state": "Bihar",
+      "education": ["Graduate", "12th Pass"]
+    },
+    "ageLimit": "17 - 30 years",
+    "incomeLimit": "Not specified",
+    "gender": "Female",
+    "occupation": "Student",
+    "socialCategory": "All",
+    "education": "Graduate / 12th Pass",
+    "documents": [
+      "Graduation Final Year Marksheet & Registration Number",
+      "Bihar Domicile Certificate",
+      "Aadhaar Card",
+      "Bank Passbook in student's name"
+    ],
+    "applicationSteps": [
+      "Apply on MedhaSoft portal medhasoft.bih.nic.in.",
+      "Enter University Registration Number and roll number.",
+      "University verifies degree authenticity online.",
+      "State Treasury transfers ₹50,000 directly via DBT."
+    ],
+    "officialWebsite": "https://medhasoft.bih.nic.in",
+    "officialApplicationUrl": "https://medhasoft.bih.nic.in",
+    "officialDepartment": "Education Department, Govt of Bihar",
+    "helpline": "0612-2215323",
+    "officialWhatsapp": null,
+    "source": "Medhasoft Bihar Portal",
+    "lastVerified": "2025-01-15",
+    "status": "Active"
+  },
+  {
+    "id": "state-ka-gruha-lakshmi",
+    "name": "गृह लक्ष्मी योजना (Karnataka)",
+    "name_en": "Gruha Lakshmi Scheme",
+    "translations": {
+      "hi": { "name": "गृह लक्ष्मी योजना", "shortDescription": "कर्नाटक के परिवारों की महिला मुखिया को ₹2,000 प्रति माह प्रत्यक्ष वित्तीय सहायता।" }
+    },
+    "state": "Karnataka",
+    "stateCode": "KA",
+    "scope": "State",
+    "category": "Women",
+    "subcategory": "Universal Household Woman Grant",
+    "description": "कर्नाटक राज्य में परिवार की महिला मुखिया (गृहणी) को आर्थिक स्वावलंबन और सम्मानजनक जीवन प्रदान करने के उद्देश्य से ₹2,000 प्रति माह (₹24,000 वार्षिक) की प्रत्यक्ष वित्तीय सहायता बैंक खाते में उपलब्ध कराने की गारंटी योजना।",
+    "shortDescription": "Direct monthly cash assistance of ₹2,000 to the woman head of every eligible household in Karnataka.",
+    "benefits": [
+      "Monthly DBT of ₹2,000 into woman head of family's bank account",
+      "Aids household food security, children education, and healthcare needs"
+    ],
+    "eligibility": "Woman designated as head of household in Karnataka ration card (Antyodaya, BPL, or APL). Woman or her husband must not be an income-tax or GST payer.",
+    "eligibilityRules": {
+      "gender": ["Female"],
+      "minAge": 18,
+      "maxAge": 90,
+      "state": "Karnataka"
+    },
+    "ageLimit": "18+ years",
+    "incomeLimit": "Non-income tax payer household",
+    "gender": "Female",
+    "occupation": "Homemaker / Any",
+    "socialCategory": "All",
+    "education": "Not required",
+    "documents": [
+      "Karnataka Ration Card (BPL / APL / AAY) showing woman as head of family",
+      "Aadhaar Card of woman and husband",
+      "Aadhaar-seeded bank account details"
+    ],
+    "applicationSteps": [
+      "Apply through Seva Sindhu portal (sevasindhu.karnataka.gov.in) or visit Karnataka One / Grama One centre.",
+      "Submit Ration Card number and Aadhaar biometric verification.",
+      "Acknowledgment receipt generated.",
+      "Monthly ₹2,000 transferred via DBT."
+    ],
+    "officialWebsite": "https://sevasindhu.karnataka.gov.in",
+    "officialApplicationUrl": "https://sevasindhugs.karnataka.gov.in",
+    "officialDepartment": "Department of Women and Child Development, Govt of Karnataka",
+    "helpline": "1902",
+    "officialWhatsapp": null,
+    "source": "Seva Sindhu Portal Karnataka",
+    "lastVerified": "2025-01-22",
+    "status": "Active"
+  }
+]
